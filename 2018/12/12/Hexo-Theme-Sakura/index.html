@@ -811,26 +811,7 @@ links:
 </footer> -->
 <footer id="colophon" class="site-footer" role="contentinfo">
 
-  
- <link rel="stylesheet" href="/live2d/css/live2d.css">
-<div id="landlord">
-        <div class="message" style="opacity: 0"></div>
-        <canvas id="live2d" width="300" height="400" class="live2d"></canvas>
-        <div class="hide-button">隐藏</div>
-    </div>
-    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        var message_Path = '/live2d/'
-        var home_Path = 'https://myfanqie.github.io'
-    </script>
-
-    <script type="text/javascript" src="/live2d/js/live2d.js"></script>
-    <script type="text/javascript" src="/live2d/js/message.js"></script>
-
-    <script type="text/javascript">
-       loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.4/live2d/model/xiaomai/physics.json");
-    </script>
 
 
   <div class="site-info">
@@ -927,6 +908,19 @@ $(document).ready(function() {
       </div>
     </div>
   </section>
+  <div class="waifu">
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-home"></span>
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-info-circle"></span>
+            <span class="fui-cross"></span>
+        </div>
+    </div>
   <div id="mo-nav" class>
   <div class="m-avatar">
     <img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg">
@@ -1168,5 +1162,11 @@ $(document).ready(function() {
     })
   });
 </script></div>
-</body>
+  <script src="assets/setting.js"></script>>
+  </body>
+
+   <link rel="stylesheet" type="text/css" href="assets/waifu.min.css?v=1.4.2"/>
+    <script src="assets/jquery.min.js?v=3.3.1"></script>
+    <script src="assets/jquery-ui.min.js?v=1.12.1"></script>
+
 </html>
