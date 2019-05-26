@@ -515,12 +515,54 @@
     </div>
   </div>
 </footer> -->
-<footer id="colophon" class="site-footer" role="contentinfo">
+<footer id="colophon" class="site-footer" role="contentinfo" onload="startTime()">
 
 
   
 
+
   <div class="site-info">
+    <span id="htmer_time"></span>
+<script>
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }</script>
+<script type="text/javascript" language="javascript">
+    function setTime() {
+        var create_time = Math.round(new Date(Date.UTC(2019,04,20,11,42,23)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = 'myfanqie‘s博客已经运行了：' + currentTime[0] + '年 ' + currentTime[1] + '天 '
+                + currentTime[2] + '时 ' + currentTime[3] + '分 ' + currentTime[4]
+                + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }    setInterval(setTime, 1000);
+</script>
+
+
     <div class="footertext">
       <div class="img-preload">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
@@ -533,10 +575,9 @@
         <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages
         </span>
       </p>
+
     </div>
   </div><!-- .site-info -->
-
-
 
 
 
@@ -648,14 +689,16 @@ $(document).ready(function() {
         live2d_settings['modelStorage'] = false; // 不储存模型 ID
         live2d_settings['canCloseLive2d'] = false; // 隐藏 关闭看板娘 按钮
         live2d_settings['canTurnToHomePage'] = false; // 隐藏 返回首页 按钮
-        live2d_settings['waifuSize'] = '400x370'; // 看板娘大小
-        live2d_settings['waifuTipsSize'] = '370x80'; // 提示框大小
-        live2d_settings['waifuFontSize'] = '30px'; // 提示框字体
-        live2d_settings['waifuEdgeSide'] = 'left:10'; // 看板娘贴边方向
-        live2d_settings['waifuToolFont'] = '36px'; // 工具栏字体
-        live2d_settings['waifuToolLine'] = '60px'; // 工具栏行高
+        live2d_settings['waifuSize'] = '300x270'; // 看板娘大小
+        live2d_settings['waifuTipsSize'] = '250x80'; // 提示框大小
+        live2d_settings['waifuFontSize'] = '20px'; // 提示框字体
+        live2d_settings['waifuEdgeSide'] = 'bottom:0'; // 看板娘贴边方向
+        live2d_settings['waifuToolFont'] = '24px'; // 工具栏字体
+        live2d_settings['waifuToolLine'] = '45px'; // 工具栏行高
         live2d_settings['waifuToolTop'] = '-60px'; // 工具栏顶部边距
-        live2d_settings['waifuDraggable'] = 'axis-x'; // 拖拽样式
+        live2d_settings['waifuDraggable'] = 'unlimited'; // 拖拽样式
+        live2d_settings['waifuDraggableRevert'] = false;  // 松开鼠标还原拖拽位置，可选 true(真), false(假)
+
 
         /* 内置 waifu-tips.json */
         initModel({
