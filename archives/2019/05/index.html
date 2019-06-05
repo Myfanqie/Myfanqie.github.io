@@ -6,7 +6,7 @@
   
   <title itemprop="name">archive_a: 2019/5 | 莉莉娅</title>
   
-    <link rel="shortcut icon" href="/images/favicon1.ico">
+    <link rel="shortcut icon" href="/images/buluoniya.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
@@ -611,10 +611,8 @@
 
 
 
-<!-- <script src="/js/tocbot.js"></script> -->
-<script type="text/javascript">
-    loadlive2d("live2d", "live2d/model/xiaomai/xiaomai.json");
-</script>
+
+
 <script type="text/javascript" src="/js/lib.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/InsightSearch.js"></script>
@@ -711,7 +709,7 @@
 
                 <script type="text/javascript">
                     /* 把 autoload.js 内容直接内置 */
-                    $('body').append('<div class="waifu"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
+                    $('body').append('<div class="waifu" style="z-index:9"><div class="waifu-tips"></div><canvas id="live2d" class="live2d"></canvas><div class="waifu-tool"><span class="fui-home"></span> <span class="fui-chat"></span> <span class="fui-eye"></span> <span class="fui-user"></span> <span class="fui-photo"></span> <span class="fui-info-circle"></span> <span class="fui-cross"></span></div></div>');
                     $.ajax({
                         url: 'assets/waifu-tips.js?v=1.4.2',
                         dataType: "script",
@@ -1162,7 +1160,7 @@
 </div>
 
                 <!-- 这里是一个鼠标点击爆炸的效果 -->
-                <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+                <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 10; pointer-events: none;"></canvas>
                 <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
                 <script type="text/javascript" src="/js/fireworks.js"></script>
 
