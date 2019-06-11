@@ -5426,19 +5426,7 @@ i.iconfont.js-toggle-search.iconsearch {
     text-align:center;
     z-index:999
 }
-.single-reward .reward-open {
-    position:relative;
-    width:40px;
-    height:40px;
-    font-size:18px;
-    padding:7px;
-    color:#fff;
-    text-align:center;
-    display:inline-block;
-    border-radius:100%;
-    background:#d34836;
-    cursor:pointer
-}
+
 .single-reward .reward-main {
     position:absolute;
     top:40px;
@@ -5450,9 +5438,7 @@ i.iconfont.js-toggle-search.iconsearch {
     display:none;
     animation:main .4s
 }
-.reward-open:hover .reward-main {
-    display:block
-}
+
 .single-reward .reward-row {
     margin:0 auto;
     padding:20px 15px 10px;
