@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-11T14:22:22.666Z</updated>
+  <updated>2019-06-13T07:26:34.624Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>通过太极来实现QQ聊天页面的翻译</title>
+    <link href="/2019/06/13/%E9%80%9A%E8%BF%87%E5%A4%AA%E6%9E%81%E6%9D%A5%E5%AE%9E%E7%8E%B0QQ%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2%E7%9A%84%E7%BF%BB%E8%AF%91/"/>
+    <id>/2019/06/13/通过太极来实现QQ聊天页面的翻译/</id>
+    <published>2019-06-13T07:05:27.000Z</published>
+    <updated>2019-06-13T07:26:34.624Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="首先你要搞得到资源-很容易获取"><a href="#首先你要搞得到资源-很容易获取" class="headerlink" title="首先你要搞得到资源(很容易获取)"></a>首先你要搞得到资源(很容易获取)</h2><ol><li>QQ</li><li>太极(去酷安下载)</li><li>微信学英语(百度也有)</li></ol><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><strong>都是apk…..略过</strong></p><h2 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h2><p>这里检查几个地方</p><ol><li><p>qq的版本<strong>(划重点)</strong>,我使用的是<strong>8.0.0</strong>版本,而最新的是8.0.5;如果你是使用的最新的版本可能会出现不兼容的情况.建议使用8.0.0版本<br>(你也可以要我发一个给你)<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk3.jpg" alt></p></li><li><p><strong>模块是不是打上了勾了</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk2.jpg" alt></p></li><li><p><strong>微信学英语的api是否异常(一般都没有问题)</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk1.jpg" alt></p></li><li><p><strong>网络是否正常….</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yingyu.jpg" alt></p></li></ol><h2 id="展示效果"><a href="#展示效果" class="headerlink" title="展示效果"></a>展示效果</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk4.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客重构ing</title>
     <link href="/2019/06/11/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84ing/"/>
     <id>/2019/06/11/博客重构ing/</id>
     <published>2019-06-11T14:22:22.000Z</published>
-    <updated>2019-06-11T14:22:22.666Z</updated>
+    <updated>2019-06-13T07:06:26.923Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>博客炸了,不多bb</p></blockquote>]]></content>
     
     <summary type="html">
     
