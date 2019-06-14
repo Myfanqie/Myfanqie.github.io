@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-13T07:26:34.624Z</updated>
+  <updated>2019-06-14T13:55:03.161Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>迷茫</title>
+    <link href="/2019/06/14/%E8%BF%B7%E8%8C%AB/"/>
+    <id>/2019/06/14/迷茫/</id>
+    <published>2019-06-14T13:43:29.000Z</published>
+    <updated>2019-06-14T13:55:03.161Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>最近天气有点热,莫名的开始迷茫<br>我觉的可能是天气太热,脑子有点转不过来有点抽风了</p></blockquote><h2 id="具体表现"><a href="#具体表现" class="headerlink" title="具体表现"></a>具体表现</h2><ol><li>不知道自己要做什么事情</li><li>学习没有干劲</li><li>一直发呆</li></ol><p>所以来还是写一点东西打发一下时间,</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xqfz.jpg" alt></p><h3 id="找不到学习的资源了"><a href="#找不到学习的资源了" class="headerlink" title="找不到学习的资源了"></a>找不到学习的资源了</h3><p>冷静思考,反复分析<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/fffx.jpg" alt><br>1.GitHub<br>2.知乎<br>3.哔哩哔哩<br>4.相关的QQ群<br>5.菜鸟教程</p><p>想来想去其实还是有资源的.</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>通过太极来实现QQ聊天页面的翻译</title>
