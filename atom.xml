@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-06-15T15:26:40.971Z</updated>
+  <updated>2019-07-04T14:00:03.497Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Apache踩的坑</title>
+    <link href="/2019/07/04/Apache%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
+    <id>/2019/07/04/Apache踩的坑/</id>
+    <published>2019-07-04T13:47:55.000Z</published>
+    <updated>2019-07-04T14:00:03.497Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前差点就放弃了，今天白天想了想，还是决定再试试，到底是什么原因</p><p>最终发现还是端口被占用了,被虚拟机占用了，虽然是说，我压根就没有开虚拟机。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache3.png" alt></p><h6>有时候真的感觉自己好蠢啊</h6><p>启动成功后就是这个样子<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache2.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache1.png" alt></p><p>真的是好开心啊  </p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>学习路上</title>
@@ -46,28 +68,6 @@
     <updated>2019-06-14T13:55:03.161Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>最近天气有点热,莫名的开始迷茫<br>我觉的可能是天气太热,脑子有点转不过来有点抽风了</p></blockquote><h2 id="具体表现"><a href="#具体表现" class="headerlink" title="具体表现"></a>具体表现</h2><ol><li>不知道自己要做什么事情</li><li>学习没有干劲</li><li>一直发呆</li></ol><p>所以来还是写一点东西打发一下时间,</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xqfz.jpg" alt></p><h3 id="找不到学习的资源了"><a href="#找不到学习的资源了" class="headerlink" title="找不到学习的资源了"></a>找不到学习的资源了</h3><p>冷静思考,反复分析<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/fffx.jpg" alt><br>1.GitHub<br>2.知乎<br>3.哔哩哔哩<br>4.相关的QQ群<br>5.菜鸟教程</p><p>想来想去其实还是有资源的.</p>]]></content>
-    
-    <summary type="html">
-    
-      文章描述
-    
-    </summary>
-    
-      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
-    
-    
-      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过太极来实现QQ聊天页面的翻译</title>
-    <link href="/2019/06/13/%E9%80%9A%E8%BF%87%E5%A4%AA%E6%9E%81%E6%9D%A5%E5%AE%9E%E7%8E%B0QQ%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2%E7%9A%84%E7%BF%BB%E8%AF%91/"/>
-    <id>/2019/06/13/通过太极来实现QQ聊天页面的翻译/</id>
-    <published>2019-06-13T07:05:27.000Z</published>
-    <updated>2019-06-13T07:26:34.624Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="首先你要搞得到资源-很容易获取"><a href="#首先你要搞得到资源-很容易获取" class="headerlink" title="首先你要搞得到资源(很容易获取)"></a>首先你要搞得到资源(很容易获取)</h2><ol><li>QQ</li><li>太极(去酷安下载)</li><li>微信学英语(百度也有)</li></ol><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><strong>都是apk…..略过</strong></p><h2 id="异常处理"><a href="#异常处理" class="headerlink" title="异常处理"></a>异常处理</h2><p>这里检查几个地方</p><ol><li><p>qq的版本<strong>(划重点)</strong>,我使用的是<strong>8.0.0</strong>版本,而最新的是8.0.5;如果你是使用的最新的版本可能会出现不兼容的情况.建议使用8.0.0版本<br>(你也可以要我发一个给你)<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk3.jpg" alt></p></li><li><p><strong>模块是不是打上了勾了</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk2.jpg" alt></p></li><li><p><strong>微信学英语的api是否异常(一般都没有问题)</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk1.jpg" alt></p></li><li><p><strong>网络是否正常….</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yingyu.jpg" alt></p></li></ol><h2 id="展示效果"><a href="#展示效果" class="headerlink" title="展示效果"></a>展示效果</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mk4.jpg" alt></p>]]></content>
     
     <summary type="html">
     
@@ -193,56 +193,6 @@
       <category term="随想" scheme="/tags/%E9%9A%8F%E6%83%B3/"/>
     
       <category term="阅读理解" scheme="/tags/%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于我</title>
-    <link href="/2019/06/01/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
-    <id>/2019/06/01/关于我/</id>
-    <published>2019-06-01T12:26:48.000Z</published>
-    <updated>2019-06-01T16:34:34.770Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><pre><code>家里人是农村出来的,能打拼到城市站住脚确实不容易.</code></pre><p>   我家里的观点就是男孩子要穷养,然后还有一个观点就是棍棒出孝子,反正有什么事情打就完事了.在初中以前,我都是这么过来的,不过后面他们说长到一定年龄就不要打孩子了,就没有打了.(没办法老一辈都是这样)</p><p>   那个时候还是小孩子嘛,很容易犯错的,挨打自然是少不了的事情,再加上校园欺凌,老师也不管.导致我整个童年都是阴影,现在都不想再提起.</p><p>   反正那个时候就是十分自卑,小学的时候长得矮,肤色偏黑,而且家里人也不给零花钱.或者这些加起来就是被校园欺凌的原因.</p><p>   那么想我这样的人格会怎么样?当然是一身的问题,还会怎么样.我就是这样,不过我在尽力的修复自己</p><p>   我记得会有以下的问题:</p><ul><li><strong>长期的自卑 走路都抬不起头,不敢正视</strong></li><li><p><strong>目光短浅</strong></p><p>  十分容易受诱惑,我当时差点就辍学了,那时候流行读书无用论,说谁谁谁又在外面赚了多少钱,谁谁谁读了大学还找不到工作.<br>  除此以外还有什么打字员日赚多少多少.该死,真的有毒.这种诱惑</p><p>其实有这两个就他妈令人够呛的了,差点就栽在里面了.还好我爸拉着我,要不然我现在就是在厂子里面干活了.</p><p>好不容易,都熬过来了</p></li></ul><h2 id="怎么做"><a href="#怎么做" class="headerlink" title="怎么做"></a>怎么做</h2><blockquote><p>解决方案</p></blockquote><h3 id="全局观"><a href="#全局观" class="headerlink" title="全局观"></a>全局观</h3><pre><code>       从两个以上的角度去分析问题,全面的去看,而不是一个从一个角度去看问题,这样就可以避免听风是雨.</code></pre><h3 id="天下没有免费的午餐"><a href="#天下没有免费的午餐" class="headerlink" title="天下没有免费的午餐"></a>天下没有免费的午餐</h3><pre><code>   很多时候我会看到许多拉人的消息.什么充多少钱返还多少钱,稳赚不亏的那种.这个问题根据上面那个条件就可   以这么看,我们知道垄断是十分赚钱的,我们假定这是真的,那么他们为什么不找自己人呢.这样垄断的话是真的赚   钱.      但是事实是他们选择的是在网上发布消息吸引你,那么吸引你的动机是什么?      除了赚你的钱,我真的是想不到了. 这个是举了一个例子        反正看到类似的就不要去点就是了</code></pre><h3 id="时间成本和机会成本"><a href="#时间成本和机会成本" class="headerlink" title="时间成本和机会成本"></a>时间成本和机会成本</h3><pre><code>    这两个经济学知识有什么用呢?对于我来说就是认识到时间的珍贵    每一段时间我们都都可以做很多事情,我到底怎么安排时间才是最好的,这个就是我需要思考的问题.    一般来说每个时间段都有该做的事情,都安排好了    只是好多人还是自己感觉很迷茫(然后一边又天天沉迷游戏或者刷剧)</code></pre><hr><h2 id="我为什么要持续不断的学习"><a href="#我为什么要持续不断的学习" class="headerlink" title="我为什么要持续不断的学习"></a>我为什么要持续不断的学习</h2><p><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.8/img/hansshu/hansu.jpg" alt="你的未来"></p><h4 id="这个已经写的很明白的"><a href="#这个已经写的很明白的" class="headerlink" title="这个已经写的很明白的"></a>这个已经写的很明白的</h4><p><strong>只要持续不断的学习,你的成长就会成指数增长</strong></p><hr><h3 id="为什么要写这个-因为相比于那些一路上都是顺风顺水的人来说-我其实走了很多很多的弯路"><a href="#为什么要写这个-因为相比于那些一路上都是顺风顺水的人来说-我其实走了很多很多的弯路" class="headerlink" title="为什么要写这个      因为相比于那些一路上都是顺风顺水的人来说,我其实走了很多很多的弯路"></a>为什么要写这个      因为相比于那些一路上都是顺风顺水的人来说,我其实走了很多很多的弯路</h3>   <h4>现在就想着珍惜现在的时光,像现在这种即可以学习又可以做自己想做的事情的时间真的不多了</h4>   <h6>仿佛都是屁话</h6><p><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.8/img/hansshu/hansu2.jpg" alt="二图"></p><h2 id="高考可以不可以决定一个人的未来"><a href="#高考可以不可以决定一个人的未来" class="headerlink" title="高考可以不可以决定一个人的未来?"></a>高考可以不可以决定一个人的未来?</h2><pre><code>    这个问题真的是史前巨坑.    不过也有答案....    有的人说是的,考上大学的前途都不错,有稳定的工作和收入    也有的人说不是,高考没考好,在外面混起来的也有不少.    其实怎么说都没错.只是.......    我看过的答案里面最好的是    决定你未来的不是高考,而是你逝去的每一天</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      刚刚开始学计算机,萌新求带
-    
-    </summary>
-    
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="随想" scheme="/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>追求</title>
-    <link href="/2019/05/26/%E8%BF%BD%E6%B1%82/"/>
-    <id>/2019/05/26/追求/</id>
-    <published>2019-05-26T10:16:01.000Z</published>
-    <updated>2019-06-01T16:31:09.105Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="我们追求的到底是什么"><a href="#我们追求的到底是什么" class="headerlink" title="我们追求的到底是什么"></a>我们追求的到底是什么</h2><pre><code>我们追求的到底是什么？？</code></pre><p>   可能我追求的并不是一个<em>结果</em>，一旦想追求结果，人就会想方设法的抄近路，在抄近路的过程中人又容易迷失方向，做事的干劲也会消磨殆尽，我认为最重要的是<em>想要追求真相的意志</em>，只要有了这份追求真相的意志，就算现在看不到结果，终一天也会得到结果</p><hr><h2 id="我想做一个什么样的人"><a href="#我想做一个什么样的人" class="headerlink" title="我想做一个什么样的人"></a>我想做一个什么样的人</h2><p>上学的时候，看过许多考试作弊的人，他们都是一心想要追求结果而不择手段的，有的是查资料、有的是传纸条、有<br>    的是偷看他人的答案。</p><p>   我记得有一次，我认识的那个同学，通过一些手段提前搞到了化学试卷，结果直接考了全班第一（化学单科），那是一次期中考试，还开了家长会，全班表扬，甚至是年级主任还额外给了他一个进步奖，还有一些奖品。   </p><pre><code>那么这真的是对的吗???</code></pre><p>可能我还是太老实了，我觉得不对，所以并不想这样做。他们肯定知道不对，但是依旧铤而走险，每次考试都查得挺严的。</p><p>后来有一次考试被抓作弊开除了，其实一次作弊并不会开除，最终是被发现多次作弊的证据，才被开除的。可能作弊是会上瘾的吧。</p><hr><pre><code>只是忽然想起，有的人这么说--来这里读书就是混一个文凭......;然后就真的是，上课玩手机、睡觉。。。在寝室更是不要说。。。其实我不好说什么，只是不想两年以后什么都不会。</code></pre><hr><p>或许这样已经做到很好了。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;我们追求的到底是什么&quot;&gt;&lt;a href=&quot;#我们追求的到底是什么&quot; class=&quot;headerlink&quot; title=&quot;我们追求的到底是什么&quot;&gt;&lt;/a&gt;我们追求的到底是什么&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;我们追求的到底是什么？？
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; 
-      
-    
-    </summary>
-    
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="web" scheme="/tags/web/"/>
-    
-      <category term="随想" scheme="/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
