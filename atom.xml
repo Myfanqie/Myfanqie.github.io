@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-08-03T01:21:56.760Z</updated>
+  <updated>2019-08-11T16:54:16.507Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>百度云限速的解决方案(电脑端)</title>
+    <link href="/2019/08/12/%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E7%94%B5%E8%84%91%E7%AB%AF/"/>
+    <id>/2019/08/12/百度云限速的解决方案-电脑端/</id>
+    <published>2019-08-11T16:29:03.000Z</published>
+    <updated>2019-08-11T16:54:16.507Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近又要在百度云上下载一些资源，可惜百度云的尿性。。。</p><p>然后我决定在pandownload上面下载。。。。。</p><p>结果 。。。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao.png" alt></p><p>pandownload也被限速了，内心。。。。。。。</p><p>不过我突然发现了pandownload可以提取链接</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao2.png" alt></p><p>然后我又想起了IDM</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao3.png" alt></p><p>点击新建任务</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao4.png" alt></p><p><strong>但是但是但是文件的总大小不能超过300M</strong><br>这是一个比较遗憾的事情</p><p>然后就可以开始享受极速的下载速度了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xiaohuli01.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>醍醐灌顶</title>
