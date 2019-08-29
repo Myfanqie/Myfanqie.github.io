@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-08-11T16:54:16.507Z</updated>
+  <updated>2019-08-29T08:22:26.194Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于家里的网速异常</title>
+    <link href="/2019/08/29/%E5%85%B3%E4%BA%8E%E5%AE%B6%E9%87%8C%E7%9A%84%E7%BD%91%E9%80%9F%E5%BC%82%E5%B8%B8/"/>
+    <id>/2019/08/29/关于家里的网速异常/</id>
+    <published>2019-08-29T06:05:25.000Z</published>
+    <updated>2019-08-29T08:22:26.194Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天崩坏三更新了，兴致勃勃的去更新游戏，大更新每次都是3G往上走<br>每次下载大文件我  都是把手机放在路由器上下载<br>这次也不例外。<br>但是网速始终都是只有5M/s，然后我就是重启路由器，结果还是一样的<br>用电脑有线连接还是一样。网速始终不过5M/s</p><p>然后我登录了192.168.0.1<br>一边还查了一下百度</p><p>然后我发现了这一句话</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip.png" alt></p><p>意思就是NET转发使得自己的ip不是公网ip了</p><p>关掉后就好了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/iPhone.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip3.png" alt></p><p>轻轻松松上20M/s</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>百度云限速的解决方案(电脑端)</title>
