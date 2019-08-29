@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-08-29T08:22:26.194Z</updated>
+  <updated>2019-08-29T17:58:03.231Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习观</title>
+    <link href="/2019/08/30/%E5%AD%A6%E4%B9%A0%E8%A7%82/"/>
+    <id>/2019/08/30/学习观/</id>
+    <published>2019-08-29T16:00:38.000Z</published>
+    <updated>2019-08-29T17:58:03.231Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直以来我都在找学习的技巧方法什么的</p><p>要说的话还真的是有</p><p>下面是机器学习的理论</p><h2 id="学习是什么"><a href="#学习是什么" class="headerlink" title="学习是什么"></a>学习是什么</h2><blockquote><p>学习是在有限的例子中找到问题和答案规律的一个过程<br>而这个规律就是知识</p></blockquote><p>如果你不能用简单的语言来描述你的知识，你就没有真正的学会它</p><p>学习是为了解决新问题，所以需要验证从例子中提炼的知识是否能够描述问题和答案之间的真正规律，而不是仅仅记住了例子</p><p>学习就是从已知情况寻找可预测未知情况的规律，这个规律在意识层面上叫做知识，但更加普遍的名字叫做模型</p><p>模型可以解决从未见过情况叫做<strong>泛化能力</strong><br>而模型只能解决学习时见过的情况，却无法解决未见过的情况的现象叫做<strong>过拟合</strong></p><h3 id="学习和记忆有什么区别"><a href="#学习和记忆有什么区别" class="headerlink" title="学习和记忆有什么区别"></a>学习和记忆有什么区别</h3><p>记忆    容量有限，难以集齐<br>知识    找出知识，压缩信息</p><h2 id="学习的误区"><a href="#学习的误区" class="headerlink" title="学习的误区"></a>学习的误区</h2><p><code>学习≠记忆  知识≠信息</code><br><strong>人无法仅凭记住知识来学会知识</strong></p><p>以为将知识告诉某人，对方就可以学会了<br>然后知识的描述只是起一个引导作用</p><p>最终的学习一定要理清问题与答案之间的关系</p><h2 id="学不会的原因"><a href="#学不会的原因" class="headerlink" title="学不会的原因"></a>学不会的原因</h2><ol><li>错误的输入与输出</li><li>错误的学习方式</li><li>不用例子学习</li></ol><h3 id="学习的两种方法"><a href="#学习的两种方法" class="headerlink" title="学习的两种方法"></a>学习的两种方法</h3><ol><li>思维导图</li><li>费曼技巧    – 目的为主导  核心在验证</li></ol><h2 id="学习的三大公理"><a href="#学习的三大公理" class="headerlink" title="学习的三大公理"></a>学习的三大公理</h2><ol><li>学习是重塑大脑连接</li><li>学习要有明确的输入与输出</li><li>学习要有多个例子</li></ol><p>所以说</p><p>学习只需要确定正确的输入与输出，靠大量的例子来重塑大脑连接。。</p><h3 id="刻意练习"><a href="#刻意练习" class="headerlink" title="刻意练习"></a>刻意练习</h3><p>人类之所以需要练习的原因就是要让大脑自动从各种不同的情况中寻找规律，以便对应从来都没有见过的情况</p><p>计算机已经可以根据信息来归纳知识，但很多人却还想计算机一样去记忆信息<br><del>我们教会了计算机如何学习，却从来没有教过学生如何使用演化出的大脑</del></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>关于家里的网速异常</title>
