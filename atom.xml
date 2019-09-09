@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-08-29T17:58:03.231Z</updated>
+  <updated>2019-09-09T13:16:27.309Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>如何查找pdf资源</title>
+    <link href="/2019/09/09/%E5%A6%82%E4%BD%95%E6%9F%A5%E6%89%BEpdf%E8%B5%84%E6%BA%90/"/>
+    <id>/2019/09/09/如何查找pdf资源/</id>
+    <published>2019-09-09T12:37:07.000Z</published>
+    <updated>2019-09-09T13:16:27.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天早上准备去图书馆自习的<br>结果他妈的进不去了，卡坏了，站在图书馆门口贼尴尬，刷卡失败、失败。<br>此时我的心态发生了变化。。。。。<br>当时真的想找一个洞钻进去。。。。</p><p>然后我还能怎么办。。只能默默离开了。。。。</p><p>然后想了一下去了教学楼了，随便找了一个教室。。但是没有书。。。<br>原计划是图书馆有书就直接去拿就好了。<br>没有书，，不过笔记本电脑、手机、本子、笔还是带了。。。</p><p>一顿操作<br>联网 、打开浏览器、 百度、、  计算机网络pdf</p><p>居然要付费。。。。。</p><p>垃圾百度。。。。<br>一大早的体验就槽糕了一批。。。<br>冷静分析<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/fffx.png" alt></p><p>虽然今天有点难搞但是并不能我觉得总有解决方案的</p><p>打开知乎</p><p>果然。。。还是知乎靠谱</p><p>我找到了两个靠谱的</p><h2 id="鸠摩搜书"><a href="#鸠摩搜书" class="headerlink" title="鸠摩搜书"></a><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">鸠摩搜书</a></h2><p><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mj.png" alt></a></p><p>直接搜就可以了，我觉的还是蛮方便的</p><h2 id="微盘（旧版）手机端"><a href="#微盘（旧版）手机端" class="headerlink" title="微盘（旧版）手机端"></a>微盘（旧版）手机端</h2><p>获取方式：淘宝；如图</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/wp.jpg" alt></p><p>成本也不高，只要七毛。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/wp2.jpg" alt></p><p>效率也是蛮高的</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mi.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>学习观</title>
     <link href="/2019/08/30/%E5%AD%A6%E4%B9%A0%E8%A7%82/"/>
     <id>/2019/08/30/学习观/</id>
     <published>2019-08-29T16:00:38.000Z</published>
-    <updated>2019-08-29T17:58:03.231Z</updated>
+    <updated>2019-09-09T13:36:39.587Z</updated>
     
     <content type="html"><![CDATA[<p>一直以来我都在找学习的技巧方法什么的</p><p>要说的话还真的是有</p><p>下面是机器学习的理论</p><h2 id="学习是什么"><a href="#学习是什么" class="headerlink" title="学习是什么"></a>学习是什么</h2><blockquote><p>学习是在有限的例子中找到问题和答案规律的一个过程<br>而这个规律就是知识</p></blockquote><p>如果你不能用简单的语言来描述你的知识，你就没有真正的学会它</p><p>学习是为了解决新问题，所以需要验证从例子中提炼的知识是否能够描述问题和答案之间的真正规律，而不是仅仅记住了例子</p><p>学习就是从已知情况寻找可预测未知情况的规律，这个规律在意识层面上叫做知识，但更加普遍的名字叫做模型</p><p>模型可以解决从未见过情况叫做<strong>泛化能力</strong><br>而模型只能解决学习时见过的情况，却无法解决未见过的情况的现象叫做<strong>过拟合</strong></p><h3 id="学习和记忆有什么区别"><a href="#学习和记忆有什么区别" class="headerlink" title="学习和记忆有什么区别"></a>学习和记忆有什么区别</h3><p>记忆    容量有限，难以集齐<br>知识    找出知识，压缩信息</p><h2 id="学习的误区"><a href="#学习的误区" class="headerlink" title="学习的误区"></a>学习的误区</h2><p><code>学习≠记忆  知识≠信息</code><br><strong>人无法仅凭记住知识来学会知识</strong></p><p>以为将知识告诉某人，对方就可以学会了<br>然后知识的描述只是起一个引导作用</p><p>最终的学习一定要理清问题与答案之间的关系</p><h2 id="学不会的原因"><a href="#学不会的原因" class="headerlink" title="学不会的原因"></a>学不会的原因</h2><ol><li>错误的输入与输出</li><li>错误的学习方式</li><li>不用例子学习</li></ol><h3 id="学习的两种方法"><a href="#学习的两种方法" class="headerlink" title="学习的两种方法"></a>学习的两种方法</h3><ol><li>思维导图</li><li>费曼技巧    – 目的为主导  核心在验证</li></ol><h2 id="学习的三大公理"><a href="#学习的三大公理" class="headerlink" title="学习的三大公理"></a>学习的三大公理</h2><ol><li>学习是重塑大脑连接</li><li>学习要有明确的输入与输出</li><li>学习要有多个例子</li></ol><p>所以说</p><p>学习只需要确定正确的输入与输出，靠大量的例子来重塑大脑连接。。</p><h3 id="刻意练习"><a href="#刻意练习" class="headerlink" title="刻意练习"></a>刻意练习</h3><p>人类之所以需要练习的原因就是要让大脑自动从各种不同的情况中寻找规律，以便对应从来都没有见过的情况</p><p>计算机已经可以根据信息来归纳知识，但很多人却还想计算机一样去记忆信息<br><del>我们教会了计算机如何学习，却从来没有教过学生如何使用演化出的大脑</del></p>]]></content>
     
@@ -43,9 +65,9 @@
     <link href="/2019/08/29/%E5%85%B3%E4%BA%8E%E5%AE%B6%E9%87%8C%E7%9A%84%E7%BD%91%E9%80%9F%E5%BC%82%E5%B8%B8/"/>
     <id>/2019/08/29/关于家里的网速异常/</id>
     <published>2019-08-29T06:05:25.000Z</published>
-    <updated>2019-08-29T08:22:26.194Z</updated>
+    <updated>2019-09-09T13:25:02.004Z</updated>
     
-    <content type="html"><![CDATA[<p>今天崩坏三更新了，兴致勃勃的去更新游戏，大更新每次都是3G往上走<br>每次下载大文件我  都是把手机放在路由器上下载<br>这次也不例外。<br>但是网速始终都是只有5M/s，然后我就是重启路由器，结果还是一样的<br>用电脑有线连接还是一样。网速始终不过5M/s</p><p>然后我登录了192.168.0.1<br>一边还查了一下百度</p><p>然后我发现了这一句话</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip.png" alt></p><p>意思就是NET转发使得自己的ip不是公网ip了</p><p>关掉后就好了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/iPhone.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip3.png" alt></p><p>轻轻松松上20M/s</p>]]></content>
+    <content type="html"><![CDATA[<p>今天崩坏三更新了，兴致勃勃的去更新游戏，大更新每次都是3G往上走<br>每次下载大文件我  都是把手机放在路由器上下载<br>这次也不例外。<br>但是网速始终都是只有5M/s，然后我就是重启路由器，结果还是一样的<br>用电脑有线连接还是一样。网速始终不过5M/s</p><p>然后我登录了192.168.0.1<br>一边还查了一下百度</p><p>然后我发现了这一句话</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip.png" alt></p><p>意思就是NET转发使得自己的ip不是公网ip了</p><p>关掉后就好了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/iPhone.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip3.png" alt></p><p>轻轻松松上20M/s</p><p>补充：后面不知道怎么回事，一朝回到解放前。。。。突然又双叒叕限速了、</p><p>找了好久，发现了是DNS的问题，DNS配置成了0.0.0.0</p><p>好歹还是学到了一点</p><ol><li>NAT转发会将公网ip装换成内网ip，但是公网ip并不意味着网速更快。。</li><li>DNS的作用不仅仅是将域名转化成IP地址，甚至会影响网速的上限。。。</li></ol>]]></content>
     
     <summary type="html">
     
@@ -65,7 +87,7 @@
     <link href="/2019/08/12/%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E7%94%B5%E8%84%91%E7%AB%AF/"/>
     <id>/2019/08/12/百度云限速的解决方案-电脑端/</id>
     <published>2019-08-11T16:29:03.000Z</published>
-    <updated>2019-08-11T16:54:16.507Z</updated>
+    <updated>2019-09-09T15:08:18.626Z</updated>
     
     <content type="html"><![CDATA[<p>最近又要在百度云上下载一些资源，可惜百度云的尿性。。。</p><p>然后我决定在pandownload上面下载。。。。。</p><p>结果 。。。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao.png" alt></p><p>pandownload也被限速了，内心。。。。。。。</p><p>不过我突然发现了pandownload可以提取链接</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao2.png" alt></p><p>然后我又想起了IDM</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao3.png" alt></p><p>点击新建任务</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao4.png" alt></p><p><strong>但是但是但是文件的总大小不能超过300M</strong><br>这是一个比较遗憾的事情</p><p>然后就可以开始享受极速的下载速度了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xiaohuli01.jpg" alt></p>]]></content>
     
@@ -83,11 +105,11 @@
   </entry>
   
   <entry>
-    <title>醍醐灌顶</title>
-    <link href="/2019/08/03/%E9%86%8D%E9%86%90%E7%81%8C%E9%A1%B6/"/>
-    <id>/2019/08/03/醍醐灌顶/</id>
+    <title>学习观（1）</title>
+    <link href="/2019/08/03/%E5%AD%A6%E4%B9%A0%E8%A7%82%EF%BC%881%EF%BC%89/"/>
+    <id>/2019/08/03/学习观（1）/</id>
     <published>2019-08-03T00:16:20.000Z</published>
-    <updated>2019-08-03T01:21:56.760Z</updated>
+    <updated>2019-09-09T15:07:29.519Z</updated>
     
     <content type="html"><![CDATA[<p>暑假学习要开始了，本来准备教老弟学一点编程的相关的电脑知识，但是好像他不怎么感兴趣，遂放弃。</p><p>我要开始自己搞自己的了<del>真的不是我自私</del></p><p>有时候听君一席话，便解开了困扰我许久的迷茫。<del>有时候或许不是我一个人的迷茫，而是我这个年龄段的迷茫</del></p><h2 id="经常读书与不读书的区别？"><a href="#经常读书与不读书的区别？" class="headerlink" title="经常读书与不读书的区别？"></a>经常读书与不读书的区别？</h2><blockquote><p>问：经常读书与不读书的区别？<br>答：现在网络上的一些观点，似是而非、博人一乐。 这个月看过，下个月都不想回顾。。（点名批评抖音）<strong>如果读了书，有了分辨力，再去追求自己的梦想，有了自己的观点，就不会人云亦云了</strong></p></blockquote><blockquote><p>问：感觉自己好菜，过起来很迷茫<br>问：我从现在开始读书还来的及吗<br>答：<strong>读书什么时候都不晚，人一能之，己百之。人十能之，己千之。果能此道矣，虽愚必明，虽柔必强</strong>。</p></blockquote><blockquote><p>问：剩下的时间我还能做什么啊<br>答：<strong>做什么不重要，重要的是努力和合时宜，努力可能会撒谎，但绝不会白费</strong>。</p></blockquote><h2 id="别人家的家长"><a href="#别人家的家长" class="headerlink" title="别人家的家长"></a>别人家的家长</h2><blockquote><p>孩子：我觉得我考不上大学了。<br>家长：考不上就考不上呗<br>孩子：那要复读吗<br>家长：读  哪有复读这一说；就是读一百遍也是苟日新，日日新，又日新</p></blockquote><p>来自电视剧《少年派》的一段父女之间的对话，我觉得真的是醍醐灌顶。<br><a href="https://www.zhihu.com/question/64501030/answer/756672448" target="_blank" rel="noopener">点这里跳转</a></p>]]></content>
     
