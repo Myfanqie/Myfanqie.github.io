@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-09-09T13:16:27.309Z</updated>
+  <updated>2019-09-11T12:59:17.004Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA配置tomcat的环境</title>
+    <link href="/2019/09/11/%E2%80%98IEDA%E9%85%8D%E7%BD%AEtomcat%E7%9A%84%E7%8E%AF%E5%A2%83/"/>
+    <id>/2019/09/11/‘IEDA配置tomcat的环境/</id>
+    <published>2019-09-11T12:00:18.000Z</published>
+    <updated>2019-09-11T12:59:17.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个学期开始学习JSP了，书上推荐的IDE是myeclipse 我觉得还是不好，就来撸IDEA了</p><p>这个东西一开始查百度的时候很烦，有很多教程都不好。。。</p><p>那么现在就开始讲我怎么配置的吧</p><h2 id="首先你要下载Tomcat"><a href="#首先你要下载Tomcat" class="headerlink" title="首先你要下载Tomcat"></a>首先你要下载Tomcat</h2><p>下载我就不说了，直接解压Tomcat放在一个好记的位置。<br>比如我是放在了D:/Tomcat</p><h2 id="测试Tomcat"><a href="#测试Tomcat" class="headerlink" title="测试Tomcat"></a>测试Tomcat</h2><p>打开tomcat所在文件<br>打开<strong>bin</strong>目录下的<strong>stratup.bat</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc.png" alt></p><p>接下来你会看到</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc2.png" alt></p><p>tomcat如果没有闪退，也没有出现错误信息那就是成功了</p><p>当然如果是闪退的话，你要看看自己的电脑是不是有多个tomcat，或者端口被占用了<br><strong>查看端口的命令是netstat -ano</strong></p><h2 id="开始配置IDEA"><a href="#开始配置IDEA" class="headerlink" title="开始配置IDEA"></a>开始配置IDEA</h2><ol><li>创建web项目</li><li><p>如下图点击右上角的Edit config。。。<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc3.png" alt></p></li><li><p>如下图点击左上角的“+”号</p></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc4.png" alt></p><ol start="4"><li>选择Tomcat Server    local</li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc5.png" alt></p><ol start="5"><li>配置好tomcat的安装路径<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc6.png" alt></li></ol><ol start="6"><li>选择你的web项目,你的项目一定会输出在out目录下<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc7.png" alt></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc9.png" alt></p><ol start="7"><li><p>点击小绿标，启动tomcat<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc10.png" alt></p></li><li><p>这里会自动打开浏览器，要注意URL的正确性<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc11.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc12.png" alt></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>如何查找pdf资源</title>
