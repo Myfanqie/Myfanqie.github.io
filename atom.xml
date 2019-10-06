@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-10-06T16:44:50.433Z</updated>
+  <updated>2019-10-06T16:53:29.708Z</updated>
   <id>/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="/2019/10/06/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%89%E8%A3%85-deepin/"/>
     <id>/2019/10/06/双系统的安装-deepin/</id>
     <published>2019-10-06T14:43:10.000Z</published>
-    <updated>2019-10-06T16:44:50.433Z</updated>
+    <updated>2019-10-06T16:53:29.708Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="事出起因（先讲一波废话"><a href="#事出起因（先讲一波废话" class="headerlink" title="事出起因（先讲一波废话"></a>事出起因（先讲一波废话</h2><p>就是昨天<br>突然想要操作一波Linux系统，打开虚拟机，<br>启动ing  。。。。。。。<br>。。。。。。</p><p>无比的漫长真的是令人心塞。等了起码有十几分钟，还是打不开。。<br>百度找解决方案。并没有找到满意的。</p><p>然后想起群里的大佬很多都是双系统，所以我决定也来搞一波</p><p>因为我没有装过双系统，保险起见我还是选择了deepin</p><h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><ol><li><p>打开deepin的官网，下载镜像<br><del>一开始，我是选择官网的镜像，妈的，太慢了。后面还是找了清华大学的镜像源</del></p></li><li><p>需要一个空的磁盘作为新系统的系统盘，在计算机-管理-磁盘管理  切一个新的盘出来（磁盘空间至少要大于30G）</p></li></ol><ol start="3"><li>插上U盘（U盘的存储空间需要大于4G）</li></ol><ol start="4"><li><p>找到刚刚下好的deepin镜像文件，双击打开，里面有一个exe文件（这个就是U盘启动盘的制作工具）然后按照提示，选择deepin的镜像文件。这样就制作好了一个deepinU盘的启动盘</p></li><li><p>重启电脑，进入BIOS ，找到U盘，设置启动优先级</p></li><li><p>自动重启后直接回车键，第一个选项就是install deepin </p></li><li><p>后面就很简单了，唯一一个要注意的就是他会要求你选择安装系统的系统盘，这个就是前面<br>分的空磁盘。</p></li></ol><h2 id="体验的deepin的感受"><a href="#体验的deepin的感受" class="headerlink" title="体验的deepin的感受"></a>体验的deepin的感受</h2><p>优点缺点都说一下吧</p><p>好的地方：</p><ol><li>UI界面美观，界面上可以选择想MacOS那样的简洁风格，也可以选择想win这样的功能性风格</li><li><p>设置功能多，允许用户自定义的地方蛮多的，而且这个设置风格还有点像iPad</p></li><li><p>文件管理，这里居然同时拥有了win和Linux的两种文件管理方式，既有磁盘管理，也有标准的Linux文件管理</p></li></ol><p>目前发现的有点不尽人意的地方</p><ol><li>关机或者开机的时候，会有一瞬间的画面撕裂，部分画面失真</li><li>qq和tim聊天的时候没有win用起来舒服</li><li><p>打字的时候有可能会光标乱跳，百度说是打字的时候碰到了触控板，但是我在win下面打字的时候也是这样的，这里就是涉及到了一个算法的问题，当触控板大量的面积被触控时，就无视操作，而这个deepin就是太敏感了，不够后面还是在设置里面找了了。（输入的时候禁用触控板）</p></li><li><p>突然的宕机，一下子不知道发生了什么，就死机了，就是鼠标动不了，键盘也按不了。<br>内存明明是绰绰有余的，cpu占用也不高。就是很他妈的奇怪，这个是最烦的</p></li></ol><h2 id="end"><a href="#end" class="headerlink" title="end"></a>end</h2><p>我觉得国产系统还是很有希望的<br>期待中</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="事出起因（先讲一波废话"><a href="#事出起因（先讲一波废话" class="headerlink" title="事出起因（先讲一波废话"></a>事出起因（先讲一波废话</h2><p>就是昨天<br>突然想要操作一波Linux系统，打开虚拟机，<br>启动ing  。。。。。。。<br>。。。。。。</p><p>无比的漫长真的是令人心塞。等了起码有十几分钟，还是打不开。。<br>百度找解决方案。并没有找到满意的。</p><p>然后想起群里的大佬很多都是双系统，所以我决定也来搞一波</p><p>因为我没有装过双系统，保险起见我还是选择了deepin</p><h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><ol><li><p>打开deepin的官网，下载镜像<br><del>一开始，我是选择官网的镜像，妈的，太慢了。后面还是找了清华大学的镜像源</del></p></li><li><p>需要一个空的磁盘作为新系统的系统盘，在计算机-管理-磁盘管理  切一个新的盘出来（磁盘空间至少要大于30G）</p></li></ol><ol start="3"><li>插上U盘（U盘的存储空间需要大于4G）</li></ol><ol start="4"><li><p>找到刚刚下好的deepin镜像文件，双击打开，里面有一个exe文件（这个就是U盘启动盘的制作工具）然后按照提示，选择deepin的镜像文件。这样就制作好了一个deepinU盘的启动盘</p></li><li><p>重启电脑，进入BIOS ，找到U盘，设置启动优先级</p></li><li><p>自动重启后直接回车键，第一个选项就是install deepin </p></li><li><p>后面就很简单了，唯一一个要注意的就是他会要求你选择安装系统的系统盘，这个就是前面<br>分的空磁盘。</p></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/deepin1.jpeg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/deepin2.jpeg" alt></p><h2 id="体验的deepin的感受"><a href="#体验的deepin的感受" class="headerlink" title="体验的deepin的感受"></a>体验的deepin的感受</h2><p>优点缺点都说一下吧</p><p>好的地方：</p><ol><li>UI界面美观，界面上可以选择想MacOS那样的简洁风格，也可以选择想win这样的功能性风格</li><li><p>设置功能多，允许用户自定义的地方蛮多的，而且这个设置风格还有点像iPad</p></li><li><p>文件管理，这里居然同时拥有了win和Linux的两种文件管理方式，既有磁盘管理，也有标准的Linux文件管理</p></li></ol><p>目前发现的有点不尽人意的地方</p><ol><li>关机或者开机的时候，会有一瞬间的画面撕裂，部分画面失真</li><li>qq和tim聊天的时候没有win用起来舒服</li><li><p>打字的时候有可能会光标乱跳，百度说是打字的时候碰到了触控板，但是我在win下面打字的时候也是这样的，这里就是涉及到了一个算法的问题，当触控板大量的面积被触控时，就无视操作，而这个deepin就是太敏感了，不够后面还是在设置里面找了了。（输入的时候禁用触控板）</p></li><li><p>突然的宕机，一下子不知道发生了什么，就死机了，就是鼠标动不了，键盘也按不了。<br>内存明明是绰绰有余的，cpu占用也不高。就是很他妈的奇怪，这个是最烦的</p></li></ol><h2 id="end"><a href="#end" class="headerlink" title="end"></a>end</h2><p>我觉得国产系统还是很有希望的<br>期待中</p>]]></content>
     
     <summary type="html">
     
