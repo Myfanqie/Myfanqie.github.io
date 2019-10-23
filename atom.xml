@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-10-16T14:59:25.576Z</updated>
+  <updated>2019-10-22T12:11:59.328Z</updated>
   <id>/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="/2019/10/16/deepin%E4%BD%93%E9%AA%8C%E4%BA%86%E5%87%A0%E5%A4%A9%E5%90%8E/"/>
     <id>/2019/10/16/deepin体验了几天后/</id>
     <published>2019-10-16T13:43:46.000Z</published>
-    <updated>2019-10-16T14:59:25.576Z</updated>
+    <updated>2019-10-22T12:11:59.328Z</updated>
     
     <content type="html"><![CDATA[<p>体验了一段时间的deepin<br>多多少少也学了不少的东西</p><p>有时候真的是想着<br><del>要是有人带着我搞学习就好了（一对一的那种,最好是妹子)</del></p><h2 id="第一次初始化deepin"><a href="#第一次初始化deepin" class="headerlink" title="第一次初始化deepin"></a>第一次初始化deepin</h2><h3 id="设置root（必备"><a href="#设置root（必备" class="headerlink" title="设置root（必备"></a>设置root（必备</h3><p>deepin装好了后肯定就是设置管理员权限啦</p><pre><code>sudo passwd root</code></pre><p><img src alt></p><h3 id="科学上网（必备"><a href="#科学上网（必备" class="headerlink" title="科学上网（必备"></a>科学上网（必备</h3><p>其实不难发现，应用商店里面有一个shadowsock  但是我用了一下，感觉还是不是很好用。（反正我是没有使用成功）</p><p>所以我用了一个GitHub的项目，是GUI的界面十分的友好，操作也简单</p><p><a href="https://github.com/Myfanqie/electron-ssr-backup" target="_blank" rel="noopener">点这里跳转</a><br>原作者已经把项目删除了，你觉得可以的话可以fork一份</p><p>其实还可以使用命令行的科学上网但是太复杂了我就不写了（手动狗头</p><h2 id="其他的安装（可选"><a href="#其他的安装（可选" class="headerlink" title="其他的安装（可选"></a>其他的安装（可选</h2><h4 id="安装Gdebi"><a href="#安装Gdebi" class="headerlink" title="安装Gdebi"></a>安装Gdebi</h4><pre><code>sudo apt-get install gdebi</code></pre><h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><pre><code>sudo apt-get install git</code></pre><h4 id="安装vim"><a href="#安装vim" class="headerlink" title="安装vim"></a>安装vim</h4><pre><code>sudo apt-get install vim</code></pre><h4 id="安装Curl和tsocks-jq"><a href="#安装Curl和tsocks-jq" class="headerlink" title="安装Curl和tsocks,jq"></a>安装Curl和tsocks,jq</h4><pre><code>sudo apt-get install curl tscocks jq</code></pre><h3 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h3><p>推荐主题 No man’s Sky Theme<br>推荐插件 油猴插件 划词翻译</p><h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h4 id="安装Gnome-tweak-tool"><a href="#安装Gnome-tweak-tool" class="headerlink" title="安装Gnome-tweak-tool"></a>安装Gnome-tweak-tool</h4><pre><code>sudo apt-get install gnome-tweak-tool</code></pre><p>换个好看点的壁纸吧</p><h2 id="目前已知的bug"><a href="#目前已知的bug" class="headerlink" title="目前已知的bug"></a>目前已知的bug</h2><ol><li><p>笔记本的亮度异常开机的时候很亮，然后到了登录界面的时候就变得很暗，这个就非常的难受</p><p>解决方法：将笔记本的屏幕关上，然后过一下子再打开这样子的话亮度就正常了</p></li><li><p>突然宕机（原因不明）</p></li></ol><p>解决方案： 目前只有重启</p><ol start="3"><li>打字的时候光标乱跳</li></ol><p>解决方案： 暂时的方案是，将触摸板禁用（可能是我打字的时候碰到了触摸板，但是win下面没有这种情况</p><ol start="4"><li>qq收藏的表情不见了</li></ol><p>暂时没有解决方案，我也不知道为什么</p><p><b>希望厂商尽快跟进，虽然看不到我的这个文章</b></p>]]></content>
     
