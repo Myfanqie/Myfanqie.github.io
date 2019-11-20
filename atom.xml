@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-11-09T16:55:57.812Z</updated>
+  <updated>2019-11-20T07:32:08.359Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>SQL优化</title>
+    <link href="/2019/11/20/SQL%E4%BC%98%E5%8C%96/"/>
+    <id>/2019/11/20/SQL优化/</id>
+    <published>2019-11-20T04:18:57.000Z</published>
+    <updated>2019-11-20T07:32:08.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天数据库上课的时候讲了SQL优化。那我这里就把我的笔记整理一下，<br>其实将的这些东西还是蛮有意思的</p><h2 id="硬件优化"><a href="#硬件优化" class="headerlink" title="硬件优化"></a>硬件优化</h2><p>首先就是硬件的优化</p><h4 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h4><pre><code>这个东西当然是最后越大越好，如果有一张表的大小是一个G，那么就至少要占用一个G的内存</code></pre><h4 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h4><pre><code>然后就是硬盘，硬盘这个东西在企业这个级别这里并不是越快越好，而是最求稳定，也就是说硬盘最好是机械硬盘而不是固态硬盘。一个是固态硬盘这个东西寿命是不如机械硬盘的，第二个是在某种情况下有可能会出现掉速。</code></pre><h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><pre><code>网络主要就是看稳定性，然后就是时延，当然是响应速度越快越好</code></pre><p>但是很多的时候就是有一个问题，预算不足以在硬件上优化所以就是只能在软件上优化</p><h2 id="软件优化"><a href="#软件优化" class="headerlink" title="软件优化"></a>软件优化</h2><h4 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h4><pre><code>就是说版本的不同，sql的一些功能也会不同，版本不是说越新的版本越好</code></pre><h4 id="SQL引擎"><a href="#SQL引擎" class="headerlink" title="SQL引擎"></a>SQL引擎</h4><pre><code>不同的sql引擎有不同的作用，比如Myisam这个引擎就是说，比较轻量，比较快，在性能上面表现出色而像InnoDB这种引擎，就是支持事务，相对来说安全稳定，支持的数据量更大一些</code></pre><h4 id="分库分表"><a href="#分库分表" class="headerlink" title="分库分表"></a>分库分表</h4><pre><code>如果说你有一张表，这张表的数据有一个G，那么当你要查询的时候就是需要吧这张表全部加载到内存里面，那么就至少需要一个G的内存，这样对内存的消耗是很大的所以可以将大的数据库分成小的，把大的表分成小的表，这样就可以解决这个问题</code></pre><h4 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h4><pre><code>这里就是有一个读写的主从，写是主，读是从，一个主可以对应多个从也就是说，写只有一个，从有多个，而这就可以提升了性能，因为大多数的情况下，我们只要读而不是写</code></pre><h2 id="sql语句的优化"><a href="#sql语句的优化" class="headerlink" title="sql语句的优化"></a>sql语句的优化</h2><pre><code>暂时老师还没讲，等下次上课，在说</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xdd.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>deepin下面配置mysql</title>
     <link href="/2019/11/10/deepin%E4%B8%8B%E9%9D%A2%E9%85%8D%E7%BD%AEmysql/"/>
     <id>/2019/11/10/deepin下面配置mysql/</id>
     <published>2019-11-09T16:05:45.000Z</published>
-    <updated>2019-11-09T16:55:57.812Z</updated>
+    <updated>2019-11-20T07:33:33.699Z</updated>
     
     <content type="html"><![CDATA[<p>难得上数据库的课到机房上课，这波老师还是又把怎么安装mysql讲了一遍，还行本来我是准备在群里划水的，但是转念一想，还是在deepin上装一个mysql来折腾折腾。</p><p>安装其实还是蛮简单的就是，中间遇到了不少的小问题</p><h2 id="安装MySQL服务"><a href="#安装MySQL服务" class="headerlink" title="安装MySQL服务"></a>安装MySQL服务</h2><p>安装命令如下：</p><pre><code>sudo apt-get install mysql-server</code></pre><p>然后就是还可以安装一个mysql的管理工具</p><pre><code>sudo apt-get install mysql-client</code></pre><p>然后输入</p><pre><code>mysql -uroot -p</code></pre><p>就可以进入mysql了，默认是没有密码的</p><p>但是中间我还遇到了其他的问题要我更新软件源<br>这个还是没有问题</p><pre><code>sudo apt-get update</code></pre><h2 id="安装MySQL的workbench"><a href="#安装MySQL的workbench" class="headerlink" title="安装MySQL的workbench"></a>安装MySQL的workbench</h2><p><b>这是一个mysql自带的管理工具</b><br>官网下载deb后缀的文件，双击就可以打开了</p><h3 id="使用workbench遇到的问题"><a href="#使用workbench遇到的问题" class="headerlink" title="使用workbench遇到的问题"></a>使用workbench遇到的问题</h3><p>我在命令行可以正常的使用mysql，但是到了MySQLworkbench就用不了了，真的是无语。</p><p>后面还是让我们的老师看了一下，他说是用户的缺失，要我添加一个新的mysql用户<br>root@local不存在，当前只有一个用户，也就是<a href="mailto:root@127.0.0.1" target="_blank" rel="noopener">root@127.0.0.1</a>  也就是说localhost 并没有映射到localhost<br>上面。<br>一般的mysql一般会存在默认的几个用户</p><h4 id="添加mysql用户"><a href="#添加mysql用户" class="headerlink" title="添加mysql用户"></a>添加mysql用户</h4><p>例如这个就是添加一个名为admin的用户，映射的地址为localhost，密码为123456</p><pre><code>create user &#39;admin&#39;@&#39;localhost&#39; identified by &#39;123456&#39;;  </code></pre><p>修改密码</p><pre><code>set password for admin=password(&#39;password&#39;);  </code></pre><h4 id="授予权限（非常重要）"><a href="#授予权限（非常重要）" class="headerlink" title="授予权限（非常重要）"></a>授予权限（非常重要）</h4><p>这里我是吃了一次亏<br>我这里是有一次没有给用户授权，结果在workbench里面我试图创建数据库都没有权限，真的是可恶(〃＞皿＜)</p><pre><code> grant all on tiku.* to admin;  </code></pre><p>查看用户的权限</p><pre><code>show grants for kuke;  </code></pre><p>然后要记得更新数据库</p><pre><code>flush privileges; </code></pre><h2 id="操作数据库"><a href="#操作数据库" class="headerlink" title="操作数据库"></a>操作数据库</h2><p>显示所有的数据库</p><pre><code>show databases;</code></pre><p>使用数据库</p><pre><code>use 数据库的名字;</code></pre><p>创建数据库</p><pre><code>create 数据库的名字;</code></pre><h2 id="幕后（其他）"><a href="#幕后（其他）" class="headerlink" title="幕后（其他）"></a>幕后（其他）</h2><p>说起来这节课我还和老师聊了一下，感觉还是蛮开心的<br>一开始我就是问老师这个问题，然后老师看了一下，操作一波说是这个用户缺失的问题。<br>后面聊着聊着就聊到了我这个操作系统deepin </p><p>然后发现我这个电脑是双系统，问了我这些东西是不是都是自己搞的，我说是的，都是自己折腾的。<br>还问了一下我对于这个以后的职业生涯的规划。有没有想法搞Linux运维，我是回答暂时还是没有想法</p><p>我这个人嘛，说实话暂时还是没有什么好的看法，大体上还是搞计算机。说实话，这个东西还是蛮有意思的。折腾来折腾去。可能人生的意义就在于此吧。</p><p>然后老师还鼓励我尽可能的手动去编译那些源码，去了解这些底层的东西，而不是去使用那些封装好的东西。像是mysql。Nginx这些东西。<br>说起了我还是第一次听说Nginx这个东西。老师跟我说是web三件套。Linux、linux、nginx 想来这个东西应该是很重要的东西吧。都跟这些在一块了。要学的东西还有好多啊。真的是</p><p>这波表扬要还是很开心的，就是说我这个劲头不错继续保持下去。说不定以后真的可以变成大佬啊<br>就是看看十年可以成为一个大佬吗，真的不知道我以后会怎么样</p><p>十年一个全栈工程师怎么样。。。。。</p><p>有一句话我不记得在哪里看过了<br><strong><em>就是，当你不知道如何选择的时候你就选择最难走的那一条路。</em></strong></p>]]></content>
     
@@ -432,35 +454,6 @@
         &lt;p&gt; &lt;strong&gt;目前有三个窗口同时出售20张票，那么用java怎么实现呢？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1.通过继承Thread类&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;test&quot;&gt;public class Ticket extends Thread{  //继
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="/tags/web/"/>
-    
-      <category term="阅读" scheme="/tags/%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一次配置网站</title>
-    <link href="/2019/05/20/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99/"/>
-    <id>/2019/05/20/第一次部署网站/</id>
-    <published>2019-05-20T14:16:01.000Z</published>
-    <updated>2019-05-24T04:06:37.131Z</updated>
-    
-    <content type="html"><![CDATA[<p>一开始遇到了很多的问题，真的是要把所有的坑都踩完才能真正的解决问题<br>像什么配置SSH，git没有初始化，上传文件到GitHub后没有用Releases签名之类的</p><hr><h2 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h2><p>首先在c盘打开一个文件夹，在命令提示符里打下面这句话，引号里是邮箱</p><pre><code class="cmd">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;</code></pre><p>连续三个回车，生成密钥，最后得到了两个文件：id_rsa和id_rsa.pub</p><p><em>添加密钥到ssh-agent</em></p><pre><code class="cmd">eval &quot;$(ssh-agent -s)&quot;</code></pre><p>添加生成的SSH key到ssh-agent</p><pre><code class="cmd">ssh-add ~/.ssh/id_rsa</code></pre><p> 登录Github，点击头像下的settings，添加ssh，new SSH，将刚刚文件生成的文件id_rsa.pub用记事本打开然后复制进来，保存、</p><p> 测试是否成功用以下命令</p><pre><code class="cmd">ssh -T git@github.com</code></pre><hr><h2 id="初始化git"><a href="#初始化git" class="headerlink" title="初始化git"></a>初始化git</h2><p>（我也不知道有什么卵用）</p><pre><code class="git">git init</code></pre><hr><h2 id="用git上传自己的文件"><a href="#用git上传自己的文件" class="headerlink" title="用git上传自己的文件"></a>用git上传自己的文件</h2><p>首先你要clone你的仓库，用这个命令</p><pre><code class="git">git clone 你的仓库地址</code></pre><p>将工作区中的文件添加到暂存区</p><pre><code class="git">git add 文件名</code></pre><p>添加描述（必须要这一步，不知道为什么）</p><pre><code class="git">git commit -m &#39;添加描述&#39;</code></pre><p>将暂存区里的文件全部推送至GitHub</p><pre><code class="git">git push</code></pre><p>还有一个重要的命令，这个用于查看当前文件状况</p><pre><code class="git">git status</code></pre><hr><h2 id="部署自己的博客"><a href="#部署自己的博客" class="headerlink" title="部署自己的博客"></a>部署自己的博客</h2><p>一键部署可以用这个命令</p><pre><code class="cmd">hexo d -g</code></pre><p>或者也可以这样</p><pre><code class="cmd">hexo cleanhexo ghexo d</code></pre><hr><h1 id="又熬夜了"><a href="#又熬夜了" class="headerlink" title="又熬夜了"></a>又熬夜了</h1><p><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.1/img/banner/suijao.jpg" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;一开始遇到了很多的问题，真的是要把所有的坑都踩完才能真正的解决问题&lt;br&gt;像什么配置SSH，git没有初始化，上传文件到GitHub后没有用Releases签名之类的&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;配置SSH&quot;&gt;&lt;a href=&quot;#配置SSH&quot; class=&quot;heade
       
     
     </summary>
