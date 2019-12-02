@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-11-30T17:14:50.082Z</updated>
+  <updated>2019-12-02T11:46:20.307Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>通过云服务器部署J2EE项目</title>
+    <link href="/2019/12/02/%E9%80%9A%E8%BF%87%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2J2EE%E9%A1%B9%E7%9B%AE/"/>
+    <id>/2019/12/02/通过云服务器部署J2EE项目/</id>
+    <published>2019-12-02T10:57:37.000Z</published>
+    <updated>2019-12-02T11:46:20.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天刚刚学了怎么部署一个j2ee的项目<br>写一下，怕忘了</p><p>首先我买的服务器是百度云的服务器（对，就是你们说的最烂的，能用就行）<br>配置是一核一G，40G存储</p><h2 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h2><p><strong>用Xshell连接服务器</strong>，建议用SSH（比较方便快捷）<br>注意：如果连续多次输错密码的话，你的当前ip地址会被封，然后无论如何都无法连接上。（别问我为什么知道）</p><h2 id="安装jdk-Linux版"><a href="#安装jdk-Linux版" class="headerlink" title="安装jdk-Linux版"></a>安装jdk-Linux版</h2><ol start="0"><li><p>准备好一个Linux版的jdk8<br><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p></li><li><p>以root用户登录你的服务器</p></li><li><p>新建文件夹，来存放jdk</p><pre><code>mkdir /usr/local/java</code></pre></li><li><p>用<strong>FlashFXP</strong>来把Linux版的jdk传到服务器上面，注意要把jdk放在/usr/local/java 这个文件夹下面<br><a href="https://www.flashfxp.com/download" target="_blank" rel="noopener">https://www.flashfxp.com/download</a></p></li><li><p>解压jdk</p><pre><code>tar xvf jdk-linux-x64.tar.gz</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk1.jpg" alt></p></li><li><p>配置java环境变量（我这里把tomcat的环境变量也配置好了）</p><pre><code>vim /etc/profile</code></pre><p>在done下面写下这些东西<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk2.jpg" alt></p></li><li><p>测试java是否安装成功</p><pre><code>java -version</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk3.jpg" alt></p></li></ol><h2 id="安装tomcat-（同样是Linux版）"><a href="#安装tomcat-（同样是Linux版）" class="headerlink" title="安装tomcat （同样是Linux版）"></a>安装tomcat （同样是Linux版）</h2><ol start="0"><li>到官网下载tomcat,注意不要下错了<br><a href="https://tomcat.apache.org/download-70.cgi" target="_blank" rel="noopener">https://tomcat.apache.org/download-70.cgi</a></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/tomcat.jpg" alt></p><ol><li><p>新建tomcat的文件夹<br>这里跟上面的创建java文件夹是一样的</p><pre><code>mkdir /usr/local/tomcat</code></pre></li><li><p>解压文件</p><pre><code>tar xvf apache-tomcat-7.0.96.tar.gz</code></pre></li><li><p>配置环境变量，我在上面已经配好了，这里就跳过</p></li><li><p>进入bin目录</p><pre><code>cd /usr/local/tomcat/apache-tomcat-7.0.96/bin</code></pre></li><li><p>启动tomcat</p><pre><code>./startup.sh</code></pre></li><li>打开网址<pre><code>你的公网ip：8080</code></pre>如果是下面这个画面就是成功了</li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/tomcat2.jpg" alt></p><p>就酱，没了</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>第一次购买云服务器</title>
@@ -431,30 +453,6 @@
     
     
       <category term="太极" scheme="/tags/%E5%A4%AA%E6%9E%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机实现无root安装xp框架</title>
-    <link href="/2019/06/08/%E6%89%8B%E6%9C%BA%E5%AE%9E%E7%8E%B0%E6%97%A0root%E8%A3%85xp%E6%A1%86%E6%9E%B6/"/>
-    <id>/2019/06/08/手机实现无root装xp框架/</id>
-    <published>2019-06-08T01:58:55.000Z</published>
-    <updated>2019-06-08T03:10:23.816Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="有时候我就在想，tmore可以实现qq防止撤回、有些付费软件也可以实现一键抢红包。像这种没有最高权限的手机都可以这么操作。那么我可不可以实现无root装xp框架，然后也来实现一下QQ防撤回、或者模拟定位的这种骚操作呢？"><a href="#有时候我就在想，tmore可以实现qq防止撤回、有些付费软件也可以实现一键抢红包。像这种没有最高权限的手机都可以这么操作。那么我可不可以实现无root装xp框架，然后也来实现一下QQ防撤回、或者模拟定位的这种骚操作呢？" class="headerlink" title="有时候我就在想，tmore可以实现qq防止撤回、有些付费软件也可以实现一键抢红包。像这种没有最高权限的手机都可以这么操作。那么我可不可以实现无root装xp框架，然后也来实现一下QQ防撤回、或者模拟定位的这种骚操作呢？"></a>有时候我就在想，tmore可以实现qq防止撤回、有些付费软件也可以实现一键抢红包。像这种没有最高权限的手机都可以这么操作。那么我可不可以实现无root装xp框架，然后也来实现一下QQ防撤回、或者模拟定位的这种骚操作呢？</h4><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><pre><code>以我的手机为例，我是小米8青春版，安卓9、稳定版无root</code></pre><ol><li>手机要先解BL锁（允许你能够线刷，小米官网有小米手机的解锁工具</li><li>从网上下好自己的手机型号的rec（或者说叫twrp）</li><li>magsik资源(面具)   我这里有两种一种是老版本的更加稳定，还有一种是新版的（个人觉得不是很好用<br>链接1： <a href="https://www.lanzous.com/s/MagiskInstallation" target="_blank" rel="noopener">Magisk  蓝奏云</a><br>链接2： <a href="https://github.com/ElderDrivers/EdXposed/releases" target="_blank" rel="noopener">Magisk  GitHub</a></li></ol><h2 id="安装Magisk（默认你已经打开了USB调试、）"><a href="#安装Magisk（默认你已经打开了USB调试、）" class="headerlink" title="安装Magisk（默认你已经打开了USB调试、）"></a>安装Magisk（默认你已经打开了USB调试、）</h2><pre><code> 打开你的电脑找到刚刚在网上下好的twrp</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA1.png" alt></p><pre><code>然后你的手机就会重启到工程模式(这里我随便找了一张网图)</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA2.jpg" alt></p><pre><code>安装magisk的资源包和卸载包  （请务必要记得你把刚刚下好的资源放在了什么地方）重启手机打开Magisk然后你就会看到这个画面</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA3.png" alt></p><h2 id="安装两个必备Magisk模块-Riru-Core-Riru-EdXposed-SandHook"><a href="#安装两个必备Magisk模块-Riru-Core-Riru-EdXposed-SandHook" class="headerlink" title="安装两个必备Magisk模块  Riru - Core  Riru-EdXposed-SandHook"></a>安装两个必备Magisk模块  Riru - Core  Riru-EdXposed-SandHook</h2><pre><code>这就这两个</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA4.png" alt></p><h2 id="打开酷安搜索EdXposed-Installer，然后安装"><a href="#打开酷安搜索EdXposed-Installer，然后安装" class="headerlink" title="打开酷安搜索EdXposed Installer，然后安装"></a>打开酷安搜索EdXposed Installer，然后安装</h2><pre><code>然后你就发现xp框架已经安装好了</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA5.png" alt></p><h2 id="安装必备的xp模块（推荐模块）"><a href="#安装必备的xp模块（推荐模块）" class="headerlink" title="安装必备的xp模块（推荐模块）"></a>安装必备的xp模块（推荐模块）</h2><pre><code>在EdXposed Installer的侧边栏点击下载，然后搜索QX和微X，然后就会出现你要的模块下载后在模块里面可以看到</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA6.png" alt></p><pre><code>然后就是无脑操作了，设置一下，然后重启手机，就可以了</code></pre><h2 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA7.jpg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/%E5%88%B7%E6%9C%BA8.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/huaji5.gif" alt><strong>还有很多骚操作可以自己了解</strong></p>]]></content>
-    
-    <summary type="html">
-    
-      手机实现无root装XP框架
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="手机" scheme="/tags/%E6%89%8B%E6%9C%BA/"/>
-    
-      <category term="xp框架" scheme="/tags/xp%E6%A1%86%E6%9E%B6/"/>
     
   </entry>
   
