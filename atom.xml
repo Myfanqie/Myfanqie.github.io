@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-12-02T11:46:20.307Z</updated>
+  <updated>2019-12-04T14:54:03.994Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初识Nginx</title>
+    <link href="/2019/12/04/%E5%88%9D%E8%AF%86Nginx/"/>
+    <id>/2019/12/04/初识Nginx/</id>
+    <published>2019-12-04T14:29:24.000Z</published>
+    <updated>2019-12-04T14:54:03.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天上课的时候老师专门用一节课给我们讲了如果去使用云服务器，主要就是一个使用nginx来部署静态页面。</p><p>那么什么是nginx<br>首先nginx是一个web服务器，同类型有Apache，一般用来做反向代理和负载均衡</p><p>先说一下，我这个服务器是Linux centos 7</p><h2 id="安装nginx"><a href="#安装nginx" class="headerlink" title="安装nginx"></a>安装nginx</h2><pre><code>yum -y install nginx</code></pre><h2 id="启动nginx服务"><a href="#启动nginx服务" class="headerlink" title="启动nginx服务"></a>启动nginx服务</h2><pre><code>systemctl start nginx.service</code></pre><h2 id="使用你的服务器ip地址打开浏览器"><a href="#使用你的服务器ip地址打开浏览器" class="headerlink" title="使用你的服务器ip地址打开浏览器"></a>使用你的服务器ip地址打开浏览器</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/nginx.jpg" alt></p><h2 id="配置你的conf文件"><a href="#配置你的conf文件" class="headerlink" title="配置你的conf文件"></a>配置你的conf文件</h2><pre><code>vim /etc/nginx/nginx.conf</code></pre><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><p> 重新载入配置文件</p><pre><code>nginx -s reload </code></pre><p>重启 nginx</p><pre><code>nginx -s reopen</code></pre><p>停止 nginx</p><pre><code>nginx -s stop</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>通过云服务器部署J2EE项目</title>
@@ -431,28 +453,6 @@
     
     
       <category term="学习" scheme="/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>太极的使用的方法</title>
-    <link href="/2019/06/09/%E5%A4%AA%E6%9E%81%E4%BD%BF%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>/2019/06/09/太极使用的方法/</id>
-    <published>2019-06-09T03:13:05.000Z</published>
-    <updated>2019-06-09T03:59:30.133Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="准备-其实很简单的"><a href="#准备-其实很简单的" class="headerlink" title="准备 其实很简单的"></a>准备 <del>其实很简单的</del></h2><ol><li>安装太极</li><li>安装低版本的qq（反正不是最新版就是的了）</li><li>安装模块(目前测试可以用的有微信学英语和QX、微X模块)</li></ol><blockquote><p>打开太极添加QQ，按要求卸载QQ，清理数据。</p></blockquote><blockquote><p>然后就是点击太极里的qq，强制停止，然后重新启动，这个时候就可以了<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cshi.png" alt></p></blockquote><h2 id="微信学英语"><a href="#微信学英语" class="headerlink" title="微信学英语"></a>微信学英语</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/shili.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yingyu.jpg" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      没错我又来了水文章了
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="太极" scheme="/tags/%E5%A4%AA%E6%9E%81/"/>
     
   </entry>
   
