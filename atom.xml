@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2019-12-04T14:54:03.994Z</updated>
+  <updated>2019-12-06T14:12:21.529Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nginx反向代理和负载均衡</title>
+    <link href="/2019/12/06/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%92%8C%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+    <id>/2019/12/06/nginx反向代理和负载均衡/</id>
+    <published>2019-12-06T13:26:57.000Z</published>
+    <updated>2019-12-06T14:12:21.529Z</updated>
+    
+    <content type="html"><![CDATA[<p>对nginx有一定了解了后就来干干试试它真正的用途<br><strong>反向代理和负载均衡</strong></p><p>那么什么是反向代理呢<br>首先我们要看一个正向代理，如果你要访问p站看点色图，那么你就需要翻墙，来访问p站，这个就是正向代理</p><p>反向代理就是，你现在要访问p站，p站悄悄的把这个请求交给了b站来做，那b站就是反向代理</p><p>先上一个图（我自己画的）,这个是今天学的，目的就是可以优化页面的访问速度<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/nginx.png" alt></p><h2 id="Nginx反向代理"><a href="#Nginx反向代理" class="headerlink" title="Nginx反向代理"></a>Nginx反向代理</h2><p>在Nginx下的conf文件里面修改location /</p><pre><code>location / {        proxy_pass http://127.0.0.1:8080;    }</code></pre><p>这个意思就是反向代理了tomcat，这个地址就是tomcat访问url<br>然后就是如果你可以在网址里面直接输入localhost，就可以访问tomcat，而不是直接访问localhost:8080</p><h2 id="静态资源和动态资源分离"><a href="#静态资源和动态资源分离" class="headerlink" title="静态资源和动态资源分离"></a>静态资源和动态资源分离</h2><p>为什么要这么做呢，因为Nginx处理静态资源的能力比tomcat出色所以，我们用nginx来处理css，js和png图片<br>tomcat来处理jsp文件</p><p>同样的需要配置nginx的conf文件,这里是直接增加</p><pre><code>location ~\.(css|js|png)$ {            root D:/Eclipse-j2ee/lib/tomcat_8111/webapps/ROOT;    }</code></pre><p>相当于是一个正则表达式，root 后面是web项目资源，</p><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><p>有时候一个tomcat可以吃不消，所以我们用了两个一模一样的tomcat（端口不同）来接收请求</p><p>同样的还是配置文件nginx.conf，直接添加</p><pre><code>upstream tomcat_8111_8222{    server  127.0.0.1:8111  weight=1;    server  127.0.0.1:8222  weight=2;    }</code></pre><p>这里weight就是权重的意思，端口号为8111的tomcat的权重为1，而端口号为8222的tomcat的权重为2，<br>其实实际跑的时候是随机的<del>可能权重大的tomcat跑的次数多一点吧</del></p><h2 id="redis的session共享"><a href="#redis的session共享" class="headerlink" title="redis的session共享"></a>redis的session共享</h2><p>这个有什么用？</p><p>首先假设，如果一个用户在访问页面的时候用户所在的tomcat炸了。那么用户就要重新登录，<br>之前的操作也要重新再来，这个东西就是，十分的影响用户的体验，</p><p>所以就有两种解决的方案，一个是通过配置ip，一个是用redis来保存用户的session</p><p>在刚刚那里的配置文件后面加上一句 ip_hash</p><p>就像这样</p><pre><code>upstream tomcat_8111_8222{    server  127.0.0.1:8111  weight=1;    server  127.0.0.1:8222  weight=2;    ip_hash;    }</code></pre><p>但是通过ip来锁定用户是有缺陷的<br>如果是有大量的ip来访问的话。那就会都分配到同一个tomcat上，就是相当于是没有负载均衡了<br>这样就没有意义了。</p><p>所以我们可以通过下面这种方式来保证用户的体验</p><ol><li>准备下面这三个jar包，导入到tomcat的lib下面 ，两个tomcat都要导入</li></ol><p>jedis-2.5.2.jar，<br>commons-pool2-2.0.jar，<br>tomcat-redis-session-manager1.2.jar。</p><ol start="2"><li><p>修改tomcat/conf/context.xml，两个tomcat都要改</p><pre><code>&lt;Valve className=&quot;com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve&quot; /&gt;  &lt;Manager className=&quot;com.orangefunction.tomcat.redissessions.RedisSessionManager&quot;  host=&quot;127.0.0.1&quot;  port=&quot;6379&quot;  database=&quot;0&quot;  maxInactiveInterval=&quot;60&quot; /&gt; </code></pre><p>直接增加就好了</p></li><li><p>启动redis服务</p></li><li><p>重启tomcat</p></li></ol><p>现象：<br>现在如果你打开浏览器直接访问<a href="http://localhost:8111,然后输入了用户名，密码（产生一个session）" target="_blank" rel="noopener">http://localhost:8111,然后输入了用户名，密码（产生一个session）</a><br>然后在打开<a href="http://localhost:8222,你会发现已经登录了。" target="_blank" rel="noopener">http://localhost:8222,你会发现已经登录了。</a></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>初识Nginx</title>
@@ -431,28 +453,6 @@
     
     
       <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>是不是应该放下手机了</title>
-    <link href="/2019/06/09/%E6%98%AF%E4%B8%8D%E6%98%AF%E5%BA%94%E8%AF%A5%E6%94%BE%E4%B8%8B%E6%89%8B%E6%9C%BA%E4%BA%86/"/>
-    <id>/2019/06/09/是不是应该放下手机了/</id>
-    <published>2019-06-09T15:15:24.000Z</published>
-    <updated>2019-06-09T16:04:03.815Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>这几天端午节放假,都是早上9点甚至是10点起床,然后刷一刷手机就到中午了。我觉得的还是要改一改这个作风(太颓废了 )<br>然后搞学习的时候就是搞一下学习就迫不及待的看一下手机，真的是控制不住我自己啊。看手机现在主要是看QQ，其实没什么人发消息给我，但是qq的这个社交软件真的太有意思了。除此之外的就是各种短视频、新闻、资讯。真的很有意思，每次刷完都是感觉意犹未尽<br>一天什么都没有做,就过去了,现在想想还是有很大的罪恶感，又双叒叕浪费时间了<img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/huaji12.png" alt></p></blockquote><p>突然这么想    就是看了B站up主<a href="https://space.bilibili.com/163637592?from=search&amp;seid=14727295470615511035" target="_blank" rel="noopener"><strong>老师好我叫何同学</strong></a>的视频，真好啊<br><a href="https://www.bilibili.com/video/av47180907?from=search&amp;seid=14727295470615511035" target="_blank" rel="noopener"><strong>每天只看半小时手机，坚持一周后我有哪些变化？</strong></a></p><p>目前的期望就是在同学每天碎觉的时候我还可以记点单词（现在的英文嘛，比较抠脚）<br>然后就是学习的时候更加的专注<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/huaji5.gif" alt></p><p>就是期望能在少的时间里面学到更多的东西，。学习新的东西真的是一件很有意思的事情<br><del>其实水群也学到了很多东西</del><br>不过现在嘛，我是希望学习更加专业的知识，这个就是需要时间的。</p><p>————————————<img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xuexi.jpg" alt>——————————————————</p>]]></content>
-    
-    <summary type="html">
-    
-      开始自闭
-    
-    </summary>
-    
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="学习" scheme="/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
