@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">deepin下面配置mysql | 莉莉娅</title>
+  <title itemprop="name">archive_a: 2020 | 莉莉娅</title>
   
     <link rel="shortcut icon" href="/images/time.ico">
   
@@ -229,177 +229,513 @@
     </div>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.7/assets/waifu.min.css">
 </header>
-                        <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-<div class="pattern-center-blank"></div>
-
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xun2.jpg);" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xun2.jpg">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      deepin下面配置mysql</h1>
-      <p class="entry-census">
-        <span>
-          <a href="myfanqie.github.io">
-            <img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg">
-          </a>
-        </span>
-        <span>
-          <a href="myfanqie.github.io">莉莉娅</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2019-11-10<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
-<div id="content" class="site-content">
-  <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
-      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-        <div class="toc"></div>
-        <!--<div class="toc-entry-content"> 套嵌目录使用（主要为了支援评论）-->
-        
-        <div class="entry-content">
-          <p>难得上数据库的课到机房上课，这波老师还是又把怎么安装mysql讲了一遍，还行本来我是准备在群里划水的，但是转念一想，还是在deepin上装一个mysql来折腾折腾。</p>
-<p>安装其实还是蛮简单的就是，中间遇到了不少的小问题</p>
-<h2 id="安装MySQL服务"><a href="#安装MySQL服务" class="headerlink" title="安装MySQL服务"></a>安装MySQL服务</h2><p>安装命令如下：</p>
-<pre><code>sudo apt-get install mysql-server
-</code></pre><p>然后就是还可以安装一个mysql的管理工具</p>
-<pre><code>sudo apt-get install mysql-client
-</code></pre><p>然后输入</p>
-<pre><code>mysql -uroot -p
-</code></pre><p>就可以进入mysql了，默认是没有密码的</p>
-<p>但是中间我还遇到了其他的问题要我更新软件源<br>这个还是没有问题</p>
-<pre><code>sudo apt-get update
-</code></pre><h2 id="安装MySQL的workbench"><a href="#安装MySQL的workbench" class="headerlink" title="安装MySQL的workbench"></a>安装MySQL的workbench</h2><p><b>这是一个mysql自带的管理工具</b><br>官网下载deb后缀的文件，双击就可以打开了</p>
-<h3 id="使用workbench遇到的问题"><a href="#使用workbench遇到的问题" class="headerlink" title="使用workbench遇到的问题"></a>使用workbench遇到的问题</h3><p>我在命令行可以正常的使用mysql，但是到了MySQLworkbench就用不了了，真的是无语。</p>
-<p>后面还是让我们的老师看了一下，他说是用户的缺失，要我添加一个新的mysql用户<br>root@local不存在，当前只有一个用户，也就是<a href="mailto:root@127.0.0.1" target="_blank" rel="noopener">root@127.0.0.1</a>  也就是说localhost 并没有映射到localhost<br>上面。<br>一般的mysql一般会存在默认的几个用户</p>
-<h4 id="添加mysql用户"><a href="#添加mysql用户" class="headerlink" title="添加mysql用户"></a>添加mysql用户</h4><p>例如这个就是添加一个名为admin的用户，映射的地址为localhost，密码为123456</p>
-<pre><code>create user &#39;admin&#39;@&#39;localhost&#39; identified by &#39;123456&#39;;  
-</code></pre><p>修改密码</p>
-<pre><code>set password for admin=password(&#39;password&#39;);  
-</code></pre><h4 id="授予权限（非常重要）"><a href="#授予权限（非常重要）" class="headerlink" title="授予权限（非常重要）"></a>授予权限（非常重要）</h4><p>这里我是吃了一次亏<br>我这里是有一次没有给用户授权，结果在workbench里面我试图创建数据库都没有权限，真的是可恶(〃＞皿＜)</p>
-<pre><code> grant all on tiku.* to admin;  
-</code></pre><p>查看用户的权限</p>
-<pre><code>show grants for kuke;  
-</code></pre><p>然后要记得更新数据库</p>
-<pre><code>flush privileges; 
-</code></pre><h2 id="操作数据库"><a href="#操作数据库" class="headerlink" title="操作数据库"></a>操作数据库</h2><p>显示所有的数据库</p>
-<pre><code>show databases;
-</code></pre><p>使用数据库</p>
-<pre><code>use 数据库的名字;
-</code></pre><p>创建数据库</p>
-<pre><code>create 数据库的名字;
-</code></pre><h2 id="幕后（其他）"><a href="#幕后（其他）" class="headerlink" title="幕后（其他）"></a>幕后（其他）</h2><p>说起来这节课我还和老师聊了一下，感觉还是蛮开心的<br>一开始我就是问老师这个问题，然后老师看了一下，操作一波说是这个用户缺失的问题。<br>后面聊着聊着就聊到了我这个操作系统deepin </p>
-<p>然后发现我这个电脑是双系统，问了我这些东西是不是都是自己搞的，我说是的，都是自己折腾的。<br>还问了一下我对于这个以后的职业生涯的规划。有没有想法搞Linux运维，我是回答暂时还是没有想法</p>
-<p>我这个人嘛，说实话暂时还是没有什么好的看法，大体上还是搞计算机。说实话，这个东西还是蛮有意思的。折腾来折腾去。可能人生的意义就在于此吧。</p>
-<p>然后老师还鼓励我尽可能的手动去编译那些源码，去了解这些底层的东西，而不是去使用那些封装好的东西。像是mysql。Nginx这些东西。<br>说起了我还是第一次听说Nginx这个东西。老师跟我说是web三件套。Linux、linux、nginx 想来这个东西应该是很重要的东西吧。都跟这些在一块了。要学的东西还有好多啊。真的是</p>
-<p>这波表扬要还是很开心的，就是说我这个劲头不错继续保持下去。说不定以后真的可以变成大佬啊<br>就是看看十年可以成为一个大佬吗，真的不知道我以后会怎么样</p>
-<p>十年一个全栈工程师怎么样。。。。。</p>
-<p>有一句话我不记得在哪里看过了<br><strong><em>就是，当你不知道如何选择的时候你就选择最难走的那一条路。</em></strong></p>
-
-        </div>
-        <!-- .entry-content -->
-      
-        <!-- 这里原本是打赏，我删了 -->
-
-
-       
-
-
-
-
-
-
-        
-        <footer class="post-footer">
-          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-          <div class="post-tags">
-          </div>
-          <div class="post-share">
-            <div class="social-share sharehidden share-component"></div>
-            <i class="iconfont show-share icon-forward"></i>
-          </div>
-        </footer><!-- .entry-footer -->
-      </article>
-      <!-- #post-## -->
-      <div class="toc" style="background: none;"></div>
-      <section class="post-squares nextprev">
-        
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2019/11/20/SQL优化/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xun.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                SQL优化</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-        
-          
-            <div class="post-nepre half next">
-          
-            <a href="/2019/10/16/deepin体验了几天后/" rel="next">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/q.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
-              </div>
-              <span class="label">
-              Next Post</span>
-              <div class="info">
-                <h3>
-                deepin的体验</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-      </section>
-      
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "qItNAEWyzEWVOkl4D69OOdVr-gzGzoHsz",
-        appKey: "9rLCwocQ7f4Ku6puEx2fs8OE",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
-
-      <section class="author-profile">
-        <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a href="myfanqie.github.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg" itemprop="image" alt="莉莉娅" height="70" width="70"></a>
-          <div class="meta">
-            <span class="title">莉莉娅</span>
-            <h3 itemprop="name">
-            <a href="myfanqie.github.io" itemprop="url" rel="author">莉莉娅</a>
-            </h3>
-          </div>
-        </div>
-        <hr>
-        <p><i class="iconfont icon-write"></i>一个好奇的人</p>
-      </section>
-    </main><!-- #main -->
-  </div><!-- #primary -->
+                        <div class="blank" style="padding-top: 75px;">
 </div>
-
-
+<div id="content" class="site-content">
+  <div id="main">
+    <header class="page-header">
+      <h1 class="cat-title">
+      归档</h1>
+      <span class="cat-des">
+        <p>
+        Archives</p>
+      </span>
+    </header>
+    <div id="main-part">
+      <article class="art">
+        <div class="art-main">
+          <div class="art-content">
+            <div id="archives">
+              <p style="text-align:right;">
+                [<span id="al_expand_collapse" style="cursor: s-resize;">
+                全部展开/收缩</span>
+              ]</p>
+              
+              
+              
+              
+              
+                
+                <h3 class="al_year">2020年</h3>
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      01月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2020/01/10/实际的情况/">
+                          <span style="color:#0bf;">
+                          10日01:27:18</span>
+                          寒假实际的情况
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+                
+                <h3 class="al_year">2019年</h3>
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      12月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/12/25/新年的计划/">
+                          <span style="color:#0bf;">
+                          25日01:34:20</span>
+                          新年的计划以及总结
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/12/10/idea2019-3破解教程/">
+                          <span style="color:#0bf;">
+                          10日23:05:04</span>
+                          idea2019.3破解教程
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/12/06/nginx反向代理和负载均衡/">
+                          <span style="color:#0bf;">
+                          06日21:26:57</span>
+                          nginx反向代理和负载均衡
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/12/04/初识Nginx/">
+                          <span style="color:#0bf;">
+                          04日22:29:24</span>
+                          初识Nginx
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/12/02/通过云服务器部署J2EE项目/">
+                          <span style="color:#0bf;">
+                          02日18:57:37</span>
+                          通过云服务器部署J2EE项目
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/12/01/第一次购买云服务器/">
+                          <span style="color:#0bf;">
+                          01日00:18:22</span>
+                          第一次购买云服务器
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      11月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/11/25/8大排序算法-一/">
+                          <span style="color:#0bf;">
+                          25日00:27:32</span>
+                          8大排序算法(一)
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/11/20/SQL优化/">
+                          <span style="color:#0bf;">
+                          20日12:18:57</span>
+                          SQL优化
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/11/10/deepin下面配置mysql/">
+                          <span style="color:#0bf;">
+                          10日00:05:45</span>
+                          deepin下面配置mysql
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      10月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/10/16/deepin体验了几天后/">
+                          <span style="color:#0bf;">
+                          16日21:43:46</span>
+                          deepin的体验
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/10/12/观念模型-me/">
+                          <span style="color:#0bf;">
+                          12日23:51:24</span>
+                          观念模型(me)
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/10/06/双系统的安装-deepin/">
+                          <span style="color:#0bf;">
+                          06日22:43:10</span>
+                          双系统的安装(deepin)
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      09月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/09/11/‘IEDA配置tomcat的环境/">
+                          <span style="color:#0bf;">
+                          11日20:00:18</span>
+                          IDEA配置tomcat的环境
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/09/09/如何查找pdf资源/">
+                          <span style="color:#0bf;">
+                          09日20:37:07</span>
+                          如何查找pdf资源
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      08月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/08/29/关于家里的网速异常/">
+                          <span style="color:#0bf;">
+                          29日14:05:25</span>
+                          关于家里的网速异常
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/08/12/百度云限速的解决方案-电脑端/">
+                          <span style="color:#0bf;">
+                          12日00:29:03</span>
+                          百度云限速的解决方案(电脑端)
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      07月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/07/10/对于程序员的新理解/">
+                          <span style="color:#0bf;">
+                          10日21:01:38</span>
+                          对于程序员的新理解
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/07/04/Apache踩的坑/">
+                          <span style="color:#0bf;">
+                          04日21:47:55</span>
+                          Apache踩的坑
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      06月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/06/15/how to study/">
+                          <span style="color:#0bf;">
+                          15日16:06:47</span>
+                          How to study?
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/06/09/太极使用的方法/">
+                          <span style="color:#0bf;">
+                          09日11:13:05</span>
+                          太极的使用的方法
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/06/08/手机实现无root装xp框架/">
+                          <span style="color:#0bf;">
+                          08日09:58:55</span>
+                          手机实现无root安装xp框架
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/06/02/鸿蒙初辟本无性-打破顽冥须悟空/">
+                          <span style="color:#0bf;">
+                          02日23:08:40</span>
+                          鸿蒙初辟本无性,打破顽冥须悟空
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      05月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2019/05/21/java多线程/">
+                          <span style="color:#0bf;">
+                          21日18:16:01</span>
+                          java多线程
+                        </a>
+                      </li>
+                      
+              
+              
+              
+              
+              
+                      <li>
+                        <a href="/2019/05/20/第一次部署网站/">
+                          <span style="color:#0bf;">
+                          20日22:16:01</span>
+                          第一次配置网站
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+              
+              
+              
+                
+                <h3 class="al_year">2018年</h3>
+              
+              
+                
+                <ul class="al_mon_list">
+                  <li class="al_li">
+                    <span class="al_mon" style="cursor: s-resize;">
+                      12月(<span id="post-num">
+                      3</span>
+                    篇文章)</span>
+                    <ul class="al_post_list" style>
+              
+                      <li>
+                        <a href="/2018/12/12/Hexo-Theme-Sakura/">
+                          <span style="color:#0bf;">
+                          12日22:16:01</span>
+                          Hexo-Theme-Sakura
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+              
+              
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
 
                 </div>
                 <div class="ins-search">
