@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-01-09T17:51:21.208Z</updated>
+  <updated>2020-01-29T04:08:57.788Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>樱花键盘开箱</title>
+    <link href="/2020/01/29/%E6%A8%B1%E8%8A%B1%E9%94%AE%E7%9B%98%E5%BC%80%E7%AE%B1/"/>
+    <id>/2020/01/29/樱花键盘开箱/</id>
+    <published>2020-01-29T03:23:40.000Z</published>
+    <updated>2020-01-29T04:08:57.788Z</updated>
+    
+    <content type="html"><![CDATA[<p>今年新买的樱花键盘到手了，好开心</p><p>先放几张图</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua3.jpg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua1.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua2.jpg" alt></p><p>总之好看就对了</p><p>说起来我买键盘之前还研究了这个玩意，写写下来吧</p><h3 id="首先就是键数的规格"><a href="#首先就是键数的规格" class="headerlink" title="首先就是键数的规格"></a>首先就是键数的规格</h3><p>两个常见的键位 <strong>87/108</strong></p><h3 id="轴体类型以及应用的场景"><a href="#轴体类型以及应用的场景" class="headerlink" title="轴体类型以及应用的场景"></a>轴体类型以及应用的场景</h3><p><strong>青轴（段落轴）：</strong> 有明显的的段落感和清脆的click声（游戏办公都比较适合）</p><p><strong>红轴（线性轴）：</strong>无段落感、相对于黑轴更加的轻盈（ 发烧友使用）</p><p><strong>黑轴（线性轴）：</strong> 触发快、需要较大压力（适合专业的游戏玩家）</p><p><strong>茶轴（段落轴）：</strong>  比较放松、微弱的段落感、（适合入门级玩家，没有什么特点）</p><p><strong>青轴（段落轴）：</strong> 段落感强烈 就是像按圆珠笔那样（反馈感强，打字爽）</p><p><strong>银轴（线性轴）：</strong> 与红轴相似，但是按键的行程更短</p><p><img src="https://pic3.zhimg.com/50/v2-f8c0e5f1412e16cc3a3c1221bc9aaf67_hd.webp" alt></p><h3 id="键帽的材质-一般是两种"><a href="#键帽的材质-一般是两种" class="headerlink" title="键帽的材质(一般是两种)"></a>键帽的材质(一般是两种)</h3><p><strong>ABS工程塑料：</strong> 工艺比较成熟，生产的成本低，但是长期使用后容易打油 </p><p><strong>PBT键帽：</strong> 制造的成本较高，但是磨砂质感很好</p><p>其他键盘买点</p><p><strong>防水、宏编程、全键无冲、低响应时间</strong></p><p>根据键盘的级别可以分为</p><p><strong>入门级、发烧级、骨灰级</strong></p><p><strong>总之买好看的就对了</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>寒假实际的情况</title>
@@ -420,28 +442,6 @@
     <updated>2019-07-15T14:03:11.830Z</updated>
     
     <content type="html"><![CDATA[<p>之前差点就放弃了，今天白天想了想，还是决定再试试，到底是什么原因</p><p>最终发现还是端口被占用了,被虚拟机占用了，虽然是说，我压根就没有开虚拟机。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache3.png" alt></p><h6>有时候真的感觉自己好蠢啊</h6><p>启动成功后就是这个样子<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache2.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache1.png" alt></p><p>真的是好开心啊  </p>]]></content>
-    
-    <summary type="html">
-    
-      文章描述
-    
-    </summary>
-    
-      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
-    
-    
-      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to study?</title>
-    <link href="/2019/06/15/how%20to%20study/"/>
-    <id>/2019/06/15/how to study/</id>
-    <published>2019-06-15T08:06:47.000Z</published>
-    <updated>2019-07-15T14:12:59.508Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="以建立自己的知识体系为主要的目标"><a href="#以建立自己的知识体系为主要的目标" class="headerlink" title="以建立自己的知识体系为主要的目标"></a>以建立自己的知识体系为主要的目标</h2><blockquote><p>写下这个文章以免自己脑子抽风,或者是迷茫.导致放弃.</p></blockquote><ol><li>不光要看,还要干.</li><li>以搞坏键盘为人生目标</li></ol><p>以建立学习体系为第一目标<br>学习时间是有限的<br>那么在有限的时间里面建立知识体系显得尤为重要<br>遇到不会的不要纠结,一个月后再回看难点</p><p>即使你没有学好，也不要慌</p><p>当你上了小学5年级的时候，即便你学的比较差，但是回头去做二年级的东西会变得很简单，因为你已经建立了整个知识体系、用小说的话就是说是降维打击。</p><p>建立知识体系比单个知识点学好更加的重要。。。。</p><p>还有几个要注意的地方<br>有意义的学习&amp;机械的学习<br>应当尽可能的使用有意义的学习而不是机械学习，机械的学习可能一时的让自己感觉学到了东西，<br>学起知识起来感觉很快。但是很容易忘记，</p><p>所以要</p><p>《刻意练习》的三条法则</p><ol><li>专注而走心的</li><li>跳出舒适区的</li><li>获得有效反馈的</li></ol><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xuexi1.jpg" alt></p><h2 id="理论依据"><a href="#理论依据" class="headerlink" title="理论依据"></a>理论依据</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/hansu.jpg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xuexi233.jpg" alt></p>]]></content>
     
     <summary type="html">
     
