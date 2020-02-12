@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>莉莉娅</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2020-01-29T06:53:21.911Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>莉莉娅</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>樱花键盘开箱</title>
+    <link href="/2020/01/29/%E6%A8%B1%E8%8A%B1%E9%94%AE%E7%9B%98%E5%BC%80%E7%AE%B1/"/>
+    <id>/2020/01/29/樱花键盘开箱/</id>
+    <published>2020-01-29T03:23:40.000Z</published>
+    <updated>2020-01-29T06:53:21.911Z</updated>
+    
+    <content type="html"><![CDATA[<p>今年新买的樱花键盘到手了，好开心</p><p>先放几张图</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua3.jpg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua1.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua2.jpg" alt></p><p>总之好看就对了</p><p>说起来我买键盘之前还研究了这个玩意，写写下来吧</p><h3 id="首先就是键数的规格"><a href="#首先就是键数的规格" class="headerlink" title="首先就是键数的规格"></a>首先就是键数的规格</h3><p>两个常见的键位 <strong>87/108</strong></p><h3 id="轴体类型以及应用的场景"><a href="#轴体类型以及应用的场景" class="headerlink" title="轴体类型以及应用的场景"></a>轴体类型以及应用的场景</h3><p><strong>青轴（段落轴）：</strong> 有明显的的段落感和清脆的click声（游戏办公都比较适合）</p><p><strong>红轴（线性轴）：</strong>无段落感、相对于黑轴更加的轻盈（ 发烧友使用）</p><p><strong>黑轴（线性轴）：</strong> 触发快、需要较大压力（适合专业的游戏玩家）</p><p><strong>茶轴（段落轴）：</strong>  比较放松、微弱的段落感、（适合入门级玩家，没有什么特点）</p><p><strong>青轴（段落轴）：</strong> 段落感强烈 就是像按圆珠笔那样（反馈感强，打字爽）</p><p><strong>银轴（线性轴）：</strong> 与红轴相似，但是按键的行程更短</p><p><img src="https://pic3.zhimg.com/50/v2-f8c0e5f1412e16cc3a3c1221bc9aaf67_hd.webp" alt></p><h3 id="键帽的材质-一般是两种"><a href="#键帽的材质-一般是两种" class="headerlink" title="键帽的材质(一般是两种)"></a>键帽的材质(一般是两种)</h3><p><strong>ABS工程塑料：</strong> 工艺比较成熟，生产的成本低，但是长期使用后容易打油 </p><p><strong>PBT键帽：</strong> 制造的成本较高，但是磨砂质感很好</p><p>其他键盘买点</p><p><strong>防水、宏编程、全键无冲、低响应时间</strong></p><p>根据键盘的级别可以分为</p><p><strong>入门级、发烧级、骨灰级</strong></p><p><strong>总之买好看的就对了</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>寒假实际的情况</title>
+    <link href="/2020/01/10/%E5%AE%9E%E9%99%85%E7%9A%84%E6%83%85%E5%86%B5/"/>
+    <id>/2020/01/10/实际的情况/</id>
+    <published>2020-01-09T17:27:18.000Z</published>
+    <updated>2020-01-09T17:51:21.208Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里讲讲寒假实际的情况</p><p>其实我心里是很想搞学习的</p><p>实际上，天天睡懒觉睡到中午   哈哈哈，不是我想睡觉是家里从床太舒服了</p><blockquote><p>有一说一，这个暑假是准备学一个spring 以及 spring boot ，<br>    为什么学这个，<del>因为ssm太复杂了</del>,<br>    这个东西，我看了一下配置还是蛮简单的，刚开始的时候我就是简单的看了一下，<br>    然后发现，spring的很多东西看不懂，哎<br>    我还是太天真了。。。。</p></blockquote><p>所以这个寒假我的计划是</p><h4 id="我先立一个flag"><a href="#我先立一个flag" class="headerlink" title="我先立一个flag"></a><strong>我先立一个flag</strong></h4><p>学完 spring、spring boot、java数据结构</p><p>如果学习进度不错的话，就学react</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/milaoshu.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新年的计划以及总结</title>
+    <link href="/2019/12/25/%E6%96%B0%E5%B9%B4%E7%9A%84%E8%AE%A1%E5%88%92/"/>
+    <id>/2019/12/25/新年的计划/</id>
+    <published>2019-12-24T17:34:20.000Z</published>
+    <updated>2019-12-24T18:43:03.243Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="学习的态度"><a href="#学习的态度" class="headerlink" title="学习的态度"></a>学习的态度</h2><p>今年感觉有了许多的长进。。。。。。。。</p><p>首先这个是一个历史的遗留的问题。。。。我之前是。。。一个差学生来着<br>没有闯过什么大祸，不抽烟、不喝酒。<br>就是学校的一些规章制度我不会去遵守，偶尔老师会头痛。<br>对于学习的态度，，，，我之前是认为读书无用。。。。。。态度自然不佳。。。</p><p>但是读书无用论毕竟只是概率的偏差。。。<br>用少数人不读书的人的成功的例子来得出的读书无用的结论，毕竟是以偏概全</p><p><strong>为什么突然想学习呢？</strong><br>算是自问自答吧，，，，就像饿的时候会想不由自主的进食一样，<br>对知识渴望的时候也会不由主的想要获取知识。<br><del>突然感觉自己什么都不懂</del></p><p>我学的什么？<br>很显然，我们只会学习与自己相关的知识，我主要还是学习计算机，实际上我现在什么都想学</p><h2 id="今年经过的学习误区"><a href="#今年经过的学习误区" class="headerlink" title="今年经过的学习误区"></a>今年经过的学习误区</h2><p>应该感觉自己学的东西少了，所以总是想着速成，快速的学会一个东西，<br>然后我就去试着做了，但是很快我就发现了，这样子学习。。。。所学的知识很快就忘了。</p><p>相当于是，只看了一遍，而没有真正的去理解这个东西。在没有搞清楚问题的情况，<br>下去学习（看知识点）。。。。。。也就是  为了学习而去学习，，，感觉很恐怖的说。。。</p><p>首先就是要明确问题与答案之间的关系，有时候也是指的问题发生的背景<br>然后就是要用多个例子来验证两者之间的关系是否正确。。。</p><p>也就是说，，，，我们自己需要记住的是例子，而不是知识。。。</p><h2 id="学习方法-方法只是完成目的的手段，目的才是核心"><a href="#学习方法-方法只是完成目的的手段，目的才是核心" class="headerlink" title="学习方法  方法只是完成目的的手段，目的才是核心"></a>学习方法  方法只是完成目的的手段，目的才是核心</h2><p>照搬别人的学习方法肯定是不好的     <del>我之前试过了</del></p><p>我在知乎上参考了很多别人的想法，还有很多学习的观念，以及学习的方法。。。。。<br>然后我们老师也教了很多学习的方法<br>但是毕竟我还是有一些特殊，我需要高度自定义的学习方法，不过他们说的多多少少都是有帮助的，</p><p>首先是作息时间，<br>推荐是六点七点起床，，我一般是九点或者是十点 <del>熬夜已成习惯</del></p><p>学习环境大多数人推荐是去图书馆。。。。。<br>但是我是在宿舍 <del>没想到吧</del><br>我们选学习环境就是有两个要点，，，一个是否稳定不会再专注学习的时候被打断，<br>第二个就是在这个环境里面自己是否可以专注，专注对于学习来说相当的重要</p><p>然后就是找找资料<br>因为学的是计算机所以资料很好找，，<br>我这里的资料已经不同往日，包括但不限于图书、视频、图片<br>一般是去 b站、中国大学mooc、how2j、知乎 这几个平台找答案。。</p><p>同时修整了一个问题，，我没有的问题 <del>但是我的同学有的问题</del><br>他们都认为，，学习就是老师教，然后你听做笔记，这个叫学习。</p><h2 id="别人的期望"><a href="#别人的期望" class="headerlink" title="别人的期望"></a>别人的期望</h2><p>其实老师、父母都给了建议，，，、<br>老师给的建议就是  好好学习，一定要保持不断的学习。。。无论最终学的怎么样<br><del>我们老师说其实读了那么多的书还是给别人打工</del><br>家里人：起码要做一个有出息的人（其实有出息这个概念还是太模糊了）</p><h2 id="我希望成为一个什么样的人"><a href="#我希望成为一个什么样的人" class="headerlink" title="我希望成为一个什么样的人"></a>我希望成为一个什么样的人</h2><p>在学习方面，我希望我可以自主的学习，不在过于依赖他人，我希望我可以学习更多的知识，<br>我希望我是一个学习能力很强的人（学习能力超过90%的人）</p><p>学习能力在某种程度上来说，就是可以解决实际问题的能力</p><p>说白了，我希望我有朝一日也是一个真正的大佬</p><p>就是在学校学习的日子可能不多了</p><h2 id="现在是"><a href="#现在是" class="headerlink" title="现在是"></a>现在是</h2><p>现在还是一个渣渣，很多东西都不会，有时候还是会自卑的。<br>所以我还是会给自己灌鸡汤的</p><p>比如：种一棵树最好的时间是十年前，其次是现在</p><h2 id="我写这个东西的意义是什么"><a href="#我写这个东西的意义是什么" class="headerlink" title="我写这个东西的意义是什么"></a>我写这个东西的意义是什么</h2><blockquote></blockquote><p>唐僧不是有一句话吗：<strong>贫僧从东土大唐而来，要往西天而去</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>idea2019.3破解教程</title>
+    <link href="/2019/12/10/idea2019-3%E7%A0%B4%E8%A7%A3%E6%95%99%E7%A8%8B/"/>
+    <id>/2019/12/10/idea2019-3破解教程/</id>
+    <published>2019-12-10T15:05:04.000Z</published>
+    <updated>2019-12-15T06:17:21.783Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天我自己用的这个IDEA突然提示说到了使用的期限了，我就想着搞一个破解，结果还是踩了很多的坑</p><p>一开始我把这个idea2019版的卸载了，然后打算装上一个idea2018版的搞一个永久的破解版用用</p><p>搞了很久然后我把2018版永久的idea搞好了，但是这个时候tm的，我突然发现idea2019的居然也出了破解</p><p>的方法，唉，其实我心里还是习惯里这个版本，想着还是把这个2018的卸载了，下回来了2019的</p><h2 id="下载idea——2019"><a href="#下载idea——2019" class="headerlink" title="下载idea——2019"></a>下载idea——2019</h2><p>官网下载地址：<a href="https://www.jetbrains.com/idea/download/" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download/</a></p><h2 id="下载补丁"><a href="#下载补丁" class="headerlink" title="下载补丁"></a>下载补丁</h2><p>链接：<a href="https://pan.baidu.com/s/11WHoqYO9FJ506Cfuk2fflA" target="_blank" rel="noopener">https://pan.baidu.com/s/11WHoqYO9FJ506Cfuk2fflA</a><br>提取码：ppa8</p><p>补丁下载好后就放在idea的bin目录下面</p><h2 id="打开并且配置idea"><a href="#打开并且配置idea" class="headerlink" title="打开并且配置idea"></a>打开并且配置idea</h2><ol><li><p>先一波试用进去到欢迎界面</p></li><li><p>配置VM option<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/idea.jpg" alt></p></li></ol><ol start="3"><li>添加这个选项</li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/idea2.jpg" alt></p><h2 id="重启IDEA"><a href="#重启IDEA" class="headerlink" title="重启IDEA"></a>重启IDEA</h2><p>打开进去然后看到help选项里面的Register<br>这个就是激活框</p><h2 id="复制下面的其中一个激活码"><a href="#复制下面的其中一个激活码" class="headerlink" title="复制下面的其中一个激活码"></a>复制下面的其中一个激活码</h2><pre><code>A82DEE284F-eyJsaWNlbnNlSWQiOiJBODJERUUyODRGIiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly96aGlsZS5pbyIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiJVbmxpbWl0ZWQgbGljZW5zZSB0aWxsIGVuZCBvZiB0aGUgY2VudHVyeS4iLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSRCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiREMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiRE0iLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJBQyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkdPIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In1dLCJoYXNoIjoiODkwNzA3MC8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-5epo90Xs7KIIBb8ckoxnB/AZQ8Ev7rFrNqwFhBAsQYsQyhvqf1FcYdmlecFWJBHSWZU9b41kvsN4bwAHT5PiznOTmfvGv1MuOzMO0VOXZlc+edepemgpt+t3GUHvfGtzWFYeKeyCk+CLA9BqUzHRTgl2uBoIMNqh5izlDmejIwUHLl39QOyzHiTYNehnVN7GW5+QUeimTr/koVUgK8xofu59Tv8rcdiwIXwTo71LcU2z2P+T3R81fwKkt34evy7kRch4NIQUQUno//Pl3V0rInm3B2oFq9YBygPUdBUbdH/KHROyohZRD8SaZJO6kUT0BNvtDPKF4mCT1saWM38jkw==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ndaik1GD0nyTdqkZgURQZGW+RGxCdBITPXIwpjhhaD0SXGa4XSZBEBoiPdY6XV6pOfUJeyfi9dXsY4MmT0D+sKoST3rSw96xaf9FXPvOjn4prMTdj3Ji3CyQrGWeQU2nzYqFrp1QYNLAbaViHRKuJrYHI6GCvqCbJe0LQ8qqUiVMA9wG/PQwScpNmTF9Kp2Iej+Z5OUxF33zzm+vg/nYV31HLF7fJUAplI/1nM+ZG8K+AXWgYKChtknl3sW9PCQa3a3imPL9GVToUNxc0wcuTil8mqveWcSQCHYxsIaUajWLpFzoO2AhK4mfYBSStAqEjoXRTuj17mo8Q6M2SHOcwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQBonMu8oa3vmNAa4RQP8gPGlX3SQaA3WCRUAj6Zrlk8AesKV1YSkh5D2l+yUk6njysgzfr1bIR5xF8eup5xXc4/G7NtVYRSMvrd6rfQcHOyK5UFJLm+8utmyMIDrZOzLQuTsT8NxFpbCVCfV5wNRu4rChrCuArYVGaKbmp9ymkw1PU6+HoO5i2wU3ikTmRv8IRjrlSStyNzXpnPTwt7bja19ousk56r40SmlmC04GdDHErr0ei2UbjUua5kw71Qn9g02tL9fERI2sSRjQrvPbn9INwRWl5+k05mlKekbtbu2ev2woJFZK4WEXAd/GaAdeZZdumv8T2idDFL7cAirJwcrbfpawPeXr52oKTPnXfi0l5+g9Gnt/wfiXCrPElX6ycTR6iL3GC2VR4jTz6YatT4Ntz59/THOT7NJQhr6AyLkhhJCdkzE2cob/KouVp4ivV7Q3Fc6HX7eepHAAF/DpxwgOrg9smX6coXLgfp0b1RU2u/tUNID04rpNxTMueTtrT8WSskqvaJd3RH8r7cnRj6Y2hltkja82HlpDURDxDTRvv+krbwMr26SB/40BjpMUrDRCeKuiBahC0DCoU/4+ze1l94wVUhdkCfL0GpJrMSCDEK+XEurU18Hb7WT+ThXbkdl6VpFdHsRvqAnhR2g4b+Qzgidmuky5NUZVfEaZqV/g==</code></pre><pre><code>3AGXEJXFK9-eyJsaWNlbnNlSWQiOiIzQUdYRUpYRks5IiwibGljZW5zZWVOYW1lIjoiaHR0cHM6Ly96aGlsZS5pbyIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiIiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkFDIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkRQTiIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJQUyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJHTyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJETSIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJDTCIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSUzAiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUkMiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUkQiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUEMiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUk0iLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiV1MiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiREIiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiREMiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiUlNVIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9XSwiaGFzaCI6IjEyNzk2ODc3LzAiLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-WGTHs6XpDhr+uumvbwQPOdlxWnQwgnGaL4eRnlpGKApEEkJyYvNEuPWBSrQkPmVpim/8Sab6HV04Dw3IzkJT0yTc29sPEXBf69+7y6Jv718FaJu4MWfsAk/ZGtNIUOczUQ0iGKKnSSsfQ/3UoMv0q/yJcfvj+me5Zd/gfaisCCMUaGjB/lWIPpEPzblDtVJbRexB1MALrLCEoDv3ujcPAZ7xWb54DiZwjYhQvQ+CvpNNF2jeTku7lbm5v+BoDsdeRq7YBt9ANLUKPr2DahcaZ4gctpHZXhG96IyKx232jYq9jQrFDbQMtVr3E+GsCekMEWSD//dLT+HuZdc1sAIYrw==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ndaik1GD0nyTdqkZgURQZGW+RGxCdBITPXIwpjhhaD0SXGa4XSZBEBoiPdY6XV6pOfUJeyfi9dXsY4MmT0D+sKoST3rSw96xaf9FXPvOjn4prMTdj3Ji3CyQrGWeQU2nzYqFrp1QYNLAbaViHRKuJrYHI6GCvqCbJe0LQ8qqUiVMA9wG/PQwScpNmTF9Kp2Iej+Z5OUxF33zzm+vg/nYV31HLF7fJUAplI/1nM+ZG8K+AXWgYKChtknl3sW9PCQa3a3imPL9GVToUNxc0wcuTil8mqveWcSQCHYxsIaUajWLpFzoO2AhK4mfYBSStAqEjoXRTuj17mo8Q6M2SHOcwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQBonMu8oa3vmNAa4RQP8gPGlX3SQaA3WCRUAj6Zrlk8AesKV1YSkh5D2l+yUk6njysgzfr1bIR5xF8eup5xXc4/G7NtVYRSMvrd6rfQcHOyK5UFJLm+8utmyMIDrZOzLQuTsT8NxFpbCVCfV5wNRu4rChrCuArYVGaKbmp9ymkw1PU6+HoO5i2wU3ikTmRv8IRjrlSStyNzXpnPTwt7bja19ousk56r40SmlmC04GdDHErr0ei2UbjUua5kw71Qn9g02tL9fERI2sSRjQrvPbn9INwRWl5+k05mlKekbtbu2ev2woJFZK4WEXAd/GaAdeZZdumv8T2idDFL7cAirJwcrbfpawPeXr52oKTPnXfi0l5+g9Gnt/wfiXCrPElX6ycTR6iL3GC2VR4jTz6YatT4Ntz59/THOT7NJQhr6AyLkhhJCdkzE2cob/KouVp4ivV7Q3Fc6HX7eepHAAF/DpxwgOrg9smX6coXLgfp0b1RU2u/tUNID04rpNxTMueTtrT8WSskqvaJd3RH8r7cnRj6Y2hltkja82HlpDURDxDTRvv+krbwMr26SB/40BjpMUrDRCeKuiBahC0DCoU/4+ze1l94wVUhdkCfL0GpJrMSCDEK+XEurU18Hb7WT+ThXbkdl6VpFdHsRvqAnhR2g4b+Qzgidmuky5NUZVfEaZqV/g==</code></pre><pre><code>KNBB2QUUR1-eyJsaWNlbnNlSWQiOiJLTkJCMlFVVVIxIiwibGljZW5zZWVOYW1lIjoiZ2hib2tlIiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IiIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiSUkiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiQUMiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In0seyJjb2RlIjoiRFBOIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlBTIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkdPIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkRNIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IkNMIiwiZmFsbGJhY2tEYXRlIjoiMjA4OS0wNy0wNyIsInBhaWRVcFRvIjoiMjA4OS0wNy0wNyJ9LHsiY29kZSI6IlJTMCIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSQyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSRCIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJQQyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSTSIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJXUyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJEQiIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJEQyIsImZhbGxiYWNrRGF0ZSI6IjIwODktMDctMDciLCJwYWlkVXBUbyI6IjIwODktMDctMDcifSx7ImNvZGUiOiJSU1UiLCJmYWxsYmFja0RhdGUiOiIyMDg5LTA3LTA3IiwicGFpZFVwVG8iOiIyMDg5LTA3LTA3In1dLCJoYXNoIjoiMTI3OTY4NzcvMCIsImdyYWNlUGVyaW9kRGF5cyI6NywiYXV0b1Byb2xvbmdhdGVkIjpmYWxzZSwiaXNBdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlfQ==-1iV7BA/baNqv0Q5yUnAphUmh66QhkDRX+qPL09ICuEicBqiPOBxmVLLCVUpkxhrNyfmOtat2LcHwcX/NHkYXdoW+6aS0S388xe1PV2oodiPBhFlEaOac42UQLgP4EidfGQSvKwC9tR1zL5b2CJPQKZ7iiHh/iKBQxP6OBMUP1T7j3Fe1rlxfYPc92HRZf6cO+C0+buJP5ERZkyIn5ZrVM4TEnWrRHbpL8SVNq4yqfc+NwoRzRSNC++81VDS3AXv9c91YeZJz6JXO7AokIk54wltr42FLNuKbozvB/HCxV9PA5vIiM+kZY1K0w5ytgxEYKqA87adA7R5xL/crpaMxHQ==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ndaik1GD0nyTdqkZgURQZGW+RGxCdBITPXIwpjhhaD0SXGa4XSZBEBoiPdY6XV6pOfUJeyfi9dXsY4MmT0D+sKoST3rSw96xaf9FXPvOjn4prMTdj3Ji3CyQrGWeQU2nzYqFrp1QYNLAbaViHRKuJrYHI6GCvqCbJe0LQ8qqUiVMA9wG/PQwScpNmTF9Kp2Iej+Z5OUxF33zzm+vg/nYV31HLF7fJUAplI/1nM+ZG8K+AXWgYKChtknl3sW9PCQa3a3imPL9GVToUNxc0wcuTil8mqveWcSQCHYxsIaUajWLpFzoO2AhK4mfYBSStAqEjoXRTuj17mo8Q6M2SHOcwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQBonMu8oa3vmNAa4RQP8gPGlX3SQaA3WCRUAj6Zrlk8AesKV1YSkh5D2l+yUk6njysgzfr1bIR5xF8eup5xXc4/G7NtVYRSMvrd6rfQcHOyK5UFJLm+8utmyMIDrZOzLQuTsT8NxFpbCVCfV5wNRu4rChrCuArYVGaKbmp9ymkw1PU6+HoO5i2wU3ikTmRv8IRjrlSStyNzXpnPTwt7bja19ousk56r40SmlmC04GdDHErr0ei2UbjUua5kw71Qn9g02tL9fERI2sSRjQrvPbn9INwRWl5+k05mlKekbtbu2ev2woJFZK4WEXAd/GaAdeZZdumv8T2idDFL7cAirJwcrbfpawPeXr52oKTPnXfi0l5+g9Gnt/wfiXCrPElX6ycTR6iL3GC2VR4jTz6YatT4Ntz59/THOT7NJQhr6AyLkhhJCdkzE2cob/KouVp4ivV7Q3Fc6HX7eepHAAF/DpxwgOrg9smX6coXLgfp0b1RU2u/tUNID04rpNxTMueTtrT8WSskqvaJd3RH8r7cnRj6Y2hltkja82HlpDURDxDTRvv+krbwMr26SB/40BjpMUrDRCeKuiBahC0DCoU/4+ze1l94wVUhdkCfL0GpJrMSCDEK+XEurU18Hb7WT+ThXbkdl6VpFdHsRvqAnhR2g4b+Qzgidmuky5NUZVfEaZqV/g==</code></pre><p>然后就大功告成了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/idea1.jpg" alt></p><p>可以看到这里的日期显示的是2089年的7月7日</p><p>完全够用了</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx反向代理和负载均衡</title>
+    <link href="/2019/12/06/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%92%8C%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+    <id>/2019/12/06/nginx反向代理和负载均衡/</id>
+    <published>2019-12-06T13:26:57.000Z</published>
+    <updated>2019-12-06T14:12:21.529Z</updated>
+    
+    <content type="html"><![CDATA[<p>对nginx有一定了解了后就来干干试试它真正的用途<br><strong>反向代理和负载均衡</strong></p><p>那么什么是反向代理呢<br>首先我们要看一个正向代理，如果你要访问p站看点色图，那么你就需要翻墙，来访问p站，这个就是正向代理</p><p>反向代理就是，你现在要访问p站，p站悄悄的把这个请求交给了b站来做，那b站就是反向代理</p><p>先上一个图（我自己画的）,这个是今天学的，目的就是可以优化页面的访问速度<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/nginx.png" alt></p><h2 id="Nginx反向代理"><a href="#Nginx反向代理" class="headerlink" title="Nginx反向代理"></a>Nginx反向代理</h2><p>在Nginx下的conf文件里面修改location /</p><pre><code>location / {        proxy_pass http://127.0.0.1:8080;    }</code></pre><p>这个意思就是反向代理了tomcat，这个地址就是tomcat访问url<br>然后就是如果你可以在网址里面直接输入localhost，就可以访问tomcat，而不是直接访问localhost:8080</p><h2 id="静态资源和动态资源分离"><a href="#静态资源和动态资源分离" class="headerlink" title="静态资源和动态资源分离"></a>静态资源和动态资源分离</h2><p>为什么要这么做呢，因为Nginx处理静态资源的能力比tomcat出色所以，我们用nginx来处理css，js和png图片<br>tomcat来处理jsp文件</p><p>同样的需要配置nginx的conf文件,这里是直接增加</p><pre><code>location ~\.(css|js|png)$ {            root D:/Eclipse-j2ee/lib/tomcat_8111/webapps/ROOT;    }</code></pre><p>相当于是一个正则表达式，root 后面是web项目资源，</p><h2 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h2><p>有时候一个tomcat可以吃不消，所以我们用了两个一模一样的tomcat（端口不同）来接收请求</p><p>同样的还是配置文件nginx.conf，直接添加</p><pre><code>upstream tomcat_8111_8222{    server  127.0.0.1:8111  weight=1;    server  127.0.0.1:8222  weight=2;    }</code></pre><p>这里weight就是权重的意思，端口号为8111的tomcat的权重为1，而端口号为8222的tomcat的权重为2，<br>其实实际跑的时候是随机的<del>可能权重大的tomcat跑的次数多一点吧</del></p><h2 id="redis的session共享"><a href="#redis的session共享" class="headerlink" title="redis的session共享"></a>redis的session共享</h2><p>这个有什么用？</p><p>首先假设，如果一个用户在访问页面的时候用户所在的tomcat炸了。那么用户就要重新登录，<br>之前的操作也要重新再来，这个东西就是，十分的影响用户的体验，</p><p>所以就有两种解决的方案，一个是通过配置ip，一个是用redis来保存用户的session</p><p>在刚刚那里的配置文件后面加上一句 ip_hash</p><p>就像这样</p><pre><code>upstream tomcat_8111_8222{    server  127.0.0.1:8111  weight=1;    server  127.0.0.1:8222  weight=2;    ip_hash;    }</code></pre><p>但是通过ip来锁定用户是有缺陷的<br>如果是有大量的ip来访问的话。那就会都分配到同一个tomcat上，就是相当于是没有负载均衡了<br>这样就没有意义了。</p><p>所以我们可以通过下面这种方式来保证用户的体验</p><ol><li>准备下面这三个jar包，导入到tomcat的lib下面 ，两个tomcat都要导入</li></ol><p>jedis-2.5.2.jar，<br>commons-pool2-2.0.jar，<br>tomcat-redis-session-manager1.2.jar。</p><ol start="2"><li><p>修改tomcat/conf/context.xml，两个tomcat都要改</p><pre><code>&lt;Valve className=&quot;com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve&quot; /&gt;  &lt;Manager className=&quot;com.orangefunction.tomcat.redissessions.RedisSessionManager&quot;  host=&quot;127.0.0.1&quot;  port=&quot;6379&quot;  database=&quot;0&quot;  maxInactiveInterval=&quot;60&quot; /&gt; </code></pre><p>直接增加就好了</p></li><li><p>启动redis服务</p></li><li><p>重启tomcat</p></li></ol><p>现象：<br>现在如果你打开浏览器直接访问<a href="http://localhost:8111,然后输入了用户名，密码（产生一个session）" target="_blank" rel="noopener">http://localhost:8111,然后输入了用户名，密码（产生一个session）</a><br>然后在打开<a href="http://localhost:8222,你会发现已经登录了。" target="_blank" rel="noopener">http://localhost:8222,你会发现已经登录了。</a></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初识Nginx</title>
+    <link href="/2019/12/04/%E5%88%9D%E8%AF%86Nginx/"/>
+    <id>/2019/12/04/初识Nginx/</id>
+    <published>2019-12-04T14:29:24.000Z</published>
+    <updated>2019-12-04T14:54:03.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天上课的时候老师专门用一节课给我们讲了如果去使用云服务器，主要就是一个使用nginx来部署静态页面。</p><p>那么什么是nginx<br>首先nginx是一个web服务器，同类型有Apache，一般用来做反向代理和负载均衡</p><p>先说一下，我这个服务器是Linux centos 7</p><h2 id="安装nginx"><a href="#安装nginx" class="headerlink" title="安装nginx"></a>安装nginx</h2><pre><code>yum -y install nginx</code></pre><h2 id="启动nginx服务"><a href="#启动nginx服务" class="headerlink" title="启动nginx服务"></a>启动nginx服务</h2><pre><code>systemctl start nginx.service</code></pre><h2 id="使用你的服务器ip地址打开浏览器"><a href="#使用你的服务器ip地址打开浏览器" class="headerlink" title="使用你的服务器ip地址打开浏览器"></a>使用你的服务器ip地址打开浏览器</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/nginx.jpg" alt></p><h2 id="配置你的conf文件"><a href="#配置你的conf文件" class="headerlink" title="配置你的conf文件"></a>配置你的conf文件</h2><pre><code>vim /etc/nginx/nginx.conf</code></pre><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><p> 重新载入配置文件</p><pre><code>nginx -s reload </code></pre><p>重启 nginx</p><pre><code>nginx -s reopen</code></pre><p>停止 nginx</p><pre><code>nginx -s stop</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过云服务器部署J2EE项目</title>
+    <link href="/2019/12/02/%E9%80%9A%E8%BF%87%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2J2EE%E9%A1%B9%E7%9B%AE/"/>
+    <id>/2019/12/02/通过云服务器部署J2EE项目/</id>
+    <published>2019-12-02T10:57:37.000Z</published>
+    <updated>2019-12-02T11:46:20.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天刚刚学了怎么部署一个j2ee的项目<br>写一下，怕忘了</p><p>首先我买的服务器是百度云的服务器（对，就是你们说的最烂的，能用就行）<br>配置是一核一G，40G存储</p><h2 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h2><p><strong>用Xshell连接服务器</strong>，建议用SSH（比较方便快捷）<br>注意：如果连续多次输错密码的话，你的当前ip地址会被封，然后无论如何都无法连接上。（别问我为什么知道）</p><h2 id="安装jdk-Linux版"><a href="#安装jdk-Linux版" class="headerlink" title="安装jdk-Linux版"></a>安装jdk-Linux版</h2><ol start="0"><li><p>准备好一个Linux版的jdk8<br><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener">https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p></li><li><p>以root用户登录你的服务器</p></li><li><p>新建文件夹，来存放jdk</p><pre><code>mkdir /usr/local/java</code></pre></li><li><p>用<strong>FlashFXP</strong>来把Linux版的jdk传到服务器上面，注意要把jdk放在/usr/local/java 这个文件夹下面<br><a href="https://www.flashfxp.com/download" target="_blank" rel="noopener">https://www.flashfxp.com/download</a></p></li><li><p>解压jdk</p><pre><code>tar xvf jdk-linux-x64.tar.gz</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk1.jpg" alt></p></li><li><p>配置java环境变量（我这里把tomcat的环境变量也配置好了）</p><pre><code>vim /etc/profile</code></pre><p>在done下面写下这些东西<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk2.jpg" alt></p></li><li><p>测试java是否安装成功</p><pre><code>java -version</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jdk3.jpg" alt></p></li></ol><h2 id="安装tomcat-（同样是Linux版）"><a href="#安装tomcat-（同样是Linux版）" class="headerlink" title="安装tomcat （同样是Linux版）"></a>安装tomcat （同样是Linux版）</h2><ol start="0"><li>到官网下载tomcat,注意不要下错了<br><a href="https://tomcat.apache.org/download-70.cgi" target="_blank" rel="noopener">https://tomcat.apache.org/download-70.cgi</a></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/tomcat.jpg" alt></p><ol><li><p>新建tomcat的文件夹<br>这里跟上面的创建java文件夹是一样的</p><pre><code>mkdir /usr/local/tomcat</code></pre></li><li><p>解压文件</p><pre><code>tar xvf apache-tomcat-7.0.96.tar.gz</code></pre></li><li><p>配置环境变量，我在上面已经配好了，这里就跳过</p></li><li><p>进入bin目录</p><pre><code>cd /usr/local/tomcat/apache-tomcat-7.0.96/bin</code></pre></li><li><p>启动tomcat</p><pre><code>./startup.sh</code></pre></li><li>打开网址<pre><code>你的公网ip：8080</code></pre>如果是下面这个画面就是成功了</li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/tomcat2.jpg" alt></p><p>就酱，没了</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次购买云服务器</title>
+    <link href="/2019/12/01/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B4%AD%E4%B9%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>/2019/12/01/第一次购买云服务器/</id>
+    <published>2019-11-30T16:18:22.000Z</published>
+    <updated>2019-11-30T17:14:50.082Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="百度云的服务器"><a href="#百度云的服务器" class="headerlink" title="百度云的服务器"></a>百度云的服务器</h2><p>其实云服务器有很多种，像阿里云、腾讯云、金山云。。。。。。之类的<br>但是为什么我要选择百度云服务器呢<del>因为没钱</del></p><h2 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h2><p>从这个服务器上面了解到有两种登录的方式，一种就是用密码登录，一种就是用SSH登录。那么什么是SSH呢</p><p>从官方文档可以知道</p><p><strong>SSH 密钥对通过加密算法生成一对密钥，一个对外界公开，称为 公钥，另一个您自己保留，称为 私钥。</strong></p><p>这个就是ssh，相当于就是公钥加密私钥解，其实我觉的还是挺不错的</p><p>使用方法如下：</p><p>打开xshell，新建会话，登录用户选择root，到第二步的时候就是会要你选择是使用密码(password)，还是使用密钥(public key),在百度云控制台创建密钥对的时候会给你一个文件，这个文件就是私钥，选择这个文件就可以了。</p><h2 id="其他用法"><a href="#其他用法" class="headerlink" title="其他用法"></a>其他用法</h2><p>搭建博客<br>搭建网盘（我觉得这个带宽实在是太小了<br>搭建游戏服务器(小型的还行)</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>8大排序算法(一)</title>
+    <link href="/2019/11/25/8%E5%A4%A7%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E4%B8%80/"/>
+    <id>/2019/11/25/8大排序算法-一/</id>
+    <published>2019-11-24T16:27:32.000Z</published>
+    <updated>2019-11-24T16:59:00.854Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在学数据结构，所以还是来做一些笔记吧<br>我准备这个排序算法写两个，这个是其中之一</p><p>这里的话我就讲讲冒泡排序、快速排序、插入排序、希尔排序</p><h3 id="冒泡排序法"><a href="#冒泡排序法" class="headerlink" title="冒泡排序法"></a>冒泡排序法</h3><p>不得不说这个排序算法是最经典的。</p><pre><code>import java.util.Arrays;public class Bubblesort {    public static void main(String[] args) {        //新建一个数组        int arr[] = new int [] {2,99,4,5,6,22,1,33,66,88};        System.out.println(Arrays.toString(arr));        bubblesort(arr);        System.out.println(Arrays.toString(arr));    }    //冒泡排序法    /**     * 基本的思路就是控制需要比较的轮数，也就是arr.length-1     * @param arr     */    public static void bubblesort(int arr[]) {        //总共是需要进行length-1次排序        for (int i = 0; i &lt; arr.length-1; i++) {            for (int j = 0; j &lt; arr.length-1-i; j++) {                if (arr[j]&gt;arr[j+1]) {                    int temp = arr[j];                    arr[j] = arr[j+1];                    arr[j+1] = temp;                }            }        }    }}</code></pre><h3 id="插入排序法"><a href="#插入排序法" class="headerlink" title="插入排序法"></a>插入排序法</h3><p>这个排序算法的实现比较简单<br>主要就是每两个数字的两两进行比较，如果右边的数大于左边的数，那就不替换。反之替换</p><pre><code>import java.util.Arrays;//插入排序//但是这个排序效率比较慢，就是因为如果前面都是按顺序来着的，后面突然来了一个比较小的数字那么这个工作量就开始大起来了public class InsertSort {    public static void main(String[] args) {        int arr[] = new int [] {1,5,2,9,6,4,8,3,6};        System.out.println(Arrays.toString(arr));        sort(arr);        System.out.println(Arrays.toString(arr));    }    public static void sort(int arr[]) {        //先从第二个数字遍历所有的数字        for (int i = 1; i &lt; arr.length; i++) {            //如果当前的数字小于前面的的那个数字的话            if (arr[i]&lt;arr[i-1]) {                //就先保存当前的这个数字                int temp = arr[i];                int j;   //这里是一个局部的变量                //就替换数字把左边大的数字替换右边小的数字                for(j=i-1;j&gt;=0&amp;&amp;temp&lt;arr[j];j--) {                    arr[j+1] = arr[j];                }                //把temp里的数字替换回来                arr[j+1] = temp;            }        }    }}</code></pre><h3 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h3><p>我同学说这个是最效率最高的排序算法<br>这个排序算法的特点就是有一个基线<br>实现的方法就是去一个数作为基准的数（一般取第一个），然后遍历数组中所有的数字，如果数字比这个大那么就丢到右边，小的话就丢到左边。<br>然后就分成了两半，左边一半是比基准数小的，右边一半是比基准数大的。<br>现在又重新开始排序以左边第一个作为基准数，比这个大的就丢在右边。。。<br>就是这样不断的被分成了两半，这样的递归方法就是这个算法的思想</p><p>代码如下</p><pre><code>import java.util.Arrays;//快速排序public class QuickSort {    public static void main(String[] args) {        int arr[]  = new int [] {4,10,5,2,3,6,7,1,8,9,0,11};        System.out.println(Arrays.toString(arr));        sort(arr, 0, arr.length-1);        System.out.println(Arrays.toString(arr));    }    //这里要注意的就是要确定作为基准的数字（一般取第一个），然后就是最后一个数字    public static void sort(int arr[],int start,int end) {        if (start&lt;end) {            //首先要找到一基准数，一般 我们取第一个数字            int stard  = arr[start];            //这里就是记录需要排序的下标            int low = start;            int high = end;            //左边的下标low小于右边的下标high的时候就执行这条语句，当low与high重合的时候（low不大于high），也就意味着本次循环的快速排序结束            while(low&lt;high) {                //这条循环的意思就是如果arr[high]这个右边的数大于基数的话，那就只要把high这个下标左移一位就可以了                while(low&lt;high&amp;&amp;stard&lt;=arr[high]) {                    high--;                }                //右边的数字替换左边的数字                arr[low] = arr[high];                //这里就是跟上面的情况相反                while(low&lt;high&amp;&amp;arr[low]&lt;=stard) {                    low++;                }                //如果左边的arr[low]大于stand的时候就是把左边的数字替换到右边的数字                arr[high] = arr[low];                //然后就是不要忘记了把基准的数放回来            }            arr[low] = stard;            //处理所有小的数字            sort(arr, start, low);            //处理所有大的数字            sort(arr, low+1, end);        }    }}</code></pre><h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3><p>据说这是一个人的名字<br>这个算法就是为了解决上面的插入排序效率低的问题的</p><p>原理如下：首先我们要定义一个增量（足长），这个增量是怎么定义的呢<br>就是数组的长度除以2。也就是 arr.length/2 就是这个样子，取出来的数为整数<br>不能是小数<br>第一轮排序：我们把足长进行冒泡排序。相当数粗略的排序<br>第二轮排序:也就是当足长为1的时候。我们就进行插入排序、可能是因为插入排序的这个算法对相对有序的数组排序的更快一点</p><pre><code>import java.util.Arrays;//希尔排序，这个希尔排序其实就是上面快速排序的优化版本public class ShellSort {    public static void main(String[] args) {        int arr[] = new int [] {4,2,4,1,9,6,0,5};        System.out.println(Arrays.toString(arr));        sort(arr);        System.out.println(Arrays.toString(arr));    }    public static void sort(int arr[]) {        //遍历所有的增量（步长）        for(int d=arr.length/2; d&gt;0; d/=2) {            for (int i = d; i &lt; arr.length; i++) {                for (int j = i-d; j &gt;=0; j-=d) {                    if (arr[j]&gt;arr[j+d]) {                        int temp = arr[j];                        arr[j] = arr[j+d];                        arr[j+d] = temp;                    }                }            }        }    }}</code></pre><p>这里面感觉还是希尔排序最难理解<br>其他的其实感觉也不是那么的难</p><p>其还是感觉自己很菜</p><p>现在我才是来入个门啊，其实也是蛮难的、</p><p>好多的大佬就在搞人工智能、卷积神经网络<br>我就是想问    can i do this？</p><p>真的好难好难啊</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SQL优化</title>
+    <link href="/2019/11/20/SQL%E4%BC%98%E5%8C%96/"/>
+    <id>/2019/11/20/SQL优化/</id>
+    <published>2019-11-20T04:18:57.000Z</published>
+    <updated>2019-11-20T07:32:08.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天数据库上课的时候讲了SQL优化。那我这里就把我的笔记整理一下，<br>其实将的这些东西还是蛮有意思的</p><h2 id="硬件优化"><a href="#硬件优化" class="headerlink" title="硬件优化"></a>硬件优化</h2><p>首先就是硬件的优化</p><h4 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h4><pre><code>这个东西当然是最后越大越好，如果有一张表的大小是一个G，那么就至少要占用一个G的内存</code></pre><h4 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h4><pre><code>然后就是硬盘，硬盘这个东西在企业这个级别这里并不是越快越好，而是最求稳定，也就是说硬盘最好是机械硬盘而不是固态硬盘。一个是固态硬盘这个东西寿命是不如机械硬盘的，第二个是在某种情况下有可能会出现掉速。</code></pre><h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><pre><code>网络主要就是看稳定性，然后就是时延，当然是响应速度越快越好</code></pre><p>但是很多的时候就是有一个问题，预算不足以在硬件上优化所以就是只能在软件上优化</p><h2 id="软件优化"><a href="#软件优化" class="headerlink" title="软件优化"></a>软件优化</h2><h4 id="版本"><a href="#版本" class="headerlink" title="版本"></a>版本</h4><pre><code>就是说版本的不同，sql的一些功能也会不同，版本不是说越新的版本越好</code></pre><h4 id="SQL引擎"><a href="#SQL引擎" class="headerlink" title="SQL引擎"></a>SQL引擎</h4><pre><code>不同的sql引擎有不同的作用，比如Myisam这个引擎就是说，比较轻量，比较快，在性能上面表现出色而像InnoDB这种引擎，就是支持事务，相对来说安全稳定，支持的数据量更大一些</code></pre><h4 id="分库分表"><a href="#分库分表" class="headerlink" title="分库分表"></a>分库分表</h4><pre><code>如果说你有一张表，这张表的数据有一个G，那么当你要查询的时候就是需要吧这张表全部加载到内存里面，那么就至少需要一个G的内存，这样对内存的消耗是很大的所以可以将大的数据库分成小的，把大的表分成小的表，这样就可以解决这个问题</code></pre><h4 id="读写分离"><a href="#读写分离" class="headerlink" title="读写分离"></a>读写分离</h4><pre><code>这里就是有一个读写的主从，写是主，读是从，一个主可以对应多个从也就是说，写只有一个，从有多个，而这就可以提升了性能，因为大多数的情况下，我们只要读而不是写</code></pre><h2 id="sql语句的优化"><a href="#sql语句的优化" class="headerlink" title="sql语句的优化"></a>sql语句的优化</h2><pre><code>暂时老师还没讲，等下次上课，在说</code></pre><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xdd.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>deepin下面配置mysql</title>
+    <link href="/2019/11/10/deepin%E4%B8%8B%E9%9D%A2%E9%85%8D%E7%BD%AEmysql/"/>
+    <id>/2019/11/10/deepin下面配置mysql/</id>
+    <published>2019-11-09T16:05:45.000Z</published>
+    <updated>2019-11-20T07:33:33.699Z</updated>
+    
+    <content type="html"><![CDATA[<p>难得上数据库的课到机房上课，这波老师还是又把怎么安装mysql讲了一遍，还行本来我是准备在群里划水的，但是转念一想，还是在deepin上装一个mysql来折腾折腾。</p><p>安装其实还是蛮简单的就是，中间遇到了不少的小问题</p><h2 id="安装MySQL服务"><a href="#安装MySQL服务" class="headerlink" title="安装MySQL服务"></a>安装MySQL服务</h2><p>安装命令如下：</p><pre><code>sudo apt-get install mysql-server</code></pre><p>然后就是还可以安装一个mysql的管理工具</p><pre><code>sudo apt-get install mysql-client</code></pre><p>然后输入</p><pre><code>mysql -uroot -p</code></pre><p>就可以进入mysql了，默认是没有密码的</p><p>但是中间我还遇到了其他的问题要我更新软件源<br>这个还是没有问题</p><pre><code>sudo apt-get update</code></pre><h2 id="安装MySQL的workbench"><a href="#安装MySQL的workbench" class="headerlink" title="安装MySQL的workbench"></a>安装MySQL的workbench</h2><p><b>这是一个mysql自带的管理工具</b><br>官网下载deb后缀的文件，双击就可以打开了</p><h3 id="使用workbench遇到的问题"><a href="#使用workbench遇到的问题" class="headerlink" title="使用workbench遇到的问题"></a>使用workbench遇到的问题</h3><p>我在命令行可以正常的使用mysql，但是到了MySQLworkbench就用不了了，真的是无语。</p><p>后面还是让我们的老师看了一下，他说是用户的缺失，要我添加一个新的mysql用户<br>root@local不存在，当前只有一个用户，也就是<a href="mailto:root@127.0.0.1" target="_blank" rel="noopener">root@127.0.0.1</a>  也就是说localhost 并没有映射到localhost<br>上面。<br>一般的mysql一般会存在默认的几个用户</p><h4 id="添加mysql用户"><a href="#添加mysql用户" class="headerlink" title="添加mysql用户"></a>添加mysql用户</h4><p>例如这个就是添加一个名为admin的用户，映射的地址为localhost，密码为123456</p><pre><code>create user &#39;admin&#39;@&#39;localhost&#39; identified by &#39;123456&#39;;  </code></pre><p>修改密码</p><pre><code>set password for admin=password(&#39;password&#39;);  </code></pre><h4 id="授予权限（非常重要）"><a href="#授予权限（非常重要）" class="headerlink" title="授予权限（非常重要）"></a>授予权限（非常重要）</h4><p>这里我是吃了一次亏<br>我这里是有一次没有给用户授权，结果在workbench里面我试图创建数据库都没有权限，真的是可恶(〃＞皿＜)</p><pre><code> grant all on tiku.* to admin;  </code></pre><p>查看用户的权限</p><pre><code>show grants for kuke;  </code></pre><p>然后要记得更新数据库</p><pre><code>flush privileges; </code></pre><h2 id="操作数据库"><a href="#操作数据库" class="headerlink" title="操作数据库"></a>操作数据库</h2><p>显示所有的数据库</p><pre><code>show databases;</code></pre><p>使用数据库</p><pre><code>use 数据库的名字;</code></pre><p>创建数据库</p><pre><code>create 数据库的名字;</code></pre><h2 id="幕后（其他）"><a href="#幕后（其他）" class="headerlink" title="幕后（其他）"></a>幕后（其他）</h2><p>说起来这节课我还和老师聊了一下，感觉还是蛮开心的<br>一开始我就是问老师这个问题，然后老师看了一下，操作一波说是这个用户缺失的问题。<br>后面聊着聊着就聊到了我这个操作系统deepin </p><p>然后发现我这个电脑是双系统，问了我这些东西是不是都是自己搞的，我说是的，都是自己折腾的。<br>还问了一下我对于这个以后的职业生涯的规划。有没有想法搞Linux运维，我是回答暂时还是没有想法</p><p>我这个人嘛，说实话暂时还是没有什么好的看法，大体上还是搞计算机。说实话，这个东西还是蛮有意思的。折腾来折腾去。可能人生的意义就在于此吧。</p><p>然后老师还鼓励我尽可能的手动去编译那些源码，去了解这些底层的东西，而不是去使用那些封装好的东西。像是mysql。Nginx这些东西。<br>说起了我还是第一次听说Nginx这个东西。老师跟我说是web三件套。Linux、linux、nginx 想来这个东西应该是很重要的东西吧。都跟这些在一块了。要学的东西还有好多啊。真的是</p><p>这波表扬要还是很开心的，就是说我这个劲头不错继续保持下去。说不定以后真的可以变成大佬啊<br>就是看看十年可以成为一个大佬吗，真的不知道我以后会怎么样</p><p>十年一个全栈工程师怎么样。。。。。</p><p>有一句话我不记得在哪里看过了<br><strong><em>就是，当你不知道如何选择的时候你就选择最难走的那一条路。</em></strong></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>deepin的体验</title>
+    <link href="/2019/10/16/deepin%E4%BD%93%E9%AA%8C%E4%BA%86%E5%87%A0%E5%A4%A9%E5%90%8E/"/>
+    <id>/2019/10/16/deepin体验了几天后/</id>
+    <published>2019-10-16T13:43:46.000Z</published>
+    <updated>2019-10-22T12:11:59.328Z</updated>
+    
+    <content type="html"><![CDATA[<p>体验了一段时间的deepin<br>多多少少也学了不少的东西</p><p>有时候真的是想着<br><del>要是有人带着我搞学习就好了（一对一的那种,最好是妹子)</del></p><h2 id="第一次初始化deepin"><a href="#第一次初始化deepin" class="headerlink" title="第一次初始化deepin"></a>第一次初始化deepin</h2><h3 id="设置root（必备"><a href="#设置root（必备" class="headerlink" title="设置root（必备"></a>设置root（必备</h3><p>deepin装好了后肯定就是设置管理员权限啦</p><pre><code>sudo passwd root</code></pre><p><img src alt></p><h3 id="科学上网（必备"><a href="#科学上网（必备" class="headerlink" title="科学上网（必备"></a>科学上网（必备</h3><p>其实不难发现，应用商店里面有一个shadowsock  但是我用了一下，感觉还是不是很好用。（反正我是没有使用成功）</p><p>所以我用了一个GitHub的项目，是GUI的界面十分的友好，操作也简单</p><p><a href="https://github.com/Myfanqie/electron-ssr-backup" target="_blank" rel="noopener">点这里跳转</a><br>原作者已经把项目删除了，你觉得可以的话可以fork一份</p><p>其实还可以使用命令行的科学上网但是太复杂了我就不写了（手动狗头</p><h2 id="其他的安装（可选"><a href="#其他的安装（可选" class="headerlink" title="其他的安装（可选"></a>其他的安装（可选</h2><h4 id="安装Gdebi"><a href="#安装Gdebi" class="headerlink" title="安装Gdebi"></a>安装Gdebi</h4><pre><code>sudo apt-get install gdebi</code></pre><h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><pre><code>sudo apt-get install git</code></pre><h4 id="安装vim"><a href="#安装vim" class="headerlink" title="安装vim"></a>安装vim</h4><pre><code>sudo apt-get install vim</code></pre><h4 id="安装Curl和tsocks-jq"><a href="#安装Curl和tsocks-jq" class="headerlink" title="安装Curl和tsocks,jq"></a>安装Curl和tsocks,jq</h4><pre><code>sudo apt-get install curl tscocks jq</code></pre><h3 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h3><p>推荐主题 No man’s Sky Theme<br>推荐插件 油猴插件 划词翻译</p><h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h4 id="安装Gnome-tweak-tool"><a href="#安装Gnome-tweak-tool" class="headerlink" title="安装Gnome-tweak-tool"></a>安装Gnome-tweak-tool</h4><pre><code>sudo apt-get install gnome-tweak-tool</code></pre><p>换个好看点的壁纸吧</p><h2 id="目前已知的bug"><a href="#目前已知的bug" class="headerlink" title="目前已知的bug"></a>目前已知的bug</h2><ol><li><p>笔记本的亮度异常开机的时候很亮，然后到了登录界面的时候就变得很暗，这个就非常的难受</p><p>解决方法：将笔记本的屏幕关上，然后过一下子再打开这样子的话亮度就正常了</p></li><li><p>突然宕机（原因不明）</p></li></ol><p>解决方案： 目前只有重启</p><ol start="3"><li>打字的时候光标乱跳</li></ol><p>解决方案： 暂时的方案是，将触摸板禁用（可能是我打字的时候碰到了触摸板，但是win下面没有这种情况</p><ol start="4"><li>qq收藏的表情不见了</li></ol><p>暂时没有解决方案，我也不知道为什么</p><p><b>希望厂商尽快跟进，虽然看不到我的这个文章</b></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>观念模型(me)</title>
+    <link href="/2019/10/12/%E8%A7%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-me/"/>
+    <id>/2019/10/12/观念模型-me/</id>
+    <published>2019-10-12T15:51:24.000Z</published>
+    <updated>2019-10-12T17:36:05.912Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="观念模型-顾名思义就是讲述自己的观念"><a href="#观念模型-顾名思义就是讲述自己的观念" class="headerlink" title="观念模型 ,顾名思义就是讲述自己的观念"></a>观念模型 ,顾名思义就是讲述自己的观念</h3><h2 id="那什么是模型呢"><a href="#那什么是模型呢" class="headerlink" title="那什么是模型呢?"></a>那什么是模型呢?</h2><p>这么说吧,模型是生命赖以生存的东西,我们通过模型来获取信息、预测信息。<br>模型可以简单的分为三种，<b>感知模型、认知模型、观念模型</b>。</p><p>感知模型由自然选择我们没有选择的权利。<br>认知模型大多数人信奉科学,我也是一样(狗头)。<br>观念模型就可以千奇百怪了（也可以说是世界观、人生观、立场）。（知识付费领域里面，观念模型是最多的）</p><p>随着不断的学习，我的观念与一般的大众的观念<del>（指傻雕网友、身边的同学）</del>也有了稍稍的分歧。<br>出了日常的书本学习，我们最多的就是收集例子来学习（建立模型）。</p><blockquote><p>这是大部分人的想法（我从生活中收集到的例子）<br>    例如:</p><pre><code>1. 三十岁之后人基本就定型了，之后就没有什么改变了、2. 大学里面学不到什么东西、3. 人一旦年龄往上走了之后，好奇心学习能力都会逐渐降低、4. 读书、学习就是为了拿一张证、5. 这个东西学了没有用、6. 我只要把一个技能学到精就好了，所以我只要全心全意的学一个（有争议）</code></pre></blockquote><p><b>我们人类通过例子来学习（建立模型）</b>。<br>但是一旦，例子过少，或者没有全面的看待这个事物（只看到一个方面），就会构造一个错误的模型（观念模型）。<br>而上述的例子就是一个体现。</p><p>而最好的办法就是收集更多的例子，来不断完善构建模型。</p><blockquote><p>下面我以辩证性思维（学术是这么说的）来分析上面的例子。</p><ol><li>三十岁之后人就定型了。<pre><code> 答：大部分人三十岁就是到了结婚生子的阶段。安安稳稳的过日子。但是有句话说的好’我命由我不由天‘，如果你不要那么在意别人的看法的话。任何时候都不是说定型的时候。</code></pre></li><li>大学里面学不到什么东西<pre><code> 答： 那可能是你对学科不感兴趣或者上课的时候就不认真听讲。 我觉得还是学到蛮多的东西的，一开始是学的C语言 &lt;del&gt;虽然感觉跟没学一样&lt;/del&gt;，然后就是html+css+js  &lt;del&gt;js学的没怎么好&lt;/del&gt;，后面就是java、c#、数据库、Linux、xml、jsp、asp.net; 有些东西确实学的不怎么好，但是总体来说还是学到了不少的东西。 还有老师上课的时候并不是，纯粹的讲课，还有的就是讲讲其他的有意思的，比如最近的新闻。有时候是一些程序员的段子&lt;del&gt;虽然一点都不好笑&lt;/del&gt;，还有世界经济的局势、如果出了社会老板喜欢什么样的人、怎么吃西餐、怎么理财、有时候是讲讲自己最近做了什么项目赚了多少钱。最近又学了什么新技术。然后就是安利我们学一些什么技术（但是学校不会教的）</code></pre></li><li>人一旦年龄往上走，好奇心、学习能力都会下降<br> 答：我们人类有三大欲望 食欲、性欲、求知欲<pre><code> 求知欲是好奇心、学习的体现。人饿了会迫不及待的想要吃东西（食欲）， 同理缺乏知识的时候也不迫不及待的去寻找知识（求知欲）。只要有问题没有解决， 我们都会想迫不及待的想知道答案。而这与年龄无关，每个人都或多或少的有不少的问题。 之所以人们认为年龄大了，这些能力会降低，都是因为人们的成见。</code></pre></li><li>读书、学习的意义就是为了一张证<pre><code> 可能他们还没有搞清楚学习的真正的目的； 前面说了学习就是为了构造模型，模型用于获取信息以及预测信息。 所以学习就是为了能够解决我们从未遇见过的问题，也就是泛化能力。 而纵观人生整个路线、真的长。我们一定会遇到很多问题、 但是我们要如何来解决这些问题呢？答案是学习</code></pre></li><li>这个东西学了没用<pre><code> 很多时候，我们评估一个东西的好坏就是说这个东西，有用没用 那么什么是有用，什么又是没有用呢。 貌似大部分人的心理就是只有钱，能搞钱就是有用，否则没有用、 我只想说这样真的好吗。其实很多没有什么卵用的东西很有意思 ，比如心理学、经济学、画画这些都是我想搞的，但是这些东西正是， 他们说起来没有什么用的东西。其实也是，如果只是学了一点皮毛的话。 但是   我喜欢。。</code></pre></li><li>我只要把一个技能学到精就好了，所以我只要全心全意的学一个（有争议）<pre><code> 这个东西是有争议的，情况是有一半人认为要多学一点，技能书多点一些， 然后另一半人就是认为只要学精一个就好了 我的观念就是还是要尽量多学一点、 因为要解释人活着到底是为了什么，真的很难、、、、 把一件事情做到第一也很难、、 多学点东西就是不枉此生、</code></pre></li></ol></blockquote><p>目前我的观念模型就是这样。 以后或许会有更好的模型替代、暂时就是这样、</p><p>但行好事、莫问前程</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双系统的安装(deepin)</title>
+    <link href="/2019/10/06/%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%89%E8%A3%85-deepin/"/>
+    <id>/2019/10/06/双系统的安装-deepin/</id>
+    <published>2019-10-06T14:43:10.000Z</published>
+    <updated>2019-10-06T16:53:29.708Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="事出起因（先讲一波废话"><a href="#事出起因（先讲一波废话" class="headerlink" title="事出起因（先讲一波废话"></a>事出起因（先讲一波废话</h2><p>就是昨天<br>突然想要操作一波Linux系统，打开虚拟机，<br>启动ing  。。。。。。。<br>。。。。。。</p><p>无比的漫长真的是令人心塞。等了起码有十几分钟，还是打不开。。<br>百度找解决方案。并没有找到满意的。</p><p>然后想起群里的大佬很多都是双系统，所以我决定也来搞一波</p><p>因为我没有装过双系统，保险起见我还是选择了deepin</p><h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><ol><li><p>打开deepin的官网，下载镜像<br><del>一开始，我是选择官网的镜像，妈的，太慢了。后面还是找了清华大学的镜像源</del></p></li><li><p>需要一个空的磁盘作为新系统的系统盘，在计算机-管理-磁盘管理  切一个新的盘出来（磁盘空间至少要大于30G）</p></li></ol><ol start="3"><li>插上U盘（U盘的存储空间需要大于4G）</li></ol><ol start="4"><li><p>找到刚刚下好的deepin镜像文件，双击打开，里面有一个exe文件（这个就是U盘启动盘的制作工具）然后按照提示，选择deepin的镜像文件。这样就制作好了一个deepinU盘的启动盘</p></li><li><p>重启电脑，进入BIOS ，找到U盘，设置启动优先级</p></li><li><p>自动重启后直接回车键，第一个选项就是install deepin </p></li><li><p>后面就很简单了，唯一一个要注意的就是他会要求你选择安装系统的系统盘，这个就是前面<br>分的空磁盘。</p></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/deepin1.jpeg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/deepin2.jpeg" alt></p><h2 id="体验的deepin的感受"><a href="#体验的deepin的感受" class="headerlink" title="体验的deepin的感受"></a>体验的deepin的感受</h2><p>优点缺点都说一下吧</p><p>好的地方：</p><ol><li>UI界面美观，界面上可以选择想MacOS那样的简洁风格，也可以选择想win这样的功能性风格</li><li><p>设置功能多，允许用户自定义的地方蛮多的，而且这个设置风格还有点像iPad</p></li><li><p>文件管理，这里居然同时拥有了win和Linux的两种文件管理方式，既有磁盘管理，也有标准的Linux文件管理</p></li></ol><p>目前发现的有点不尽人意的地方</p><ol><li>关机或者开机的时候，会有一瞬间的画面撕裂，部分画面失真</li><li>qq和tim聊天的时候没有win用起来舒服</li><li><p>打字的时候有可能会光标乱跳，百度说是打字的时候碰到了触控板，但是我在win下面打字的时候也是这样的，这里就是涉及到了一个算法的问题，当触控板大量的面积被触控时，就无视操作，而这个deepin就是太敏感了，不够后面还是在设置里面找了了。（输入的时候禁用触控板）</p></li><li><p>突然的宕机，一下子不知道发生了什么，就死机了，就是鼠标动不了，键盘也按不了。<br>内存明明是绰绰有余的，cpu占用也不高。就是很他妈的奇怪，这个是最烦的</p></li></ol><h2 id="end"><a href="#end" class="headerlink" title="end"></a>end</h2><p>我觉得国产系统还是很有希望的<br>期待中</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA配置tomcat的环境</title>
+    <link href="/2019/09/11/%E2%80%98IEDA%E9%85%8D%E7%BD%AEtomcat%E7%9A%84%E7%8E%AF%E5%A2%83/"/>
+    <id>/2019/09/11/‘IEDA配置tomcat的环境/</id>
+    <published>2019-09-11T12:00:18.000Z</published>
+    <updated>2019-09-11T12:59:17.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个学期开始学习JSP了，书上推荐的IDE是myeclipse 我觉得还是不好，就来撸IDEA了</p><p>这个东西一开始查百度的时候很烦，有很多教程都不好。。。</p><p>那么现在就开始讲我怎么配置的吧</p><h2 id="首先你要下载Tomcat"><a href="#首先你要下载Tomcat" class="headerlink" title="首先你要下载Tomcat"></a>首先你要下载Tomcat</h2><p>下载我就不说了，直接解压Tomcat放在一个好记的位置。<br>比如我是放在了D:/Tomcat</p><h2 id="测试Tomcat"><a href="#测试Tomcat" class="headerlink" title="测试Tomcat"></a>测试Tomcat</h2><p>打开tomcat所在文件<br>打开<strong>bin</strong>目录下的<strong>stratup.bat</strong><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc.png" alt></p><p>接下来你会看到</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc2.png" alt></p><p>tomcat如果没有闪退，也没有出现错误信息那就是成功了</p><p>当然如果是闪退的话，你要看看自己的电脑是不是有多个tomcat，或者端口被占用了<br><strong>查看端口的命令是netstat -ano</strong></p><h2 id="开始配置IDEA"><a href="#开始配置IDEA" class="headerlink" title="开始配置IDEA"></a>开始配置IDEA</h2><ol><li>创建web项目</li><li><p>如下图点击右上角的Edit config。。。<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc3.png" alt></p></li><li><p>如下图点击左上角的“+”号</p></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc4.png" alt></p><ol start="4"><li>选择Tomcat Server    local</li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc5.png" alt></p><ol start="5"><li>配置好tomcat的安装路径<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc6.png" alt></li></ol><ol start="6"><li>选择你的web项目,你的项目一定会输出在out目录下<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc7.png" alt></li></ol><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc9.png" alt></p><ol start="7"><li><p>点击小绿标，启动tomcat<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc10.png" alt></p></li><li><p>这里会自动打开浏览器，要注意URL的正确性<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc11.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/jc12.png" alt></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何查找pdf资源</title>
+    <link href="/2019/09/09/%E5%A6%82%E4%BD%95%E6%9F%A5%E6%89%BEpdf%E8%B5%84%E6%BA%90/"/>
+    <id>/2019/09/09/如何查找pdf资源/</id>
+    <published>2019-09-09T12:37:07.000Z</published>
+    <updated>2019-09-09T13:16:27.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天早上准备去图书馆自习的<br>结果他妈的进不去了，卡坏了，站在图书馆门口贼尴尬，刷卡失败、失败。<br>此时我的心态发生了变化。。。。。<br>当时真的想找一个洞钻进去。。。。</p><p>然后我还能怎么办。。只能默默离开了。。。。</p><p>然后想了一下去了教学楼了，随便找了一个教室。。但是没有书。。。<br>原计划是图书馆有书就直接去拿就好了。<br>没有书，，不过笔记本电脑、手机、本子、笔还是带了。。。</p><p>一顿操作<br>联网 、打开浏览器、 百度、、  计算机网络pdf</p><p>居然要付费。。。。。</p><p>垃圾百度。。。。<br>一大早的体验就槽糕了一批。。。<br>冷静分析<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/fffx.png" alt></p><p>虽然今天有点难搞但是并不能我觉得总有解决方案的</p><p>打开知乎</p><p>果然。。。还是知乎靠谱</p><p>我找到了两个靠谱的</p><h2 id="鸠摩搜书"><a href="#鸠摩搜书" class="headerlink" title="鸠摩搜书"></a><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener">鸠摩搜书</a></h2><p><a href="https://www.jiumodiary.com/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mj.png" alt></a></p><p>直接搜就可以了，我觉的还是蛮方便的</p><h2 id="微盘（旧版）手机端"><a href="#微盘（旧版）手机端" class="headerlink" title="微盘（旧版）手机端"></a>微盘（旧版）手机端</h2><p>获取方式：淘宝；如图</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/wp.jpg" alt></p><p>成本也不高，只要七毛。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/wp2.jpg" alt></p><p>效率也是蛮高的</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/mi.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于家里的网速异常</title>
+    <link href="/2019/08/29/%E5%85%B3%E4%BA%8E%E5%AE%B6%E9%87%8C%E7%9A%84%E7%BD%91%E9%80%9F%E5%BC%82%E5%B8%B8/"/>
+    <id>/2019/08/29/关于家里的网速异常/</id>
+    <published>2019-08-29T06:05:25.000Z</published>
+    <updated>2019-09-09T13:25:02.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天崩坏三更新了，兴致勃勃的去更新游戏，大更新每次都是3G往上走<br>每次下载大文件我  都是把手机放在路由器上下载<br>这次也不例外。<br>但是网速始终都是只有5M/s，然后我就是重启路由器，结果还是一样的<br>用电脑有线连接还是一样。网速始终不过5M/s</p><p>然后我登录了192.168.0.1<br>一边还查了一下百度</p><p>然后我发现了这一句话</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip.png" alt></p><p>意思就是NET转发使得自己的ip不是公网ip了</p><p>关掉后就好了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/iPhone.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip3.png" alt></p><p>轻轻松松上20M/s</p><p>补充：后面不知道怎么回事，一朝回到解放前。。。。突然又双叒叕限速了、</p><p>找了好久，发现了是DNS的问题，DNS配置成了0.0.0.0</p><p>好歹还是学到了一点</p><ol><li>NAT转发会将公网ip装换成内网ip，但是公网ip并不意味着网速更快。。</li><li>DNS的作用不仅仅是将域名转化成IP地址，甚至会影响网速的上限。。。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百度云限速的解决方案(电脑端)</title>
+    <link href="/2019/08/12/%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E7%94%B5%E8%84%91%E7%AB%AF/"/>
+    <id>/2019/08/12/百度云限速的解决方案-电脑端/</id>
+    <published>2019-08-11T16:29:03.000Z</published>
+    <updated>2019-09-09T15:08:18.626Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近又要在百度云上下载一些资源，可惜百度云的尿性。。。</p><p>然后我决定在pandownload上面下载。。。。。</p><p>结果 。。。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao.png" alt></p><p>pandownload也被限速了，内心。。。。。。。</p><p>不过我突然发现了pandownload可以提取链接</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao2.png" alt></p><p>然后我又想起了IDM</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao3.png" alt></p><p>点击新建任务</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao4.png" alt></p><p><strong>但是但是但是文件的总大小不能超过300M</strong><br>这是一个比较遗憾的事情</p><p>然后就可以开始享受极速的下载速度了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xiaohuli01.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对于程序员的新理解</title>
+    <link href="/2019/07/10/%E5%AF%B9%E4%BA%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%96%B0%E7%90%86%E8%A7%A3/"/>
+    <id>/2019/07/10/对于程序员的新理解/</id>
+    <published>2019-07-10T13:01:38.000Z</published>
+    <updated>2019-07-15T12:38:05.783Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今天看了B站的视频又是有一点豁然开朗的感觉"><a href="#今天看了B站的视频又是有一点豁然开朗的感觉" class="headerlink" title="今天看了B站的视频又是有一点豁然开朗的感觉"></a>今天看了B站的视频又是有一点豁然开朗的感觉</h2><p>一个是英语，对于学英语， 我们总是会问学英语有什么方法或者是什么窍门。<br>但是这个up主对我们说根本就没有什么窍门，就是不断的学习。天天都学，一开始up主也是特别的菜<br>但是不断的学习后面说是越学英语越容易。</p><p>我觉得嘛 这个东西还可以，我总是有一种感觉，就是无限的接近真实的答案，那种触手可及的感觉，但是又有什么地方不对。</p><p>还有说了要是真的有什么学习的方法,那就是………</p><blockquote><p>手机长按电源键有一个关机按钮……</p></blockquote><p>好像不管是英语是这样，其他的东西学习起来也是这样，所谓学习的方法就是一个字”肝”，而且是不停的肝</p><h2 id="还有一个东西就是关于职业的理解"><a href="#还有一个东西就是关于职业的理解" class="headerlink" title="还有一个东西就是关于职业的理解"></a>还有一个东西就是关于职业的理解</h2><p>程序员到底是什么样的，</p><p>总的来说有三种，第一种就是普通程序员，他们可以不懂那些基础知识，什么Linux，计算机网络，http协议。。。。。<br>就是直接撸代码的那种，技能比较单一，但是很能解决问题</p><p>第二种就是  软件工程师  这些人的特点就是基本功很扎实，学习能力很强，对整个的知识体系有很好的理解</p><p>第三种是  技术专家  这些人对技术有着很深入的理解，造轮子很厉害然后，，，，，反正很强</p><h3 id="基本功是什么"><a href="#基本功是什么" class="headerlink" title="基本功是什么"></a>基本功是什么</h3><p>  算法、数据结构、c语言、面向对象程序设计、设计模式、数据库、需求分析、软件设计、计算机网络、计算机组成原理、软件测试、信息检索、英语、汇编、操作系统原理、嵌入式、计算机电路、计算机发展史</p><h2 id="半衰期"><a href="#半衰期" class="headerlink" title="半衰期"></a>半衰期</h2><p>每过三到五年，你的知识都可能有一半都用不上了</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>希望是成为一个技术专家，而不是一个程序员</p><p>你得有足够的兴趣和决心，这是你艰苦钻研基本功的基础。然后你还需要花费大量的时间和资源学习各种基础技能，再花费大量时间精力学习应用技能，同时还要参与尽可能多的项目里</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apache踩的坑</title>
+    <link href="/2019/07/04/Apache%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
+    <id>/2019/07/04/Apache踩的坑/</id>
+    <published>2019-07-04T13:47:55.000Z</published>
+    <updated>2019-07-15T14:03:11.830Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前差点就放弃了，今天白天想了想，还是决定再试试，到底是什么原因</p><p>最终发现还是端口被占用了,被虚拟机占用了，虽然是说，我压根就没有开虚拟机。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache3.png" alt></p><h6>有时候真的感觉自己好蠢啊</h6><p>启动成功后就是这个样子<br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache2.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/Apache1.png" alt></p><p>真的是好开心啊  </p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+</feed>
