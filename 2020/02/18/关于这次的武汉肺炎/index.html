@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">初识Nginx | 莉莉娅</title>
+  <title itemprop="name">关于这次的武汉肺炎 | 莉莉娅</title>
   
     <link rel="shortcut icon" href="/images/time.ico">
   
@@ -207,11 +207,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/meizi11.jpg);" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/meizi11.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/shizuku1.jpg);" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/shizuku1.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      初识Nginx</h1>
+      关于这次的武汉肺炎</h1>
       <p class="entry-census">
         <span>
           <a href="myfanqie.github.io">
@@ -223,7 +223,7 @@
         </span>
         <span class="bull">
         ·</span>
-        2019-12-4<span class="bull">
+        2020-2-18<span class="bull">
         ·</span>
       <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
@@ -237,20 +237,28 @@
         <!--<div class="toc-entry-content"> 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <p>今天上课的时候老师专门用一节课给我们讲了如果去使用云服务器，主要就是一个使用nginx来部署静态页面。</p>
-<p>那么什么是nginx<br>首先nginx是一个web服务器，同类型有Apache，一般用来做反向代理和负载均衡</p>
-<p>先说一下，我这个服务器是Linux centos 7</p>
-<h2 id="安装nginx"><a href="#安装nginx" class="headerlink" title="安装nginx"></a>安装nginx</h2><pre><code>yum -y install nginx
-</code></pre><h2 id="启动nginx服务"><a href="#启动nginx服务" class="headerlink" title="启动nginx服务"></a>启动nginx服务</h2><pre><code>systemctl start nginx.service
-</code></pre><h2 id="使用你的服务器ip地址打开浏览器"><a href="#使用你的服务器ip地址打开浏览器" class="headerlink" title="使用你的服务器ip地址打开浏览器"></a>使用你的服务器ip地址打开浏览器</h2><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/nginx.jpg" alt></p>
-<h2 id="配置你的conf文件"><a href="#配置你的conf文件" class="headerlink" title="配置你的conf文件"></a>配置你的conf文件</h2><pre><code>vim /etc/nginx/nginx.conf
-</code></pre><h2 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h2><p> 重新载入配置文件</p>
-<pre><code>nginx -s reload 
-</code></pre><p>重启 nginx</p>
-<pre><code>nginx -s reopen
-</code></pre><p>停止 nginx</p>
-<pre><code>nginx -s stop
-</code></pre>
+          <p><strong>有时候总以为灾难离我们很远，但是实际上一看，却又总是和我们很近</strong></p>
+<p>这次的来自武汉的肺炎，真的是害人不浅<br>起因是有人<strong>吃蝙蝠。。。</strong>但是其实蝙蝠身上携带的病毒是很多的。。。</p>
+<h2 id="这场瘟疫带来的后果"><a href="#这场瘟疫带来的后果" class="headerlink" title="这场瘟疫带来的后果"></a>这场瘟疫带来的后果</h2><ol>
+<li>春节期间都不拜年走亲戚了</li>
+<li>高速公路、机场等人流密集处都设置了体温的检测点，一发现有高烧的情况就带去医院</li>
+<li>很多部门都开始停业，这对经济带来了不小的冲击，想很多的酒店，饭馆春节的时候都是人最多的<br> 也就是一年中最忙的时候，但是现在一停业，仓库里的货就会慢慢的腐烂，造成了亏损。</li>
+<li>延时开学时间，分流开学。延迟复工时间，不过现在这个时间点，已经有不少的企业开始复工了。</li>
+<li>买不到口罩，或者是限购，反正我这里是买不到口罩，制作口罩的厂子现在的直接供应给国家了</li>
+</ol>
+<h2 id="新型冠状病毒"><a href="#新型冠状病毒" class="headerlink" title="新型冠状病毒"></a>新型冠状病毒</h2><ol>
+<li>感染方式: <strong>空气传播，黏膜感染（我们的黏膜都是暴露在空气中的）</strong></li>
+<li>感染症状: <strong>发热、乏力、呼吸困难、干咳</strong>，有可能因为病毒的肺炎导致死亡</li>
+<li>治疗方式: <strong>像感冒一样等他自己好，但是如果很严重的话，需要提供氧气</strong></li>
+<li>感染周期: <strong>从感染到发病要4到14天</strong></li>
+<li>如何预防: <strong>不出门，家里蹲</strong></li>
+</ol>
+<h2 id="与我相关"><a href="#与我相关" class="headerlink" title="与我相关"></a>与我相关</h2><p>因为现在是家里蹲了，所以作息跟学校就完全不同了。</p>
+<p>首先是肆无忌惮的睡懒觉，一般我就是一觉睡到中午，吃中饭  |ू･ω･` )</p>
+<p>第二个就是我姐现在要用我的电脑上班了，就是远程办公的那个样子  |(￣Д ￣)ノ</p>
+<p>那就是只能晚上玩电脑了，还是机械键盘按起来舒服啊  ヽ(￣▽￣)ﾉ</p>
+<p>然后就是熬夜咯，就事家里人总是说我熬夜，那就没有办法了咯，我是这样的嘿嘿~</p>
+
         </div>
         <!-- .entry-content -->
       
@@ -279,36 +287,19 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2019/12/06/nginx反向代理和负载均衡/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/76062188_p0_master1200.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                nginx反向代理和负载均衡</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2019/12/02/通过云服务器部署J2EE项目/" rel="next">
+            <a href="/2020/02/15/idea找不到或者无法加载主类/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/meizi1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/shizuku2.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                通过云服务器部署J2EE项目</h3>
+                idea找不到或者无法加载主类</h3>
                 <hr>
               </div>
             </a>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-02-15T12:55:56.055Z</updated>
+  <updated>2020-02-17T18:17:21.531Z</updated>
   <id>/</id>
   
   <author>
@@ -17,17 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于这次的武汉肺炎</title>
+    <link href="/2020/02/18/%E5%85%B3%E4%BA%8E%E8%BF%99%E6%AC%A1%E7%9A%84%E6%AD%A6%E6%B1%89%E8%82%BA%E7%82%8E/"/>
+    <id>/2020/02/18/关于这次的武汉肺炎/</id>
+    <published>2020-02-17T17:42:14.000Z</published>
+    <updated>2020-02-17T18:17:21.531Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>有时候总以为灾难离我们很远，但是实际上一看，却又总是和我们很近</strong></p><p>这次的来自武汉的肺炎，真的是害人不浅<br>起因是有人<strong>吃蝙蝠。。。</strong>但是其实蝙蝠身上携带的病毒是很多的。。。</p><h2 id="这场瘟疫带来的后果"><a href="#这场瘟疫带来的后果" class="headerlink" title="这场瘟疫带来的后果"></a>这场瘟疫带来的后果</h2><ol><li>春节期间都不拜年走亲戚了</li><li>高速公路、机场等人流密集处都设置了体温的检测点，一发现有高烧的情况就带去医院</li><li>很多部门都开始停业，这对经济带来了不小的冲击，想很多的酒店，饭馆春节的时候都是人最多的<br> 也就是一年中最忙的时候，但是现在一停业，仓库里的货就会慢慢的腐烂，造成了亏损。</li><li>延时开学时间，分流开学。延迟复工时间，不过现在这个时间点，已经有不少的企业开始复工了。</li><li>买不到口罩，或者是限购，反正我这里是买不到口罩，制作口罩的厂子现在的直接供应给国家了</li></ol><h2 id="新型冠状病毒"><a href="#新型冠状病毒" class="headerlink" title="新型冠状病毒"></a>新型冠状病毒</h2><ol><li>感染方式: <strong>空气传播，黏膜感染（我们的黏膜都是暴露在空气中的）</strong></li><li>感染症状: <strong>发热、乏力、呼吸困难、干咳</strong>，有可能因为病毒的肺炎导致死亡</li><li>治疗方式: <strong>像感冒一样等他自己好，但是如果很严重的话，需要提供氧气</strong></li><li>感染周期: <strong>从感染到发病要4到14天</strong></li><li>如何预防: <strong>不出门，家里蹲</strong></li></ol><h2 id="与我相关"><a href="#与我相关" class="headerlink" title="与我相关"></a>与我相关</h2><p>因为现在是家里蹲了，所以作息跟学校就完全不同了。</p><p>首先是肆无忌惮的睡懒觉，一般我就是一觉睡到中午，吃中饭  |ू･ω･` )</p><p>第二个就是我姐现在要用我的电脑上班了，就是远程办公的那个样子  |(￣Д ￣)ノ</p><p>那就是只能晚上玩电脑了，还是机械键盘按起来舒服啊  ヽ(￣▽￣)ﾉ</p><p>然后就是熬夜咯，就事家里人总是说我熬夜，那就没有办法了咯，我是这样的嘿嘿~</p>]]></content>
+    
+    <summary type="html">
+    
+      生活太难了
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>idea找不到或者无法加载主类</title>
     <link href="/2020/02/15/idea%E6%89%BE%E4%B8%8D%E5%88%B0%E6%88%96%E8%80%85%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E4%B8%BB%E7%B1%BB/"/>
     <id>/2020/02/15/idea找不到或者无法加载主类/</id>
     <published>2020-02-15T12:39:29.000Z</published>
-    <updated>2020-02-15T12:55:56.055Z</updated>
+    <updated>2020-02-17T18:21:09.660Z</updated>
     
     <content type="html"><![CDATA[<p>有时候强迫症就把C盘的缓存删了，但是这次没想到，idea就报了错<br>起初的时候报错是无法在C盘/user/username/……这个目录下面创建文件夹啥的。</p><p>然后我是这么解决的重启idea，然后用管理员权限打开idea这回就没有这个错误了</p><p>但是但是但是</p><p>后面跑一下又发现了  <strong>找不到或者无法加载主类</strong></p><blockquote><p>起初我还以为是classpath或者java的环境变量出了问题<br>然后我就去检查了一下我的java环境变量以及classpath变量。。。<br>然后发现，没有任何的问题。。。</p></blockquote><p>然后我想到是缓存的问题，起初我是决定在之前的那个目录下面重新创建一样的文件夹，<br>但是很快之前的那个问题又出现了，无法创建文件夹，即使现在是用管理员的权限</p><p>我特么<em>**</em><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/fzdk.png" alt></p><p>后面吃完饭我想了一下，决定还是<strong>迁移idea的缓存文件位置</strong>，让idea自己重新配置缓存文件<br>百度之后，找到bin目录下面的idea.properties 这个文件，然后修改到了D盘</p><p>果然</p><p>再次打开idea的时候就变成从未使用的一样了，然后导入以前的老配置，，就可以再次使用了</p><p>教训就是，<strong>不要随意的删除C盘下的文件</strong><br>可能真的是我吃太饱了吧</p>]]></content>
     
     <summary type="html">
     
-      文章描述
+      一次脑残的操作
     
     </summary>
     
@@ -43,13 +65,13 @@
     <link href="/2020/01/29/%E6%A8%B1%E8%8A%B1%E9%94%AE%E7%9B%98%E5%BC%80%E7%AE%B1/"/>
     <id>/2020/01/29/樱花键盘开箱/</id>
     <published>2020-01-29T03:23:40.000Z</published>
-    <updated>2020-01-29T06:53:21.911Z</updated>
+    <updated>2020-02-17T18:21:57.560Z</updated>
     
     <content type="html"><![CDATA[<p>今年新买的樱花键盘到手了，好开心</p><p>先放几张图</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua3.jpg" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua1.png" alt><br><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/yinghua2.jpg" alt></p><p>总之好看就对了</p><p>说起来我买键盘之前还研究了这个玩意，写写下来吧</p><h3 id="首先就是键数的规格"><a href="#首先就是键数的规格" class="headerlink" title="首先就是键数的规格"></a>首先就是键数的规格</h3><p>两个常见的键位 <strong>87/108</strong></p><h3 id="轴体类型以及应用的场景"><a href="#轴体类型以及应用的场景" class="headerlink" title="轴体类型以及应用的场景"></a>轴体类型以及应用的场景</h3><p><strong>青轴（段落轴）：</strong> 有明显的的段落感和清脆的click声（游戏办公都比较适合）</p><p><strong>红轴（线性轴）：</strong>无段落感、相对于黑轴更加的轻盈（ 发烧友使用）</p><p><strong>黑轴（线性轴）：</strong> 触发快、需要较大压力（适合专业的游戏玩家）</p><p><strong>茶轴（段落轴）：</strong>  比较放松、微弱的段落感、（适合入门级玩家，没有什么特点）</p><p><strong>青轴（段落轴）：</strong> 段落感强烈 就是像按圆珠笔那样（反馈感强，打字爽）</p><p><strong>银轴（线性轴）：</strong> 与红轴相似，但是按键的行程更短</p><p><img src="https://pic3.zhimg.com/50/v2-f8c0e5f1412e16cc3a3c1221bc9aaf67_hd.webp" alt></p><h3 id="键帽的材质-一般是两种"><a href="#键帽的材质-一般是两种" class="headerlink" title="键帽的材质(一般是两种)"></a>键帽的材质(一般是两种)</h3><p><strong>ABS工程塑料：</strong> 工艺比较成熟，生产的成本低，但是长期使用后容易打油 </p><p><strong>PBT键帽：</strong> 制造的成本较高，但是磨砂质感很好</p><p>其他键盘买点</p><p><strong>防水、宏编程、全键无冲、低响应时间</strong></p><p>根据键盘的级别可以分为</p><p><strong>入门级、发烧级、骨灰级</strong></p><p><strong>总之买好看的就对了</strong></p>]]></content>
     
     <summary type="html">
     
-      文章描述
+      我好o(*￣▽￣*)o了
     
     </summary>
     
@@ -65,13 +87,13 @@
     <link href="/2020/01/10/%E5%AE%9E%E9%99%85%E7%9A%84%E6%83%85%E5%86%B5/"/>
     <id>/2020/01/10/实际的情况/</id>
     <published>2020-01-09T17:27:18.000Z</published>
-    <updated>2020-01-09T17:51:21.208Z</updated>
+    <updated>2020-02-17T18:22:33.774Z</updated>
     
     <content type="html"><![CDATA[<p>这里讲讲寒假实际的情况</p><p>其实我心里是很想搞学习的</p><p>实际上，天天睡懒觉睡到中午   哈哈哈，不是我想睡觉是家里从床太舒服了</p><blockquote><p>有一说一，这个暑假是准备学一个spring 以及 spring boot ，<br>    为什么学这个，<del>因为ssm太复杂了</del>,<br>    这个东西，我看了一下配置还是蛮简单的，刚开始的时候我就是简单的看了一下，<br>    然后发现，spring的很多东西看不懂，哎<br>    我还是太天真了。。。。</p></blockquote><p>所以这个寒假我的计划是</p><h4 id="我先立一个flag"><a href="#我先立一个flag" class="headerlink" title="我先立一个flag"></a><strong>我先立一个flag</strong></h4><p>学完 spring、spring boot、java数据结构</p><p>如果学习进度不错的话，就学react</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/milaoshu.jpg" alt></p>]]></content>
     
     <summary type="html">
     
-      文章描述
+      被迫学习
     
     </summary>
     
@@ -420,28 +442,6 @@
     <updated>2019-09-09T15:08:18.626Z</updated>
     
     <content type="html"><![CDATA[<p>最近又要在百度云上下载一些资源，可惜百度云的尿性。。。</p><p>然后我决定在pandownload上面下载。。。。。</p><p>结果 。。。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao.png" alt></p><p>pandownload也被限速了，内心。。。。。。。</p><p>不过我突然发现了pandownload可以提取链接</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao2.png" alt></p><p>然后我又想起了IDM</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao3.png" alt></p><p>点击新建任务</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao4.png" alt></p><p><strong>但是但是但是文件的总大小不能超过300M</strong><br>这是一个比较遗憾的事情</p><p>然后就可以开始享受极速的下载速度了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xiaohuli01.jpg" alt></p>]]></content>
-    
-    <summary type="html">
-    
-      文章描述
-    
-    </summary>
-    
-      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
-    
-    
-      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对于程序员的新理解</title>
-    <link href="/2019/07/10/%E5%AF%B9%E4%BA%8E%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%96%B0%E7%90%86%E8%A7%A3/"/>
-    <id>/2019/07/10/对于程序员的新理解/</id>
-    <published>2019-07-10T13:01:38.000Z</published>
-    <updated>2019-07-15T12:38:05.783Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="今天看了B站的视频又是有一点豁然开朗的感觉"><a href="#今天看了B站的视频又是有一点豁然开朗的感觉" class="headerlink" title="今天看了B站的视频又是有一点豁然开朗的感觉"></a>今天看了B站的视频又是有一点豁然开朗的感觉</h2><p>一个是英语，对于学英语， 我们总是会问学英语有什么方法或者是什么窍门。<br>但是这个up主对我们说根本就没有什么窍门，就是不断的学习。天天都学，一开始up主也是特别的菜<br>但是不断的学习后面说是越学英语越容易。</p><p>我觉得嘛 这个东西还可以，我总是有一种感觉，就是无限的接近真实的答案，那种触手可及的感觉，但是又有什么地方不对。</p><p>还有说了要是真的有什么学习的方法,那就是………</p><blockquote><p>手机长按电源键有一个关机按钮……</p></blockquote><p>好像不管是英语是这样，其他的东西学习起来也是这样，所谓学习的方法就是一个字”肝”，而且是不停的肝</p><h2 id="还有一个东西就是关于职业的理解"><a href="#还有一个东西就是关于职业的理解" class="headerlink" title="还有一个东西就是关于职业的理解"></a>还有一个东西就是关于职业的理解</h2><p>程序员到底是什么样的，</p><p>总的来说有三种，第一种就是普通程序员，他们可以不懂那些基础知识，什么Linux，计算机网络，http协议。。。。。<br>就是直接撸代码的那种，技能比较单一，但是很能解决问题</p><p>第二种就是  软件工程师  这些人的特点就是基本功很扎实，学习能力很强，对整个的知识体系有很好的理解</p><p>第三种是  技术专家  这些人对技术有着很深入的理解，造轮子很厉害然后，，，，，反正很强</p><h3 id="基本功是什么"><a href="#基本功是什么" class="headerlink" title="基本功是什么"></a>基本功是什么</h3><p>  算法、数据结构、c语言、面向对象程序设计、设计模式、数据库、需求分析、软件设计、计算机网络、计算机组成原理、软件测试、信息检索、英语、汇编、操作系统原理、嵌入式、计算机电路、计算机发展史</p><h2 id="半衰期"><a href="#半衰期" class="headerlink" title="半衰期"></a>半衰期</h2><p>每过三到五年，你的知识都可能有一半都用不上了</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>希望是成为一个技术专家，而不是一个程序员</p><p>你得有足够的兴趣和决心，这是你艰苦钻研基本功的基础。然后你还需要花费大量的时间和资源学习各种基础技能，再花费大量时间精力学习应用技能，同时还要参与尽可能多的项目里</p>]]></content>
     
     <summary type="html">
     
