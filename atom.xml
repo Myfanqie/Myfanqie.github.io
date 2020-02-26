@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-02-17T18:17:21.531Z</updated>
+  <updated>2020-02-26T15:17:35.231Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第三次安装黑苹果失败</title>
+    <link href="/2020/02/26/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%89%E8%A3%85%E9%BB%91%E8%8B%B9%E6%9E%9C%E5%A4%B1%E8%B4%A5/"/>
+    <id>/2020/02/26/第三次安装黑苹果失败/</id>
+    <published>2020-02-26T14:23:50.000Z</published>
+    <updated>2020-02-26T15:17:35.231Z</updated>
+    
+    <content type="html"><![CDATA[<p>这几天心血来潮又想装黑苹果了；；；<del>可能是因为吃太饱了</del><br>之前其实尝试着装过，但是都是失败了。  虽然这次也是失败的但是我还是学到了不少的东西。</p><blockquote><p><strong>安装黑苹果的步骤</strong></p><ol><li>第一个步是分区，分一个空的磁盘出来（不过如果你财力雄厚的话，可以直接买一个新的硬盘）</li><li>第二步是下载苹果的镜像，并且将苹果的镜像写到你的u盘里面(这个u盘不得小于8G)</li><li>第三步就是替换efi文件。</li><li>第四部就是重启到BIOS，关闭安全启动，然后将u盘的启动顺序调为第一个。开始安装。</li></ol></blockquote><h2 id="空的磁盘"><a href="#空的磁盘" class="headerlink" title="空的磁盘"></a>空的磁盘</h2><p>这里的意思就是为了给即将安装的苹果系统腾出空间。。。</p><h2 id="苹果镜像下载地址"><a href="#苹果镜像下载地址" class="headerlink" title="苹果镜像下载地址"></a>苹果镜像下载地址</h2><p><a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/</a><br>这个服务器的地址我查了是在法国，所以我建议使用欧洲国家那边的节点。比如德国</p><h2 id="什么是efi文件"><a href="#什么是efi文件" class="headerlink" title="什么是efi文件"></a>什么是efi文件</h2><p>首先要讲一下系统的引导方式，主要有 BIOS、EFI、UEFI这三种。<br>BIOS是早年系统的引导方式，例如windows的xp系统，<br>EFI是苹果使用的引导方式，这里的EFI文件，就是引导苹果系统启动的<br>UEFI和EFI类似，是现在电脑主流的引导方式。特点是加了安全启动</p><p>而EFI文件就是为了让苹果系统认为你是苹果电脑，举个栗子；<br>你想进去女生寝室，但是宿管大妈看到你是男的，就不会让你进去，<br>但是如果你女装了一下，让宿管大妈觉得你是女的，这个时候你就进去了。<br>而这个女装，就相当于是EFI文件了。</p><p>但是要注意的是，由于每个电脑的CPU、显卡、主板都不同，所以所要的EFI文件也不同</p><h2 id="重启到BIOS"><a href="#重启到BIOS" class="headerlink" title="重启到BIOS"></a>重启到BIOS</h2><p>这里要根据自己电脑的主板来确定，需要百度，像我的是华为笔记本；F2进入BIOS；</p><h3 id="安装失败的原因"><a href="#安装失败的原因" class="headerlink" title="安装失败的原因"></a>安装失败的原因</h3><p>无法获取相应的EFI文件，一般大佬制作的EFI文件都是电脑cpu是因特尔的，而我这个<br>电脑是AMD的CPU，这就导致了除非是我自己制作电脑的EFI要不然就不能搞这个黑苹果了</p><p>但是你知道EFI要怎么做吗，首先你要有一个苹果的系统，然后进去制作。<br>这个就比较麻烦了，因为我现在的问题就是无法装苹果系统，无论是装的虚拟机，还是装的双系统</p>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>关于这次的武汉肺炎</title>
@@ -420,28 +442,6 @@
     <updated>2019-09-09T13:25:02.004Z</updated>
     
     <content type="html"><![CDATA[<p>今天崩坏三更新了，兴致勃勃的去更新游戏，大更新每次都是3G往上走<br>每次下载大文件我  都是把手机放在路由器上下载<br>这次也不例外。<br>但是网速始终都是只有5M/s，然后我就是重启路由器，结果还是一样的<br>用电脑有线连接还是一样。网速始终不过5M/s</p><p>然后我登录了192.168.0.1<br>一边还查了一下百度</p><p>然后我发现了这一句话</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip.png" alt></p><p>意思就是NET转发使得自己的ip不是公网ip了</p><p>关掉后就好了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/iPhone.png" alt></p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/ip3.png" alt></p><p>轻轻松松上20M/s</p><p>补充：后面不知道怎么回事，一朝回到解放前。。。。突然又双叒叕限速了、</p><p>找了好久，发现了是DNS的问题，DNS配置成了0.0.0.0</p><p>好歹还是学到了一点</p><ol><li>NAT转发会将公网ip装换成内网ip，但是公网ip并不意味着网速更快。。</li><li>DNS的作用不仅仅是将域名转化成IP地址，甚至会影响网速的上限。。。</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      文章描述
-    
-    </summary>
-    
-      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
-    
-    
-      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>百度云限速的解决方案(电脑端)</title>
-    <link href="/2019/08/12/%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E7%94%B5%E8%84%91%E7%AB%AF/"/>
-    <id>/2019/08/12/百度云限速的解决方案-电脑端/</id>
-    <published>2019-08-11T16:29:03.000Z</published>
-    <updated>2019-09-09T15:08:18.626Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近又要在百度云上下载一些资源，可惜百度云的尿性。。。</p><p>然后我决定在pandownload上面下载。。。。。</p><p>结果 。。。。</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao.png" alt></p><p>pandownload也被限速了，内心。。。。。。。</p><p>不过我突然发现了pandownload可以提取链接</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao2.png" alt></p><p>然后我又想起了IDM</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao3.png" alt></p><p>点击新建任务</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/cao4.png" alt></p><p><strong>但是但是但是文件的总大小不能超过300M</strong><br>这是一个比较遗憾的事情</p><p>然后就可以开始享受极速的下载速度了</p><p><img src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/xiaohuli01.jpg" alt></p>]]></content>
     
     <summary type="html">
     

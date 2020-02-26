@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">第一次配置网站 | 莉莉娅</title>
+  <title itemprop="name">第三次安装黑苹果失败 | 莉莉娅</title>
   
     <link rel="shortcut icon" href="/images/time.ico">
   
@@ -207,23 +207,23 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/cover/m5.jpg);" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/cover/m5.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/meizif.jpg);" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/meizif.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      第一次配置网站</h1>
+      第三次安装黑苹果失败</h1>
       <p class="entry-census">
         <span>
-          <a href>
+          <a href="myfanqie.github.io">
             <img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg">
           </a>
         </span>
         <span>
-          <a href>莉莉娅</a>
+          <a href="myfanqie.github.io">莉莉娅</a>
         </span>
         <span class="bull">
         ·</span>
-        2019-5-20<span class="bull">
+        2020-2-26<span class="bull">
         ·</span>
       <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
@@ -237,65 +237,24 @@
         <!--<div class="toc-entry-content"> 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <p>一开始遇到了很多的问题，真的是要把所有的坑都踩完才能真正的解决问题<br>像什么配置SSH，git没有初始化，上传文件到GitHub后没有用Releases签名之类的</p>
-<hr>
-<h2 id="配置SSH"><a href="#配置SSH" class="headerlink" title="配置SSH"></a>配置SSH</h2><p>首先在c盘打开一个文件夹，在命令提示符里打下面这句话，引号里是邮箱</p>
-<pre><code class="cmd">ssh-keygen -t rsa -C &quot;xxx@xxx.com&quot;
-
-</code></pre>
-<p>连续三个回车，生成密钥，最后得到了两个文件：id_rsa和id_rsa.pub</p>
-<p><em>添加密钥到ssh-agent</em></p>
-<pre><code class="cmd">eval &quot;$(ssh-agent -s)&quot;
-
-</code></pre>
-<p>添加生成的SSH key到ssh-agent</p>
-<pre><code class="cmd">ssh-add ~/.ssh/id_rsa
-
-</code></pre>
-<p> 登录Github，点击头像下的settings，添加ssh，new SSH，将刚刚文件生成的文件id_rsa.pub用记事本打开然后复制进来，保存、</p>
-<p> 测试是否成功用以下命令</p>
-<pre><code class="cmd">ssh -T git@github.com
-
-</code></pre>
-<hr>
-<h2 id="初始化git"><a href="#初始化git" class="headerlink" title="初始化git"></a>初始化git</h2><p>（我也不知道有什么卵用）</p>
-<pre><code class="git">git init
-
-</code></pre>
-<hr>
-<h2 id="用git上传自己的文件"><a href="#用git上传自己的文件" class="headerlink" title="用git上传自己的文件"></a>用git上传自己的文件</h2><p>首先你要clone你的仓库，用这个命令</p>
-<pre><code class="git">git clone 你的仓库地址
-
-</code></pre>
-<p>将工作区中的文件添加到暂存区</p>
-<pre><code class="git">git add 文件名
-
-</code></pre>
-<p>添加描述（必须要这一步，不知道为什么）</p>
-<pre><code class="git">git commit -m &#39;添加描述&#39;
-
-</code></pre>
-<p>将暂存区里的文件全部推送至GitHub</p>
-<pre><code class="git">git push
-
-</code></pre>
-<p>还有一个重要的命令，这个用于查看当前文件状况</p>
-<pre><code class="git">git status
-</code></pre>
-<hr>
-<h2 id="部署自己的博客"><a href="#部署自己的博客" class="headerlink" title="部署自己的博客"></a>部署自己的博客</h2><p>一键部署可以用这个命令</p>
-<pre><code class="cmd">hexo d -g
-
-</code></pre>
-<p>或者也可以这样</p>
-<pre><code class="cmd">hexo clean
-
-hexo g
-
-hexo d
-</code></pre>
-<hr>
-<h1 id="又熬夜了"><a href="#又熬夜了" class="headerlink" title="又熬夜了"></a>又熬夜了</h1><p><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.1/img/banner/suijao.jpg" alt></p>
+          <p>这几天心血来潮又想装黑苹果了；；；<del>可能是因为吃太饱了</del><br>之前其实尝试着装过，但是都是失败了。  虽然这次也是失败的但是我还是学到了不少的东西。</p>
+<blockquote>
+<p><strong>安装黑苹果的步骤</strong></p>
+<ol>
+<li>第一个步是分区，分一个空的磁盘出来（不过如果你财力雄厚的话，可以直接买一个新的硬盘）</li>
+<li>第二步是下载苹果的镜像，并且将苹果的镜像写到你的u盘里面(这个u盘不得小于8G)</li>
+<li>第三步就是替换efi文件。</li>
+<li>第四部就是重启到BIOS，关闭安全启动，然后将u盘的启动顺序调为第一个。开始安装。</li>
+</ol>
+</blockquote>
+<h2 id="空的磁盘"><a href="#空的磁盘" class="headerlink" title="空的磁盘"></a>空的磁盘</h2><p>这里的意思就是为了给即将安装的苹果系统腾出空间。。。</p>
+<h2 id="苹果镜像下载地址"><a href="#苹果镜像下载地址" class="headerlink" title="苹果镜像下载地址"></a>苹果镜像下载地址</h2><p><a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/</a><br>这个服务器的地址我查了是在法国，所以我建议使用欧洲国家那边的节点。比如德国</p>
+<h2 id="什么是efi文件"><a href="#什么是efi文件" class="headerlink" title="什么是efi文件"></a>什么是efi文件</h2><p>首先要讲一下系统的引导方式，主要有 BIOS、EFI、UEFI这三种。<br>BIOS是早年系统的引导方式，例如windows的xp系统，<br>EFI是苹果使用的引导方式，这里的EFI文件，就是引导苹果系统启动的<br>UEFI和EFI类似，是现在电脑主流的引导方式。特点是加了安全启动</p>
+<p>而EFI文件就是为了让苹果系统认为你是苹果电脑，举个栗子；<br>你想进去女生寝室，但是宿管大妈看到你是男的，就不会让你进去，<br>但是如果你女装了一下，让宿管大妈觉得你是女的，这个时候你就进去了。<br>而这个女装，就相当于是EFI文件了。</p>
+<p>但是要注意的是，由于每个电脑的CPU、显卡、主板都不同，所以所要的EFI文件也不同</p>
+<h2 id="重启到BIOS"><a href="#重启到BIOS" class="headerlink" title="重启到BIOS"></a>重启到BIOS</h2><p>这里要根据自己电脑的主板来确定，需要百度，像我的是华为笔记本；F2进入BIOS；</p>
+<h3 id="安装失败的原因"><a href="#安装失败的原因" class="headerlink" title="安装失败的原因"></a>安装失败的原因</h3><p>无法获取相应的EFI文件，一般大佬制作的EFI文件都是电脑cpu是因特尔的，而我这个<br>电脑是AMD的CPU，这就导致了除非是我自己制作电脑的EFI要不然就不能搞这个黑苹果了</p>
+<p>但是你知道EFI要怎么做吗，首先你要有一个苹果的系统，然后进去制作。<br>这个就比较麻烦了，因为我现在的问题就是无法装苹果系统，无论是装的虚拟机，还是装的双系统</p>
 
         </div>
         <!-- .entry-content -->
@@ -325,36 +284,19 @@ hexo d
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2019/05/21/java多线程/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.2/bh3/01.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                java多线程</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2018/12/12/Hexo-Theme-Sakura/" rel="next">
+            <a href="/2020/02/18/关于这次的武汉肺炎/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://raw.githubusercontent.com/Myfanqie/picgoimgs/master/shizuku1.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                Hexo-Theme-Sakura</h3>
+                关于这次的武汉肺炎</h3>
                 <hr>
               </div>
             </a>
@@ -378,11 +320,11 @@ hexo d
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a href class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg" itemprop="image" alt="莉莉娅" height="70" width="70"></a>
+          <a href="myfanqie.github.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/myfanqie/cdn@2.0/img/custom/why.jpg" itemprop="image" alt="莉莉娅" height="70" width="70"></a>
           <div class="meta">
             <span class="title">莉莉娅</span>
             <h3 itemprop="name">
-            <a href itemprop="url" rel="author">莉莉娅</a>
+            <a href="myfanqie.github.io" itemprop="url" rel="author">莉莉娅</a>
             </h3>
           </div>
         </div>
