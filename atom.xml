@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-04-21T06:32:21.569Z</updated>
+  <updated>2020-05-05T14:50:42.922Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java解析JSON（使用API）</title>
+    <link href="/2020/05/05/Java%E8%A7%A3%E6%9E%90JSON%EF%BC%88%E4%BD%BF%E7%94%A8API%EF%BC%89/"/>
+    <id>/2020/05/05/Java解析JSON（使用API）/</id>
+    <published>2020-05-05T14:02:22.000Z</published>
+    <updated>2020-05-05T14:50:42.922Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="起初"><a href="#起初" class="headerlink" title="起初"></a>起初</h2><p>最近搞那个qq机器人，然后我的大部分功能都是调用API，所以也来 写一下，我是这么用这个的。</p><p>一开始，我是用的最原始的方法，这个方法就是java基础里面的IO流和网络<br><del>一开始写的比这个还要糟糕一些</del><br>这个就是抽出来的一个工具类，这就传入url，就可以获取一个jsonObject对象。</p><pre><code class="java">public JSONObject connectMethod(String url){        String resultStr = &quot;&quot;;        BufferedReader in = null;        try {            URL rea = new URL(url);//封装为URL类            HttpURLConnection connection = (HttpURLConnection) rea.openConnection();            connection.setRequestMethod(&quot;GET&quot;);//设置请求属性            //设置通用请求方式（模拟window浏览器访问，直接复制，不需要改）            connection.setRequestProperty(&quot;Charset&quot;,&quot;UTF-8&quot;);            connection.setRequestProperty(&quot;accept&quot;,&quot;*/*&quot;);            connection.setRequestProperty(&quot;connection&quot;,&quot;Keep_Alive&quot;);            connection.setRequestProperty(&quot;user-agent&quot;,                    &quot;Mozilla/4.0(compatible;MSIE 6.0;Windows NT 5.1;SV1)&quot;);            connection.connect();//建立实际的连接            Map&lt;String, List&lt;String&gt;&gt; map = connection.getHeaderFields();            in = new BufferedReader(new InputStreamReader(                    connection.getInputStream(),&quot;UTF-8&quot;            ));            String line;            while ((line = in.readLine())!=null){                resultStr += line;            }            JSONObject parseObject = JSON.parseObject(resultStr);            return parseObject;        } catch (Exception e) {            e.printStackTrace();        }        return null;    }</code></pre><h2 id="OKHttp"><a href="#OKHttp" class="headerlink" title="OKHttp"></a>OKHttp</h2><p>起初，我一直都是用上面那个工具类，不过过了一段，时间，我发现群友使用的不是这种方式，而是另一种更加简单、高效的方法，也就是这个OKHttp。</p><p>也就是okhttp，然后我迫不及待的找到官网，（果然很简单）。<br>需要导入相关的依赖   <a href="https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp/4.6.0" target="_blank" rel="noopener">https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp/4.6.0</a><br>这样也是搞成一个工具类来使用，十分的方便</p><pre><code class="java">OkHttpClient client = new OkHttpClient();public String run(String url) throws IOException {  Request request = new Request.Builder()      .url(url)      .build();  try (Response response = client.newCall(request).execute()) {    return response.body().string();  }}</code></pre><h2 id="FastJSON的使用。"><a href="#FastJSON的使用。" class="headerlink" title="FastJSON的使用。"></a>FastJSON的使用。</h2><p>但是这个时候的问题就是，如何来使用这些JSON，<br>这里就要使用阿里巴巴的fastJson了，不得不说，阿里巴巴是真的强啊。</p><p>对于JSON来说，一共有三个东西， 对象，数组，字符串</p><pre><code class="java">public class OkHttpTest {    public static void main(String[] args) throws IOException {        OkHttpAPI okHttp = new OkHttpAPI();  //上面的工具类        String connection = okHttp.connection(&quot;https://s.nmsl8.club/getloveword?type=4&quot;);        JSONObject jsonObject = JSONObject.parseObject(connection);  //转化成JSON对象。        System.out.println(jsonObject.getString(&quot;content&quot;)); //根据关键字来拿到值。    }}</code></pre><p>一般常用的就是这三个方法。<br>数组    <code>public JSONArray getJSONArray(String key)</code><br>字符串  <code>public String getString(String key)</code><br>对象   <code>public JSONObject getJSONObject(String key)</code></p><p>当然还有一个通用的get()，不过要强制类型转换才行</p><h2 id="java爬虫（Jsoup）"><a href="#java爬虫（Jsoup）" class="headerlink" title="java爬虫（Jsoup）"></a>java爬虫（Jsoup）</h2><p>一开始以为是什么很高深莫测的东西，结果一看其实也没有那么难，也许生活也是如此吧。。。</p><p>1、首先是导入依赖，maven就可以找到， Jsoup</p><p>参数一共有三个，第一个需要抓取的URL，第二个你要选择的元素（使用CSS选择器），第三个你要属性还是文本<br>这里就是一个抓取百度百科的一个实例，一句代码就可以写完，</p><pre><code class="java">String str =  Jsoup.Jsoup.parse(new URL(&quot;https://baike.baidu.com/item/&quot; + name),180000).select(&quot;meta[name=description]&quot;).get(0).attr(&quot;content&quot;);</code></pre><p>当然分开写，我觉得更好理解一点</p><pre><code class="java">URL url = new URL(&quot;https://baike.baidu.com/item/&quot; + name); //你要搞的URLDocument document = Jsoup.parse(url, 18000);  //获取文档对象Element element = document.select(&quot;meta[name=description]&quot;).get(0);  //具体获取的哪个元素String str = element.attr(&quot;content&quot;);  //最终拿到了要的属性</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      文章描述
+    
+    </summary>
+    
+      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
+    
+    
+      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>如何打造一个萌妹子</title>
@@ -420,28 +442,6 @@
     <updated>2019-10-22T12:11:59.328Z</updated>
     
     <content type="html"><![CDATA[<p>体验了一段时间的deepin<br>多多少少也学了不少的东西</p><p>有时候真的是想着<br><del>要是有人带着我搞学习就好了（一对一的那种,最好是妹子)</del></p><h2 id="第一次初始化deepin"><a href="#第一次初始化deepin" class="headerlink" title="第一次初始化deepin"></a>第一次初始化deepin</h2><h3 id="设置root（必备"><a href="#设置root（必备" class="headerlink" title="设置root（必备"></a>设置root（必备</h3><p>deepin装好了后肯定就是设置管理员权限啦</p><pre><code>sudo passwd root</code></pre><p><img src alt></p><h3 id="科学上网（必备"><a href="#科学上网（必备" class="headerlink" title="科学上网（必备"></a>科学上网（必备</h3><p>其实不难发现，应用商店里面有一个shadowsock  但是我用了一下，感觉还是不是很好用。（反正我是没有使用成功）</p><p>所以我用了一个GitHub的项目，是GUI的界面十分的友好，操作也简单</p><p><a href="https://github.com/Myfanqie/electron-ssr-backup" target="_blank" rel="noopener">点这里跳转</a><br>原作者已经把项目删除了，你觉得可以的话可以fork一份</p><p>其实还可以使用命令行的科学上网但是太复杂了我就不写了（手动狗头</p><h2 id="其他的安装（可选"><a href="#其他的安装（可选" class="headerlink" title="其他的安装（可选"></a>其他的安装（可选</h2><h4 id="安装Gdebi"><a href="#安装Gdebi" class="headerlink" title="安装Gdebi"></a>安装Gdebi</h4><pre><code>sudo apt-get install gdebi</code></pre><h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><pre><code>sudo apt-get install git</code></pre><h4 id="安装vim"><a href="#安装vim" class="headerlink" title="安装vim"></a>安装vim</h4><pre><code>sudo apt-get install vim</code></pre><h4 id="安装Curl和tsocks-jq"><a href="#安装Curl和tsocks-jq" class="headerlink" title="安装Curl和tsocks,jq"></a>安装Curl和tsocks,jq</h4><pre><code>sudo apt-get install curl tscocks jq</code></pre><h3 id="Google-Chrome"><a href="#Google-Chrome" class="headerlink" title="Google Chrome"></a>Google Chrome</h3><p>推荐主题 No man’s Sky Theme<br>推荐插件 油猴插件 划词翻译</p><h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h4 id="安装Gnome-tweak-tool"><a href="#安装Gnome-tweak-tool" class="headerlink" title="安装Gnome-tweak-tool"></a>安装Gnome-tweak-tool</h4><pre><code>sudo apt-get install gnome-tweak-tool</code></pre><p>换个好看点的壁纸吧</p><h2 id="目前已知的bug"><a href="#目前已知的bug" class="headerlink" title="目前已知的bug"></a>目前已知的bug</h2><ol><li><p>笔记本的亮度异常开机的时候很亮，然后到了登录界面的时候就变得很暗，这个就非常的难受</p><p>解决方法：将笔记本的屏幕关上，然后过一下子再打开这样子的话亮度就正常了</p></li><li><p>突然宕机（原因不明）</p></li></ol><p>解决方案： 目前只有重启</p><ol start="3"><li>打字的时候光标乱跳</li></ol><p>解决方案： 暂时的方案是，将触摸板禁用（可能是我打字的时候碰到了触摸板，但是win下面没有这种情况</p><ol start="4"><li>qq收藏的表情不见了</li></ol><p>暂时没有解决方案，我也不知道为什么</p><p><b>希望厂商尽快跟进，虽然看不到我的这个文章</b></p>]]></content>
-    
-    <summary type="html">
-    
-      文章描述
-    
-    </summary>
-    
-      <category term="文件夹归类" scheme="/categories/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%BD%92%E7%B1%BB/"/>
-    
-    
-      <category term="标签" scheme="/tags/%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>观念模型(me)</title>
-    <link href="/2019/10/12/%E8%A7%82%E5%BF%B5%E6%A8%A1%E5%9E%8B-me/"/>
-    <id>/2019/10/12/观念模型-me/</id>
-    <published>2019-10-12T15:51:24.000Z</published>
-    <updated>2019-10-12T17:36:05.912Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="观念模型-顾名思义就是讲述自己的观念"><a href="#观念模型-顾名思义就是讲述自己的观念" class="headerlink" title="观念模型 ,顾名思义就是讲述自己的观念"></a>观念模型 ,顾名思义就是讲述自己的观念</h3><h2 id="那什么是模型呢"><a href="#那什么是模型呢" class="headerlink" title="那什么是模型呢?"></a>那什么是模型呢?</h2><p>这么说吧,模型是生命赖以生存的东西,我们通过模型来获取信息、预测信息。<br>模型可以简单的分为三种，<b>感知模型、认知模型、观念模型</b>。</p><p>感知模型由自然选择我们没有选择的权利。<br>认知模型大多数人信奉科学,我也是一样(狗头)。<br>观念模型就可以千奇百怪了（也可以说是世界观、人生观、立场）。（知识付费领域里面，观念模型是最多的）</p><p>随着不断的学习，我的观念与一般的大众的观念<del>（指傻雕网友、身边的同学）</del>也有了稍稍的分歧。<br>出了日常的书本学习，我们最多的就是收集例子来学习（建立模型）。</p><blockquote><p>这是大部分人的想法（我从生活中收集到的例子）<br>    例如:</p><pre><code>1. 三十岁之后人基本就定型了，之后就没有什么改变了、2. 大学里面学不到什么东西、3. 人一旦年龄往上走了之后，好奇心学习能力都会逐渐降低、4. 读书、学习就是为了拿一张证、5. 这个东西学了没有用、6. 我只要把一个技能学到精就好了，所以我只要全心全意的学一个（有争议）</code></pre></blockquote><p><b>我们人类通过例子来学习（建立模型）</b>。<br>但是一旦，例子过少，或者没有全面的看待这个事物（只看到一个方面），就会构造一个错误的模型（观念模型）。<br>而上述的例子就是一个体现。</p><p>而最好的办法就是收集更多的例子，来不断完善构建模型。</p><blockquote><p>下面我以辩证性思维（学术是这么说的）来分析上面的例子。</p><ol><li>三十岁之后人就定型了。<pre><code> 答：大部分人三十岁就是到了结婚生子的阶段。安安稳稳的过日子。但是有句话说的好’我命由我不由天‘，如果你不要那么在意别人的看法的话。任何时候都不是说定型的时候。</code></pre></li><li>大学里面学不到什么东西<pre><code> 答： 那可能是你对学科不感兴趣或者上课的时候就不认真听讲。 我觉得还是学到蛮多的东西的，一开始是学的C语言 &lt;del&gt;虽然感觉跟没学一样&lt;/del&gt;，然后就是html+css+js  &lt;del&gt;js学的没怎么好&lt;/del&gt;，后面就是java、c#、数据库、Linux、xml、jsp、asp.net; 有些东西确实学的不怎么好，但是总体来说还是学到了不少的东西。 还有老师上课的时候并不是，纯粹的讲课，还有的就是讲讲其他的有意思的，比如最近的新闻。有时候是一些程序员的段子&lt;del&gt;虽然一点都不好笑&lt;/del&gt;，还有世界经济的局势、如果出了社会老板喜欢什么样的人、怎么吃西餐、怎么理财、有时候是讲讲自己最近做了什么项目赚了多少钱。最近又学了什么新技术。然后就是安利我们学一些什么技术（但是学校不会教的）</code></pre></li><li>人一旦年龄往上走，好奇心、学习能力都会下降<br> 答：我们人类有三大欲望 食欲、性欲、求知欲<pre><code> 求知欲是好奇心、学习的体现。人饿了会迫不及待的想要吃东西（食欲）， 同理缺乏知识的时候也不迫不及待的去寻找知识（求知欲）。只要有问题没有解决， 我们都会想迫不及待的想知道答案。而这与年龄无关，每个人都或多或少的有不少的问题。 之所以人们认为年龄大了，这些能力会降低，都是因为人们的成见。</code></pre></li><li>读书、学习的意义就是为了一张证<pre><code> 可能他们还没有搞清楚学习的真正的目的； 前面说了学习就是为了构造模型，模型用于获取信息以及预测信息。 所以学习就是为了能够解决我们从未遇见过的问题，也就是泛化能力。 而纵观人生整个路线、真的长。我们一定会遇到很多问题、 但是我们要如何来解决这些问题呢？答案是学习</code></pre></li><li>这个东西学了没用<pre><code> 很多时候，我们评估一个东西的好坏就是说这个东西，有用没用 那么什么是有用，什么又是没有用呢。 貌似大部分人的心理就是只有钱，能搞钱就是有用，否则没有用、 我只想说这样真的好吗。其实很多没有什么卵用的东西很有意思 ，比如心理学、经济学、画画这些都是我想搞的，但是这些东西正是， 他们说起来没有什么用的东西。其实也是，如果只是学了一点皮毛的话。 但是   我喜欢。。</code></pre></li><li>我只要把一个技能学到精就好了，所以我只要全心全意的学一个（有争议）<pre><code> 这个东西是有争议的，情况是有一半人认为要多学一点，技能书多点一些， 然后另一半人就是认为只要学精一个就好了 我的观念就是还是要尽量多学一点、 因为要解释人活着到底是为了什么，真的很难、、、、 把一件事情做到第一也很难、、 多学点东西就是不枉此生、</code></pre></li></ol></blockquote><p>目前我的观念模型就是这样。 以后或许会有更好的模型替代、暂时就是这样、</p><p>但行好事、莫问前程</p>]]></content>
     
     <summary type="html">
     
